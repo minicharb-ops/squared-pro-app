@@ -1,0 +1,5 @@
+{
+  "name": "Squared Pro",
+  "description": "A professional construction calculator with a side menu for Triangle Solver, Squaring & Area, Stair Stringers, Rake Wall Studs, Concrete, Sonotube Volume, Truck Payload, and Unit Converter.",
+  "requestFramePermissions": ["camera", "geolocation"]
+}
