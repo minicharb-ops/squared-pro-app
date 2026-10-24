@@ -1,0 +1,385 @@
+{
+  "block": "Block F",
+  "title": "Interior Finish",
+  "examWeight": "Represents 15% of the Red Seal exam, focusing on high-precision layout, gypsum board, interior doors, fine cabinetry, trim carpentry, and finished stair components",
+  "nbcPart9References": [
+    {
+      "section": "NBC 9.29.5",
+      "title": "Gypsum Board Application & Fastening",
+      "rules": [
+        "Horizontal application of drywall is highly preferred on wood studs because it bridges framing irregularities, reduces total seam length by up to 25%, and places the main joint at a comfortable height (1.2m (4 ft)) for finishing.",
+        "Under NBC 9.29.5.3, fasteners must penetrate wood framing by at least 16 mm (5/8 inch) for wood screws, and 22 mm (7/8 inch) for nails.",
+        "Screws must be spaced no more than 300 mm (12 inches) o.c. on walls and 300 mm o.c. on ceilings if adhesive is used, or 225 mm (9 inches) o.c. on ceilings if no adhesive is used (NBC Table 9.29.5.3.A).",
+        "Fastener heads must be driven slightly below the board surface to create a shallow, uniform dimple without breaking the face paper. Ripped paper decreases the holding capacity by over 50%."
+      ]
+    },
+    {
+      "section": "NBC 9.8.7 / 9.8.8",
+      "title": "Stair Handrails, Guards & Tolerances",
+      "rules": [
+        "Handrail Height (NBC 9.8.7.3): Handrails must be installed between 865 mm (34 inches) and 1070 mm (42 inches) measured vertically from the leading edge of the stair tread nosing.",
+        "Guards (NBC 9.8.8.3): Guards must be at least 900 mm (36 inches) high inside dwelling units. If the fall height to the adjacent surface exceeds 1800 mm (6 feet) outside the unit, the guard height must be 1070 mm.",
+        "Opening Constraints (NBC 9.8.8.5): Openings in guards must prevent the passage of a spherical object with a diameter of 100 mm (4 inches). This applies to baluster spacing and under-rail gaps.",
+        "Climbability (NBC 9.8.8.6): Guards in residential occupancy must be designed so that no member, attachment, or opening between 140 mm and 900 mm above the floor facilitates climbing (no ladder-effect horizontal rails)."
+      ]
+    },
+    {
+      "section": "NBC 9.10.9 / 9.10.13",
+      "title": "Fire Separations & Fire-Rated Doors",
+      "rules": [
+        "A fire separation is required between a dwelling unit and an attached garage. This barrier must have a fire-resistance rating of not less than 45 minutes, typically achieved with a continuous layer of 15.9 mm (5/8 inch) Type X fire-rated drywall on walls and ceilings.",
+        "Any door opening through this fire separation must be equipped with a solid-core wood door at least 45 mm (1-3/4 inches) thick, or a hollow metal door, and must be outfitted with an automatic self-closing device (door closer) and tight-fitting weatherstripping to prevent carbon monoxide migration.",
+        "The maximum clearance or undercut permitted at the bottom of a door through a fire separation is 13 mm (1/2 inch) under NBC 9.10.13.15 to maintain the fire seal."
+      ]
+    },
+    {
+      "section": "Trim & Millwork Standards",
+      "title": "Precision Fitting & Joinery",
+      "rules": [
+        "Coped joints are required for all inside corners of horizontal moldings (baseboards, crown, chair rails). This involves cutting a square butt end on the first piece, and cutting a 45° miter on the second piece, then using a coping saw to cut along the profile's front edge with a back-bevel.",
+        "Coped joints accommodate wood moisture shrinkage and non-90° corner framing irregularities far better than mitered joints, keeping the visual seam tightly closed.",
+        "Mitering is used exclusively for outside corners, where the cut angles are bisected (typically 45° for a 90° corner). Joints should be reinforced with biscuits, splines, or cross-pinning to prevent parting."
+      ]
+    }
+  ],
+  "comprehensiveNotes": {
+    "drywall": {
+      "title": "Gypsum Board Orientation, Fasteners & Mudding",
+      "details": "Drywall hanging is the foundation of a high-quality interior finish. Horizontal hanging is preferred on walls because it crosses studs at 90°, reducing stud twisting effects and bowing. Ceilings must be hung perpendicular to joists. Joint compounds include taping compound (high adhesive binder, high shrinkage, hard to sand, used to embed tape) and topping/finish compound (lightweight, easy to sand, low shrinkage, used for fill and finish coats). Sheet rock edges have a tapered profile along the long sides to receive tape and mud, creating a flat finished surface, whereas butt ends are flat and require feathering out to 300mm on each side to conceal the hump."
+    },
+    "doors": {
+      "title": "Interior Door Framing, Shimming & Clearances",
+      "details": "High-precision door installation starts with verifying the rough opening (RO) is 2 inches wider and 2 inches taller than the door slab size. The hinge-side jamb is always plumbed first in two planes (face and edge) using shims placed directly behind the hinge locations. Shims must support the jamb without bowing it. Once the hinge jamb is secure, the latch-side jamb and head jamb are adjusted to maintain a consistent 3 mm (1/8 inch) gap (reveal) around the top and side edges of the door slab. The bottom of the door must be trimmed or undercut to leave a 12 mm to 19 mm clearance over finished flooring to allow proper return-air circulation in modern HVAC systems."
+    },
+    "trim": {
+      "title": "Finished Trim Carpentry: Coping vs. Mitering",
+      "details": "Trim carpentry separates standard carpentry from expert woodwork. Coping is the gold-standard for inside corners because wood shrinks across its grain. If an inside corner is mitered, any drying shrinkage will pull the joint apart, leaving a unsightly gap. A coped joint overlaps the face, so as the wood shrinks, the joint remains tight. Crown moulding is cut upside-down and backwards on a compound miter saw using the 'nested' method (where the ceiling and wall flats of the crown rest against the saw fence and table), or lying flat using specific pre-calculated miter and bevel tables (e.g., 31.6° miter and 33.9° bevel for 38° spring angle crown)."
+    },
+    "stairs": {
+      "title": "Staircase Balustrade & Handrail Finishing",
+      "details": "Finished stairs represent some of the most complex geometry in carpentry. The balustrade assembly consists of the newel posts (anchor posts), balusters (vertical spindles), and the handrail. Newels must be securely bolted to the floor joists to resist lateral force. Balusters must be spaced such that a 100 mm ball cannot pass between them. The handrail must be continuous and ergonomically grippable, with a circular cross-section diameter of 30 mm to 43 mm, or a non-circular profile with a perimeter between 100 mm and 160 mm. The clear space between the handrail and any finished wall must be at least 50 mm (2 inches) to ensure clearance for the fingers."
+    }
+  },
+  "questions": [
+    {
+      "id": 601,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "Under NBC Table 9.29.5.3.A, what is the maximum spacing of screws required on a drywall ceiling when NO adhesive is used to fasten the gypsum board?",
+      "options": [
+        "150 mm (6 inches) o.c.",
+        "225 mm (9 inches) o.c.",
+        "300 mm (12 inches) o.c.",
+        "400 mm (16 inches) o.c."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "According to NBC Table 9.29.5.3.A, when no adhesive is applied, drywall screws on ceilings must be spaced at a maximum of 225 mm (9 inches) o.c. to prevent sagging of the boards under gravity. If adhesive is used, the spacing can be increased to 300 mm o.c.",
+      "codeReference": "NBC Table 9.29.5.3.A / Spacing of Fasteners"
+    },
+    {
+      "id": 602,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "Why is a coped joint preferred over a mitered joint for inside corners of wood baseboards and crown mouldings?",
+      "options": [
+        "Coped joints require less sanding and finishing compound.",
+        "Coped joints accommodate dry-season wood shrinkage and out-of-square wall corners without opening up the face of the joint.",
+        "Coped joints can be cut much faster using a standard sliding miter saw without hand tools.",
+        "Coped joints are held together using wood screws from the backside of the drywall."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Wood shrinks across its grain as it dries. In a mitered inside corner, moisture shrinkage causes the heel of the joint to pull apart, exposing a gap. A coped joint overlaps the face of the trim, so as the wood shrinks, the joint slides slightly but remains visually tight. It also accommodates framing corners that are not exactly 90 degrees.",
+      "codeReference": "Trim Carpentry Joinery Standards"
+    },
+    {
+      "id": 603,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "Under NBC 9.8.7.3, what are the minimum and maximum height limits for a handrail on a residential interior staircase, measured vertically from the leading edge of the tread?",
+      "options": [
+        "800 mm to 1000 mm (31-1/2 to 39-3/8 inches)",
+        "850 mm to 1020 mm (33-1/2 to 40 inches)",
+        "865 mm to 1070 mm (34 to 42 inches)",
+        "900 mm to 1100 mm (35-1/2 to 43-1/4 inches)"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "NBC 9.8.7.3 mandates that handrail heights must be between 865 mm (34 inches) and 1070 mm (42 inches). This measurement is taken vertically from a line drawn through the leading edge of the stair tread nosings to the top of the handrail.",
+      "codeReference": "NBC 9.8.7.3 / Height of Handrails"
+    },
+    {
+      "id": 604,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "When installing drywall horizontally, why is it critical to ensure that vertical butt joints are staggered between adjacent courses and do not align?",
+      "options": [
+        "To reduce the number of screws required along the joints.",
+        "To prevent a continuous vertical seam that concentrates structural movement and causes the tape coat to crack.",
+        "To make it easier to install corner bead on intersecting walls.",
+        "To allow the drywall sheets to be cut with less material waste."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Staggering drywall butt joints prevents a continuous weak vertical line in the wall assembly. Aligning butt joints concentrates framing and settling stresses in one spot, which inevitably leads to joint failure and visible cracking through the finished mud and paint.",
+      "codeReference": "Drywall Hanging Layout Standards"
+    },
+    {
+      "id": 605,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "An interior wood door frame has a standard height of 2030 mm (80 inches). What is the maximum acceptable plumb deviation along the hinge jamb to prevent 'ghost swinging' (the door opening or closing on its own)?",
+      "options": [
+        "1.5 mm (1/16 inch)",
+        "4.5 mm (3/16 inch)",
+        "6.0 mm (1/4 inch)",
+        "9.0 mm (3/8 inch)"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "For professional interior door installation, the hinge-side jamb must be plumb in both directions (face and edge) to within 1.5 mm (1/16 inch) over its entire height. Any deviation past this tolerance shifts the center of gravity of the door slab, causing gravity to swing the door open or closed automatically, known as 'ghost swinging.'",
+      "codeReference": "High-Precision Jamb Tolerances"
+    },
+    {
+      "id": 606,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "Under NBC 9.29.5.3, what is the minimum penetration depth required for drywall screws into wood framing members?",
+      "options": [
+        "10 mm (3/8 inch)",
+        "12 mm (1/2 inch)",
+        "16 mm (5/8 inch)",
+        "22 mm (7/8 inch)"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "NBC 9.29.5.3 specifies that gypsum board fasteners must penetrate wood framing by at least 16 mm (5/8 inch) for screws, and 22 mm (7/8 inch) for nails. This depth ensures adequate thread engagement to resist board weight and movement over time.",
+      "codeReference": "NBC 9.29.5.3 / Fastener Penetration"
+    },
+    {
+      "id": 607,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "A residential stair guard is installed. Under NBC 9.8.8.5, what is the maximum horizontal clearance permitted between vertical balusters to ensure safety?",
+      "options": [
+        "75 mm (3 inches)",
+        "100 mm (4 inches)",
+        "125 mm (5 inches)",
+        "150 mm (6 inches)"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "NBC 9.8.8.5 states that openings in guards must prevent the passage of a spherical object with a diameter of 100 mm (4 inches). Vertical balusters must be spaced close enough together that this 100 mm ball cannot pass through, protecting small children from slipping through the guard rail.",
+      "codeReference": "NBC 9.8.8.5 / Openings in Guards"
+    },
+    {
+      "id": 608,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "When cutting crown moulding lying flat on a compound miter saw, what miter and bevel angles must be set on the saw to cut a 90° inside corner for a crown with a 38° spring angle?",
+      "options": [
+        "45° Miter / 0° Bevel",
+        "35.3° Miter / 30° Bevel",
+        "31.6° Miter / 33.9° Bevel",
+        "22.5° Miter / 22.5° Bevel"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "For standard crown moulding with a 38° spring angle, cutting the molding flat on a compound miter saw requires highly precise settings: a 31.6° miter angle and a 33.9° bevel angle. These pre-calculated settings tilt the blade in two axes to perfectly bisect the horizontal and vertical projection angles of the moulding.",
+      "codeReference": "Compound Crown Saw Tables"
+    },
+    {
+      "id": 609,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "Under NBC 9.10.9.14, what is the typical fire-resistance rating required for a fire separation between a residential suite and an attached garage, and how is it commonly constructed?",
+      "options": [
+        "30 minutes; achieved using 12.7 mm (1/2 inch) standard gypsum board.",
+        "45 minutes; achieved using a continuous layer of 15.9 mm (5/8 inch) Type X fire-rated gypsum board.",
+        "1 hour; achieved using two layers of 12.7 mm cement board.",
+        "2 hours; achieved using solid masonry block wall only."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Under NBC 9.10.9.14, the fire separation between a residential dwelling and an attached garage must have a fire-resistance rating of at least 45 minutes. This is standardly constructed in wood framing by installing a continuous layer of 15.9 mm (5/8 inch) Type X fire-rated drywall on the garage side walls and ceiling, with all joints taped and muddy.",
+      "codeReference": "NBC 9.10.9.14 / Garage Separation"
+    },
+    {
+      "id": 610,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "Under NBC 9.10.13.15, what is the maximum undercut/clearance permitted at the bottom of a door that forms part of a fire separation?",
+      "options": [
+        "6 mm (1/4 inch)",
+        "13 mm (1/2 inch)",
+        "19 mm (3/4 inch)",
+        "25 mm (1 inch)"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "NBC 9.10.13.15 limits the maximum clearance at the bottom of a fire-rated door or a door in a fire separation to 13 mm (1/2 inch). This tight clearance is required to prevent heat, flames, and toxic gases (such as carbon monoxide from a vehicle in the garage) from easily bypassing the door during a fire.",
+      "codeReference": "NBC 9.10.13.15 / Door Clearances"
+    },
+    {
+      "id": 611,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "When taping and mudding gypsum board, what is the primary structural reason for using a heavy-weight taping compound for the first coat, rather than a lightweight topping compound?",
+      "options": [
+        "Taping compound dries much faster, allowing multiple coats per day.",
+        "Taping compound contains a high level of adhesive binders (glue) that ensure strong tape adhesion, resisting shear stresses.",
+        "Taping compound contains sand aggregates that fill large gaps between boards.",
+        "Taping compound does not shrink as it cures, keeping joints flat."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Taping compound is formulated with a high content of polyvinyl acetate (PVA) or starch binders (glue) to ensure the paper joint tape bonds securely to the drywall paper. Lightweight topping/finish compounds have very few binders and are soft and easy to sand, making them excellent for top coats but structurally weak for embedding tape, which would lead to tape peeling and cracking.",
+      "codeReference": "Gypsum Board Finishing Standards"
+    },
+    {
+      "id": 612,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "What is the correct sequence of shimming and fastening when installing a pre-hung interior door frame in a rough opening?",
+      "options": [
+        "Shim and nail the head jamb first, then the latch jamb, and finally the hinge jamb.",
+        "Shim and nail the hinge jamb starting at the top hinge, then the middle and bottom hinges, plumb the frame, and then shim and nail the latch jamb.",
+        "Nail the casing trim to the wall first, slide the door frame into place, and nail through the jamb without shims.",
+        "Install the latch strike plate first to align the frame, then shim all sides simultaneously."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The proper sequence is to shim and plumb the hinge jamb first. The hinge jamb carries the heavy weight of the door slab. Start at the top hinge (plumbing in both planes), then the bottom, then the middle. Secure the hinges with screws passing through the shims into the rough framing. Once the hinge jamb is perfectly plumb and fastened, close the door to align the latch jamb and maintain a consistent 3 mm reveal, then shim and nail the latch-side jamb.",
+      "codeReference": "Interior Door Installation sequence"
+    },
+    {
+      "id": 613,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "Under NBC 9.8.7.5, what is the minimum clear space required between a stair handrail and the finished wall surface it is mounted on?",
+      "options": [
+        "30 mm (1-3/16 inches)",
+        "40 mm (1-9/16 inches)",
+        "50 mm (2 inches)",
+        "75 mm (3 inches)"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "NBC 9.8.7.5 requires a minimum clearance of 50 mm (2 inches) between a stair handrail and any wall surface it is attached to. This clear space is vital to allow individuals to grip the rail firmly and slide their hands along it without catching their knuckles or fingers on the rough wall texture.",
+      "codeReference": "NBC 9.8.7.5 / Handrail Clearance"
+    },
+    {
+      "id": 614,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "A carpenter is installing hardwood baseboards over a finished wood floor. Where should the baseboard nails be driven to allow the subfloor/flooring to expand and contract without splitting the baseboard?",
+      "options": [
+        "Drive nails vertically straight down through the baseboard into the hardwood floorboards.",
+        "Drive nails horizontally through the baseboard into the bottom wall plate (stud framing), keeping the board tight to but not pinned to the floor.",
+        "Glue the baseboard continuously to the drywall using construction adhesive, omitting nails.",
+        "Nail the baseboard directly into the subfloor at a 45-degree angle."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Baseboards must be nailed horizontally into the bottom wall plate or the vertical wood studs. The baseboard should sit snug against the finished floor, but must never be nailed into the floor itself. Pinning the baseboard to the floorboards prevents the floor from expanding and contracting laterally, which causes floor buckling, squeaks, and split baseboards.",
+      "codeReference": "Baseboard Installation Standards"
+    },
+    {
+      "id": 615,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "When installing a wood stair stringer, why is the bottom riser cut shortened by an amount equal to the thickness of the tread material?",
+      "options": [
+        "To make the stair unit fit under low ceiling headers.",
+        "To allow the stringer to sit flat on the concrete subfloor.",
+        "To maintain a uniform unit rise height across all steps once the finished treads are installed.",
+        "To reduce the weight of the stringer for easier handling."
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "This is a fundamental stair layout rule called 'dropping the stringer.' The bottom riser of the stringer must be cut short by the exact thickness of the tread material. If the tread thickness is 25 mm, cutting 25 mm off the bottom riser ensures that when the 25 mm finished tread is added to the first step (and all subsequent steps), the height of the first riser remains identical to all others. Skipping this step makes the first step too tall by 25 mm, and the top step too short, creating a severe tripping hazard.",
+      "codeReference": "Stair Layout Geometry Rules"
+    },
+    {
+      "id": 616,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "Under NBC 9.8.8.6, guards inside a residential occupancy must be designed to be non-climbable. Which of the following guard rail designs would violate this requirement?",
+      "options": [
+        "Vertical balusters spaced at 90 mm on center.",
+        "A solid glass panel guard with stainless steel top rail.",
+        "Horizontal wood boards installed with 25 mm gaps between them, spanning between newel posts.",
+        "A continuous smooth plaster half-wall guard."
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "NBC 9.8.8.6 states that guards must be designed so that no member, attachment, or opening between 140 mm and 900 mm above the floor facilitates climbing. Horizontal wood boards with gaps act like a ladder, creating a climbable surface for children and violating this safety regulation.",
+      "codeReference": "NBC 9.8.8.6 / Guard Climbability"
+    },
+    {
+      "id": 617,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "When hanging drywall on wood studs, horizontal application is preferred over vertical application on walls for which of the following mechanical reasons?",
+      "options": [
+        "Horizontal hanging increases the fire-resistance rating of standard drywall by 15 minutes.",
+        "Horizontal hanging places the tapered edges of the sheets perpendicular to the studs, aligning framing irregularities and reducing total joint footage.",
+        "Horizontal hanging allows the joints to be filled with concrete joint compounds.",
+        "Vertical sheets are prone to sliding down the wall under their own weight."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Horizontal application of drywall is structurally and cosmetically superior because it bridges studs, helping to average out minor stud misalignment. It also places the strong, tapered edges of the board perpendicular to the framing, making joints easier to feather flat, and reduces the total footage of joint finishing seams by up to 25% compared to vertical layouts.",
+      "codeReference": "Drywall Mechanical Orientation"
+    },
+    {
+      "id": 618,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "When coping an inside corner of a crown moulding, how is the coped cut performed after making a 45-degree miter cut on the end of the molding?",
+      "options": [
+        "Cut a straight 90-degree line directly down the back of the molding.",
+        "Follow the profile line exposed by the miter cut, cutting at a slight back-bevel with a coping saw so only the front finished face edge meets the adjacent board.",
+        "Use a table saw to trim the back of the molding down to a thickness of 2 mm.",
+        "Use a router with a straight bit to remove the back of the molding profile."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "To perform a coped cut, you first miter the end at 45 degrees. This exposes the contour of the molding profile. Then, using a manual coping saw, you cut along the leading edge of this exposed profile while angling the saw blade backward (a back-bevel). This back-bevel ensures that only the absolute front crisp edge of the coped molding contacts the adjacent piece, ensuring a tight, high-precision seam even if the wall corner is out-of-square.",
+      "codeReference": "Coping Technique / Back-Beveling"
+    },
+    {
+      "id": 619,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "Under NBC 9.8.7.4, a handrail must be continuous. Where is the ONLY location where a residential stair handrail is permitted to be interrupted?",
+      "options": [
+        "At any point where a light switch or thermostat is installed on the wall.",
+        "Only at landing turns where the handrail is interrupted by a vertical newel post.",
+        "Every 1.5 meters to allow for thermal expansion of the wood rail.",
+        "At any wall studs where there is insufficient mounting space."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Under NBC 9.8.7.4, handrails must be continuous throughout the length of the stair flight. The only permitted interruption is at landing turns where the handrail is framed into a vertical newel post. This ensures that an occupant can maintain a continuous, life-saving grip on the rail from the top to the bottom of the flight.",
+      "codeReference": "NBC 9.8.7.4 / Continuity of Handrails"
+    },
+    {
+      "id": 620,
+      "block": "Block F",
+      "blockTitle": "Interior Finish",
+      "difficulty": "Advanced",
+      "question": "What type of drywall hinge screw or fastener reinforcement is required when hanging high-wear, heavy solid-core doors in a residential wood framing environment?",
+      "options": [
+        "Use standard 25 mm (1 inch) drywall screws through the hinge leaves.",
+        "Replace at least two standard short hinge screws per hinge with 75 mm (3 inch) wood screws that pass through the jamb shim space and deep into the double trimmer studs.",
+        "Apply construction adhesive directly inside the hinge mortises.",
+        "Use 50 mm common wire nails driven through the hinge screw holes."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Solid-core doors are heavy and place significant leverage on the door jamb. Standard short hinge screws only grip the 19 mm (3/4 inch) wood jamb, which will cause the jamb to sag over time, making the door bind. Replacing at least two screws per hinge with 75 mm (3 inch) wood screws anchors the hinge directly into the structural framing (double trimmer studs), keeping the door sag-free and perfectly aligned.",
+      "codeReference": "Structural Hinge Fastening Standards"
+    }
+  ]
+}

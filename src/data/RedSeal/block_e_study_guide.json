@@ -1,0 +1,387 @@
+{
+  "block": "Block E",
+  "title": "Exterior Finish",
+  "examWeight": "Represents 14% of the Red Seal exam, focusing on building envelope integrity, cladding, and roofing systems",
+  "nbcPart9References": [
+    {
+      "section": "NBC 9.27.3",
+      "title": "Second Plane of Protection & Flashing",
+      "rules": [
+        "A continuous weather-resistive barrier (such as Tyvek sheathing paper) must be installed under all exterior cladding, lapping horizontally by at least 100 mm (4 inches) and vertically by 150 mm (6 inches).",
+        "Flashing is mandatory at all intersections, masonry ledges, and wall openings (windows/doors) to drain water outwards. Sill pan flashing must have end dams to contain side leaks.",
+        "Under NBC 9.27.3.8, flashing over window/door openings must have a slope to shed water, a drip edge projecting at least 10 mm (3/8 inch) past the cladding, and a vertical upstand of at least 50 mm (2 inches).",
+        "All horizontal cladding joints must overlap, and flashing joints must be sealed or lapped by at least 100 mm to maintain a shingled water shedding plane."
+      ]
+    },
+    {
+      "section": "NBC 9.25.3 / 9.25.4",
+      "title": "Air and Vapour Barrier Placements & Dew Point",
+      "rules": [
+        "The vapour barrier must be installed on the warm-in-winter side of the insulation (interior in Canada) to prevent warm, humid air from migrating into the cold cavity and condensing.",
+        "The maximum vapour permeance of a vapour barrier must not exceed 60 ng/(Pa·s·m²) [1.0 perm] to adequately resist vapour diffusion.",
+        "The air barrier system must be continuous across the entire building envelope, resisting wind pressure and preventing structural convection drafts.",
+        "In contrast, the exterior sheathing membrane (sheathing paper) must be highly vapour-permeable (breathable) to allow any accidental structural wall moisture to escape outwards."
+      ]
+    },
+    {
+      "section": "NBC 9.27.5 / 9.27.2",
+      "title": "Siding Installation & Rain Screen Standards",
+      "rules": [
+        "A rain-screen wall system (NBC 9.27.2.2) requires a minimum 10 mm (3/8 inch) capillary break/drainage cavity behind the siding created by vertical furring strips.",
+        "Vinyl siding requires nails driven in the center of slot flanges, leaving a 1.0 mm (1/32 inch) gap to allow lateral movement for extreme PVC thermal expansion/contraction.",
+        "Horizontal bevel siding must have a minimum overlap of 25 mm (1 inch). Lap nails must be driven just above the overlap, passing through the top board only to allow movement.",
+        "Siding vertical joints must be staggered between courses, and wood sidings must have end-cut sealant applied to prevent water absorption through end-grains."
+      ]
+    },
+    {
+      "section": "NBC 9.26.5 / 9.26.7",
+      "title": "Roof Covering, Eave Protection & Shingles",
+      "rules": [
+        "Eave protection (ice & water shield) is required on roofs where the January temperature is 0°C or colder. It must extend from the eave up the slope to at least 300 mm (12 inches) past the inside face of the exterior wall.",
+        "Drip edge flashing must be installed at both eaves and rakes. It goes UNDER the underlayment at the eaves (protecting the sheathing edge) and OVER the underlayment at the rakes (protecting against wind-driven rain).",
+        "Standard asphalt shingle applications are permitted on slopes of 1:3 (4:12 pitch) or steeper. For low slopes from 1:6 to 1:3, a specialized double-coverage underlayment is mandatory.",
+        "Step flashing must be interleaved with every shingle course where a roof intersects a vertical sidewall, with an upward vertical leg of at least 75 mm."
+      ]
+    }
+  ],
+  "comprehensiveNotes": {
+    "buildingEnvelope": {
+      "title": "Building Envelope Science & Barriers",
+      "details": "The building envelope is a separation system between the uncontrolled exterior climate and the controlled interior spaces. It controls air flow, thermal transfer, and moisture movement. Air barriers stop physical drafts and convective heat loss, while vapour barriers stop molecular diffusion. In cold Canadian climates, a vapour barrier is placed strictly on the interior side of insulation, preventing humid room air from cooling to its dew point inside the wall cavity, which would cause wood rot, mould, and structural failure. Exterior membranes (like Tyvek) act as secondary water barriers while remaining breathable to vent trapped moisture."
+    },
+    "windowAndDoor": {
+      "title": "Window & Door Flashing & Shimming",
+      "details": "Windows and doors represent penetrations in the exterior weather barrier. To ensure water tightness, self-adhering membrane flashing (sill tapes) must be installed across the rough sill, extending 150 mm up the side jambs to form a sill pan with end dams. Windows must be shimmed using cedar or synthetic shims under the side jambs and structural mullions to level the window frame without bowing. Shimming must allow the window to expand and operate smoothly. After installation, flashing tape is applied on the sides, overlapping the sill pan, and then the head flashing is installed OVER the side tapes in a shingled, water-shedding order."
+    },
+    "wallCladding": {
+      "title": "Siding Lap Standards & Rain Screen",
+      "details": "Siding represents the first line of defense against the elements. Siding must shed water, resist wind loads, and accommodate thermal movement. Rain-screen systems utilize furring strips to form a 10 mm drainage cavity behind the siding, equalizing air pressure and allowing water to drain out. Vinyl siding expands and contracts dramatically with temperature shifts; thus, fasteners must be centered in nail slots, driven straight, and never driven flush. Horizontal bevel wood siding must overlap at least 25 mm and be pinned with single nails above the lap to prevent splitting as the boards swell and shrink."
+    },
+    "roofCovering": {
+      "title": "Roof Covering Systems & Ice Shields",
+      "details": "Roof coverings prevent water ingress from precipitation and snow accumulation. Ice-and-water shields (self-adhering modified bituminous membranes) are critical eave protections that seal around shingle nail penetrations to block ice-dam backups. Asphalt shingles are installed starting with a starter strip, followed by courses offset by 150 mm (6 inches) to prevent aligned vertical seam leaks. Drip edge flashing is crucial: at the eaves, it is nailed directly to the deck (under the felt) to direct water into the gutters; at the rakes, it is installed over the felt to prevent wind-driven rain from blowing underneath the roof covering."
+    }
+  },
+  "questions": [
+    {
+      "id": 501,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "Under NBC 9.27.3.8, what is the minimum upstand height required for flashing installed above an exterior window or door opening to prevent water from bypassing the sheathing membrane?",
+      "options": [
+        "25 mm (1 inch)",
+        "50 mm (2 inches)",
+        "75 mm (3 inches)",
+        "100 mm (4 inches)"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "NBC 9.27.3.8 requires that flashing installed above wall openings (such as windows and doors) have a vertical upstand of at least 50 mm (2 inches) behind the sheathing paper. This upstand forms an effective water-shedding barrier that prevents wind-driven rain from flowing over the flashing and entering the wall assembly.",
+      "codeReference": "NBC 9.27.3.8 / Flashing of Openings"
+    },
+    {
+      "id": 502,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "A vapour barrier must limit the diffusion of moisture into insulated wall cavities. Under NBC 9.25.4.2, what is the maximum water vapour permeance permitted for a material to serve as an acceptable vapour barrier in a residential building?",
+      "options": [
+        "15 ng/(Pa·s·m²)",
+        "30 ng/(Pa·s·m²)",
+        "60 ng/(Pa·s·m²)",
+        "90 ng/(Pa·s·m²)"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Under NBC 9.25.4.2, a vapour barrier must have a maximum water vapour permeance rating of 60 ng/(Pa·s·m²) (equivalent to 1.0 perm in imperial units). This maximum limit ensures that the rate of moisture diffusion is low enough to prevent moisture accumulation and condensation inside cold structural wall cavities.",
+      "codeReference": "NBC 9.25.4.2 / Vapour Barrier Materials"
+    },
+    {
+      "id": 503,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "Under NBC 9.26.5.1, where eave protection is required to protect against ice-dam backups, this self-adhering membrane must extend from the eave up the roof slope to which minimum point?",
+      "options": [
+        "At least 150 mm (6 inches) past the exterior wall face.",
+        "At least 300 mm (12 inches) past the inside face of the exterior wall.",
+        "Exactly 900 mm (36 inches) from the outer eave line regardless of soffit width.",
+        "Exactly 1200 mm (48 inches) past the interior face of the exterior wall."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "NBC 9.26.5.1 mandates that where eave protection is required (on roofs where the January temperature is 0°C or colder), it must extend from the outer edge of the roof slope up to a line at least 300 mm (12 inches) inside (past) the interior face of the exterior wall. This ensures that backing-up water caused by ice-dam freeze-thaw cycles cannot penetrate the ceiling area.",
+      "codeReference": "NBC 9.26.5.1 / Eave Protection"
+    },
+    {
+      "id": 504,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "When installing vinyl cladding, why must a carpenter leave a 1.0 mm (1/32 inch) clearance between the nail head and the siding's nailing flange, and center the nails in the slots?",
+      "options": [
+        "To allow moisture to drain from behind the siding.",
+        "To accommodate high thermal expansion and contraction characteristic of PVC siding, preventing the panels from buckling.",
+        "To ensure the siding does not rattle in high winds.",
+        "To maintain a ventilation air cavity behind the siding panels."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Vinyl (PVC) cladding expands and contracts drastically with temperature changes. Leaving a 1.0 mm gap between the nail head and the siding flange and centering the nails in the pre-punched horizontal slots allows the siding panels to slide laterally during hot/cold cycles, preventing visual warping, buckling, or structural fastener failure.",
+      "codeReference": "Vinyl Siding Fastening Standards"
+    },
+    {
+      "id": 505,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "Under NBC Table 9.27.5.1, what is the minimum required overlap for horizontal wood bevel siding (clapboard) to ensure an effective rain-shedding barrier?",
+      "options": [
+        "12 mm (1/2 inch)",
+        "25 mm (1 inch)",
+        "38 mm (1-1/2 inches)",
+        "50 mm (2 inches)"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Under NBC Table 9.27.5.1, horizontal wood bevel siding must have a minimum overlap of 25 mm (1 inch). This overlap height ensures that wind-driven rain cannot easily seep upwards past the horizontal joints, protecting the sheathing paper behind.",
+      "codeReference": "NBC Table 9.27.5.1 / Lap Siding Standards"
+    },
+    {
+      "id": 506,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "What is the primary physical placement difference between an air barrier system and a vapour barrier system in residential Canadian wood-frame construction?",
+      "options": [
+        "The air barrier must be on the interior; the vapour barrier must be on the exterior.",
+        "The air barrier must be completely vapour-impermeable, whereas the vapour barrier must be highly breathable.",
+        "The air barrier stops airflow and can be positioned on the interior or exterior; the vapour barrier stops vapour diffusion and must be located on the warm-in-winter side of the insulation.",
+        "Both must be installed on the cold exterior side of the wall assembly to prevent exterior rot."
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The air barrier is designed to stop bulk airflow and can be placed anywhere in the assembly (interior poly, drywall, or exterior sheathing wrap) as long as it is continuous. In contrast, the vapour barrier is designed to stop molecular water vapour diffusion and must always be located on the warm-in-winter (interior) side of the insulation to prevent humid room air from condensing on cold structural components.",
+      "codeReference": "NBC 9.25.3 vs 9.25.4 / Envelope Placements"
+    },
+    {
+      "id": 507,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "A carpenter is installing step flashing at a roof-to-vertical-sidewall intersection. What is the correct installation sequence of step flashing relative to the asphalt shingles?",
+      "options": [
+        "Install the shingles first, then nail a continuous piece of flashing over the entire wall intersection.",
+        "Install all step flashing first, then install the shingles directly on top of the flashing.",
+        "Interleave step flashing with each shingle course, placing each flashing piece over the shingle course below and under the shingle course above.",
+        "Nail the flashing pieces directly through the face of the shingles using neoprene roofing washers."
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "To create a functional water shedding plane, step flashing must be interleaved (woven) with every course of shingles. Each step flashing piece sits directly on top of the shingle course below it, but is tucked underneath the subsequent shingle course above it, forcing water to flow out onto the shingle surfaces rather than behind them.",
+      "codeReference": "NBC 9.26.4 / Sidewall Step Flashing"
+    },
+    {
+      "id": 508,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "A roof with a slope of 1:4 (approx. 3:12 pitch) is considered a low-slope roof for shingles. Under NBC 9.26.7.2, what additional precaution is required for installing asphalt shingles on this low-slope roof compared to a steep-slope roof?",
+      "options": [
+        "Asphalt shingles are strictly prohibited on low slopes and metal panels must be used.",
+        "A double-coverage underlayment (consisting of two layers of asphalt-saturated felt or a single layer of self-adhering modified bituminous membrane) must be installed over the entire roof deck.",
+        "Every shingle must be fastened with at least 8 nails instead of 4.",
+        "The shingles must have their exposure width cut in half to triple the overlap."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "For low-slope shingle roofs (slopes between 1:6 and 1:3), NBC 9.26.7.2 mandates a continuous double-coverage underlayment across the entire roof deck. This can be achieved by overlapping felt paper by more than half its width, or by using a single, continuous layer of self-adhering modified bituminous membrane, to prevent water backups from slow drainage.",
+      "codeReference": "NBC 9.26.7.2 / Asphalt Shingles on Low Slopes"
+    },
+    {
+      "id": 509,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "When installing an exterior window, where should shims be positioned under the sill, and what is their primary structural purpose?",
+      "options": [
+        "Continuously along the entire sill; to seal the window from draft infiltration.",
+        "At the corners of the sill only; to allow the window frame to flex during winds.",
+        "Under the side jambs and directly beneath structural mullions; to level the sill and transfer the window's weight directly to the rough framing.",
+        "Directly in the center of the sill only; to tilt the window so water drains outward."
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Shims under window sills must be positioned under the side jambs and directly beneath any vertical structural mullions. Their primary purpose is to level the window sill and transfer the heavy gravity load of the window frame and glass safely to the rough framing sill plate without causing the window frame to sag, bow, or leak.",
+      "codeReference": "Window Installation / Shimming Rules"
+    },
+    {
+      "id": 510,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "Under NBC 9.27.3.8, flashing installed above a horizontal exterior wood trim member or brick lintel must project forward and terminate in a drip edge. What is the minimum projection distance required past the cladding below?",
+      "options": [
+        "5 mm (3/16 inch)",
+        "10 mm (3/8 inch)",
+        "25 mm (1 inch)",
+        "38 mm (1-1/2 inches)"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "NBC 9.27.3.8 specifies that flashing must project forward past the face of the cladding below by a minimum of 10 mm (3/8 inch) and terminate in a downward-turned drip edge. This ensures that rainwater running down the siding is directed away from, and cannot creep behind, the trim or wall assembly underneath.",
+      "codeReference": "NBC 9.27.3.8 / Flashing Profiles"
+    },
+    {
+      "id": 511,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "What is the standard step-offset (horizontal pattern) required between course joint offsets when installing standard 3-tab asphalt shingles to prevent aligned vertical seam water infiltration?",
+      "options": [
+        "50 mm (2 inches)",
+        "100 mm (4 inches)",
+        "150 mm (6 inches)",
+        "300 mm (12 inches)"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The standard shingle installation pattern requires courses to be offset by 150 mm (6 inches) horizontally. This offset ensures that the vertical joints (slots) between adjacent tabs do not align, keeping water from seeping into underlying sheathing layers.",
+      "codeReference": "Roof Shingling Horizontal Pattern"
+    },
+    {
+      "id": 512,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "In a rain-screen wall system compliant with NBC 9.27.2.2, what is the primary physics principle and function of the drainage cavity created behind the cladding?",
+      "options": [
+        "To provide a warm insulation buffer zone.",
+        "To allow air to escape from the attic.",
+        "To act as a capillary break that pressure-equalizes the wall, allowing any water bypassing the siding to drain harmlessly down and exit at the weep holes.",
+        "To allow carpenters to hide plumbing pipes within the exterior siding zone."
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "A rain-screen cavity acts as a capillary break. It pressure-equalizes the space behind the cladding with the outside air, preventing wind pressure from driving rain inside. Any water that does bypass the cladding can flow down the back of the siding and out through vents or weep holes without soaking the wood sheathing.",
+      "codeReference": "NBC 9.27.2.2 / Rain-Screen Cavity"
+    },
+    {
+      "id": 513,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "When installing wood shingles or shakes on an exterior roof, what is the minimum gap spacing required between individual shingles to allow for natural swelling when wet?",
+      "options": [
+        "1 mm (1/32 inch)",
+        "3 mm (1/8 inch)",
+        "6 mm to 9 mm (1/4 to 3/8 inch)",
+        "15 mm (5/8 inch)"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "When installing wood shingles or shakes, a minimum horizontal spacing gap of 6 mm to 9 mm (1/4 to 3/8 inch) is required between individual pieces. Wood expands when exposed to moisture; leaving this gap prevents the shingles from swelling against each other, buckling, and cracking.",
+      "codeReference": "NBC 9.26.10 / Wood Shingle Gaps"
+    },
+    {
+      "id": 514,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "What is the critical flashing requirement for the rough sill of an exterior window or door to prevent rot in the subfloor and rim joist assemblies?",
+      "options": [
+        "A heavy layer of asphaltic roofing cement applied with a trowel.",
+        "An interior vapour barrier strip folded outwards over the sill.",
+        "A continuous, sloped waterproof sill pan flashing (sill tape) with vertical end dams to contain and drain leaks outward.",
+        "Three layers of sheathing paper laid flat over the rough sill."
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "A sloped waterproof sill pan flashing with vertical end dams (sill tape) is the most critical component for window and door openings. It ensures that any wind-driven rain or window sash condensation that bypasses the window unit is contained on a sloped, waterproof surface and drained safely to the exterior.",
+      "codeReference": "Window & Door sill pan flashing"
+    },
+    {
+      "id": 515,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "Why must sheathing paper (such as housewrap/Tyvek) have a high vapour permeance (breathability) while remaining highly water-impermeable?",
+      "options": [
+        "To allow warm air to blow into the house during cold winter months.",
+        "To allow liquid water to flow easily through the walls.",
+        "To allow water vapour inside the wall cavity to escape (diffuse) outwards to the exterior, while blocking liquid rainwater from entering from the outside.",
+        "To prevent cold outdoor air from freezing the insulation."
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Sheathing paper must be highly water-impermeable to block liquid rainwater from reaching the wood sheathing. However, it must have high vapour permeance (breathability) to allow accidental moisture within the wall cavity to evaporate and diffuse harmlessly outwards, preventing structural rot and mould.",
+      "codeReference": "NBC 9.27.3.2 / Breathability of Membranes"
+    },
+    {
+      "id": 516,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "To protect a roof's sheathing edge from rot, drip edge flashing must be installed. What is the correct overlay layout of drip edge relative to the roof underlayment (synthetic wrap or felt)?",
+      "options": [
+        "Drip edge is installed OVER the underlayment at the eaves, and UNDER the underlayment at the rakes.",
+        "Drip edge is installed UNDER the underlayment at the eaves, and OVER the underlayment at the rakes.",
+        "Drip edge is installed under the underlayment at both eaves and rakes.",
+        "Drip edge is installed over the underlayment at both eaves and rakes."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "To maintain a proper shingled water shedding plane, drip edge at the eaves must be installed UNDER the underlayment to prevent run-off water from getting under the sheathing edge. At the rakes, the drip edge is installed OVER the underlayment to clamp it down and prevent wind-driven rain from blowing underneath the edge of the underlayment.",
+      "codeReference": "Drip Edge Overlay Standards"
+    },
+    {
+      "id": 517,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "What is the primary function of a kick-out flashing (diverter flashing) where a roof eave terminates against an intersecting vertical cladding wall?",
+      "options": [
+        "To increase ventilation into the attic space.",
+        "To direct roofing runoff water outwards and away from the vertical cladding wall and safely into the gutter system.",
+        "To serve as a structural anchor for the gutter brackets.",
+        "To prevent ice-dams from forming at the valley intersection."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A kick-out flashing (or diverter) is installed at the end of a roof-wall intersection to kick water running down the step flashing away from the siding cladding. Without a kick-out flashing, water will run directly down the seam, penetrate the cladding joints, and cause catastrophic wall decay, rot, and interior damage.",
+      "codeReference": "NBC 9.27.3.8 / Diverter Flashing"
+    },
+    {
+      "id": 518,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "Under NBC 9.27.5.7, when horizontal bevel wood siding is nailed, how should the nails be placed horizontally and vertically to prevent the siding boards from splitting during natural moisture cycles?",
+      "options": [
+        "Drive two face nails per stud, one at the top and one at the bottom of each board.",
+        "Drive a single nail per stud, located just above the overlap, passing through the top board only and missing the underlying board.",
+        "Use pneumatic staples driven horizontally every 150 mm along the center of the board.",
+        "Blind-nail the top edge of each siding board before overlapping the next."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Horizontal wood bevel siding must be fastened using a single face nail per stud driven just above the overlap. The nail must pass through the top board only, missing the top edge of the underlying board. This allows each individual siding board to shrink and swell naturally without being pinned rigidly at both edges, preventing wood splitting and warping.",
+      "codeReference": "NBC 9.27.5.7 / Fastening Siding"
+    },
+    {
+      "id": 519,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "What is the primary structural risk of using 'back-priming' or applying a vapour-impermeable paint on both sides of a wood siding product before installation?",
+      "options": [
+        "It makes the wood siding too heavy for standard nails to hold.",
+        "It causes the siding to slide off the wall during hot weather.",
+        "It prevents the wood from absorbing moisture from the air, which actually helps wood siding remain stable. (Note: Back-priming is actually a recommended practice, whereas sealing with vapour-impermeable coatings can trap moisture if water enters from face cracks).",
+        "It is only a cosmetic issue and has no technical structural impact."
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Back-priming with a vapour-permeable coating is highly recommended to protect against back moisture. However, applying a vapour-impermeable paint on both sides can trap moisture inside the wood fibers if water gets in through nail holes or checks, causing rapid rotting and paint blistering. Under envelope science, siding must have paths to dry out.",
+      "codeReference": "Envelope Science / Back-Priming Cladding"
+    },
+    {
+      "id": 520,
+      "block": "Block E",
+      "blockTitle": "Exterior Finish",
+      "difficulty": "Advanced",
+      "question": "A metal window lintel flashing has an outer horizontal span of 1.8 meters. To allow for metal's temperature-induced linear movement, which of the following represents the correct flashing joint overlap practice?",
+      "options": [
+        "Overlap the flashing by 10 mm and seal with solid concrete mortar.",
+        "Overlap the flashing pieces by at least 100 mm, leaving them unpinned to move, and sealing with highly flexible silicone sealant.",
+        "Butt-joint the flashing pieces and tape them tightly with duct tape.",
+        "Solder all joints continuously so that the flashing acts as a single rigid piece."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "To allow for thermal expansion/contraction of metal flashing, pieces must overlap by at least 100 mm (4 inches). Joints should not be pinned rigidly, but instead sealed using highly flexible exterior silicone sealant or butyl caulk, allowing the metal sheets to slide back and forth slightly without ripping the flashing apart.",
+      "codeReference": "NBC 9.27.3.8 / Flashing Joint Overlaps"
+    }
+  ]
+}

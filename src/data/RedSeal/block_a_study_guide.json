@@ -1,0 +1,401 @@
+{
+  "block": "Block A",
+  "title": "Common Occupational Skills",
+  "examWeight": "Foundational block of the Red Seal exam",
+  "nbcPart9References": [
+    {
+      "section": "CSA Z94.1 & Z195",
+      "title": "Personal Protective Equipment (PPE) Standards",
+      "rules": [
+        "Head Protection: CSA Z94.1 Class E (Utility/Electrical protection up to 20,000V) or Class G (General protection up to 2,200V) are required on all construction sites. Protective helmets must withstand a 45-Newton impact.",
+        "Foot Protection: CSA Z195 Grade 1 protective toe cap (withstanding an impact of 125 Joules) with puncture-resistant protective sole (steel or composite plate, indicated by a green triangle patch) is mandatory on all framing sites.",
+        "Hearing Protection: CSA Z94.2 requires hearing protectors whenever noise levels exceed 85 dBA. Class A, B, or C protectors are specified based on noise exposure levels, with Class A providing the highest attenuation (up to 105 dBA).",
+        "Eye Protection: CSA Z94.3 approved safety glasses with side shields, goggles, or face shields are mandatory when doing tasks with flying particles, cutting masonry, or handling chemical adhesives."
+      ]
+    },
+    {
+      "section": "WHMIS 2015 & GHS",
+      "title": "Workplace Hazardous Materials Information System",
+      "rules": [
+        "All hazardous materials must be clearly labeled with red-bordered diamond pictograms, proper product identifiers, signal words (Danger/Warning), and safety actions.",
+        "A current Safety Data Sheet (SDS) containing 16 standardized sections must be readily accessible to all workers for every controlled product on site, detailing toxicity, first-aid, and flashpoints.",
+        "Workplace labels must be applied if a chemical is decanted into a secondary container, containing the product name, safe handling info, and an SDS reference.",
+        "Workers must receive regular training to recognize WHMIS hazard classes (e.g., Flammable, Oxidizing, Gas Under Pressure, Acute Toxicity, Corrosive)."
+      ]
+    },
+    {
+      "section": "CSA Z259 / OHS",
+      "title": "Fall Protection & Arrest Systems",
+      "rules": [
+        "Fall protection systems are mandatory for any worker exposed to a fall hazard of 3.0 meters (10 feet) or more, or over dangerous equipment.",
+        "A complete personal fall arrest system (PFAS) must include an approved full-body harness, a shock-absorbing lanyard, and an anchorage connector capable of supporting 22.2 kN (5,000 lbs).",
+        "The free-fall distance must be limited to a maximum of 1.2 meters (4 feet) to prevent excessive impact forces exceeding 8 kN on the human body.",
+        "Extension ladders must extend at least 1.0 meter (3 feet) above the landing platform, and must be positioned at a 4:1 slope (approx 75.5 degrees) and tied off securely."
+      ]
+    },
+    {
+      "section": "CSA Z114 & Power Tools",
+      "title": "Safe Power Tool & Equipment Operation",
+      "rules": [
+        "Pneumatic framing nailers must have a safety muzzle mechanism and a safety clip or retainer on the hose coupling to prevent accidental fastener discharge or hose whipping.",
+        "Pneumatic air lines must have an in-line safety check valve to immediately cut air flow if a line is ruptured under pressure.",
+        "Stationary tools (table saws, radial arm saws) must have functional guards, splitter/riving knives to prevent kerf pinching, and push sticks must be used for cuts narrower than 120 mm (4.7 in).",
+        "All portable power tools must either be double-insulated (carrying the double-square symbol) or have a three-prong grounding plug connected to a Ground Fault Circuit Interrupter (GFCI)."
+      ]
+    },
+    {
+      "section": "Blueprint Standards & Drawings",
+      "title": "Advanced Blueprint Reading & Interpretations",
+      "rules": [
+        "Architectural drawings display spatial layout, finish specs, door schedules, and exterior elevations using a scale typically of 1:50 or 1/4\" = 1'0\".",
+        "Structural drawings (S-series) specify load-bearing details, concrete footings, foundation walls, floor framing layouts, beams, lintels, and rebar schedules.",
+        "Mechanical and electrical drawings (M-series, E-series) show ductwork, plumbing chases, ventilation runs, and electrical panel circuits.",
+        "Line weight hierarchies must be understood: heavy solid lines represent object outlines, dashed lines show hidden features (like footings below slabs), and thin lines are used for dimensions."
+      ]
+    }
+  ],
+  "comprehensiveNotes": {
+    "ppeAndSafety": {
+      "title": "PPE & Site Safety Foundations",
+      "details": "Industrial construction safety begins with proper PPE compliant with CSA standards. Class E hard hats protect from vertical impacts and up to 20,000V electrical shock. Grade 1 boots with a green triangle indicate protective toes and puncture-resistant soles, essential on framing sites. Hearing protection is vital; continuous noise over 85 dBA causes irreversible damage, requiring Class A earmuffs or earplugs. Eye safety glasses must carry the CSA logo on the frame. Site housekeeping is a safety measure; clear, dry paths prevent slips, trips, and falls."
+    },
+    "whmisAndMaterials": {
+      "title": "WHMIS 2015 & Chemical Safety",
+      "details": "WHMIS 2015 aligns with the Globally Harmonized System (GHS). Hazardous chemicals (solvents, concrete, adhesives, pressurized gases) require supplier labels with red-bordered diamond pictograms. Every chemical must have a 16-section Safety Data Sheet (SDS) specifying chemical composition, flashpoints, explosive ranges, exposure limits, proper PPE (e.g., respirators), and emergency spill containment procedures. Decanted materials in secondary containers require a complete workplace label."
+    },
+    "fallArrest": {
+      "title": "Fall Protection Engineering",
+      "details": "Falls are the leading cause of critical injury. Guardrails must consist of a top rail (approx 1 m high), mid-rail, and toe-board (minimum 89 mm high) to prevent tools from falling. When guardrails are impractical, fall arrest systems are required. Total fall clearance calculations are critical: free fall distance + lanyard length + shock absorber stretch (usually 1.1 m to 1.7 m) + harness stretch (approx 0.3 m) + safety margin (approx 0.6 m). A rescue plan must be in place to prevent suspension trauma if a worker is suspended."
+    },
+    "toolsAndEquipment": {
+      "title": "Power Tool & Equipment Mechanics",
+      "details": "Pneumatic tools (framing nailers, palm nailers) operate at high pressures (typically 90-120 psi). Air lines must have safety check valves to prevent hose whipping if severed. Stationary tools like table saws require a splitter/riving knife to prevent wood from pinching the rear teeth of the blade, which causes dangerous kickbacks. Miter saws require fully functional automatic retracting blade guards. All electrical tools used on site must be plugged into GFCI outlets to protect against ground-fault shocks in damp environments."
+    },
+    "blueprintReading": {
+      "title": "Blueprint Interpretation & Section Details",
+      "details": "Reading blueprints is essential for structural layout. Scaled drawings require architectural scales (e.g., 3/16\", 1/4\") or metric scales (e.g., 1:100, 1:50). North arrows on site plans are typically project north rather than true north. Section drawings show the internal vertical construction details (e.g., footing to roof details). Structural schedules specify the exact dimensions and spacing of columns, beams, lintels, and joists. Coordinating structural drawings with architectural plans is critical to ensure door and window openings align with lintel sizes."
+    }
+  },
+  "questions": [
+    {
+      "id": 201,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "A framing carpenter is working on a roof system 6.5 meters above the ground. If they are wearing a personal fall arrest system containing a 1.8 m lanyard with a shock absorber rated for a maximum deployment of 1.1 m, what is the minimum required vertical clearance height below the anchorage point to prevent the worker from hitting the ground during a fall? (Assume a standard harness stretch of 0.3 m, a worker height of 1.8 m from D-ring to feet, and a safety margin of 0.6 m).",
+      "options": [
+        "3.8 meters",
+        "5.0 meters",
+        "5.6 meters",
+        "6.2 meters"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "To calculate the total clearance distance (C) below the anchorage point, we use the formula:\nC = Lanyard Length + Shock Absorber Stretch + Harness Stretch + Worker Height + Safety Factor.\nC = 1.8 m (lanyard) + 1.1 m (deceleration) + 0.3 m (harness stretch) + 1.8 m (D-ring to feet) + 0.6 m (safety margin) = 5.6 meters.\nSince 5.6 m is less than the 6.5 m working height, the system is safe, but requires at least 5.6 meters of vertical clearance to deploy safely.",
+      "codeReference": "CSA Z259.11 / OHS Fall Protection Guidelines"
+    },
+    {
+      "id": 202,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "A carpenter must place a portable extension ladder against a vertical wall support that is exactly 6.4 meters (21 feet) high. Under CSA Z11 standards, what is the required distance from the base of the wall to the feet of the ladder to achieve the correct safe angle, and what is the minimum overall length of the ladder if it must extend 1.0 meter past the upper support?",
+      "options": [
+        "1.6 m base distance, 7.6 m minimum ladder length",
+        "1.6 m base distance, 8.6 m minimum ladder length",
+        "2.1 m base distance, 8.4 m minimum ladder length",
+        "1.2 m base distance, 7.4 m minimum ladder length"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "1. Under CSA Z11 and safety regulations, a ladder must be set at a 4:1 slope (approx 75.5° angle).\nBase Distance = Support Height / 4 = 6.4 m / 4 = 1.6 meters.\n2. Calculate the required ladder slope length using the Pythagorean theorem:\nSlope Length = Sqrt(Height² + Base²) = Sqrt(6.4² + 1.6²) = Sqrt(40.96 + 2.56) = Sqrt(43.52) ≈ 6.60 meters.\n3. Add the mandatory 1.0 m extension past the landing edge:\nTotal Ladder Length = 6.60 m + 1.0 m = 7.60 meters. Therefore, Option A is the correct answer.",
+      "codeReference": "CSA Z11-18 / OHS Ladder Regulations"
+    },
+    {
+      "id": 203,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "A carpenter is decanting a highly flammable solvent from its original supplier container into a smaller, unlabelled metal safety can for immediate use. Under WHMIS 2015 regulations, what must be done regarding labeling of this safety container?",
+      "options": [
+        "No label is required if the worker who decanted the chemical uses it entirely during their own shift.",
+        "A full, red-bordered supplier label must be printed and glued to the secondary container.",
+        "A workplace label must be applied immediately, containing the product name, safe handling instructions, and a reference to the SDS.",
+        "Only the hazardous pictogram must be drawn on the side of the metal can with a black marker."
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Under WHMIS 2015, if a hazardous product is decanted into a secondary container and is used immediately and entirely by the worker who filled it during that same work shift, no secondary label is legally required. If it is left unattended, passes to another worker, or spans a shift change, a workplace label containing the product identifier, safe handling instructions, and SDS reference is mandatory.",
+      "codeReference": "WHMIS 2015 Section 4 / Hazardous Products Act"
+    },
+    {
+      "id": 204,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "A framing crew is operating multiple pneumatic framing guns at an active outdoor framing site. Under CSA Z114, which safety fitting must be installed at each air hose coupling to prevent dangerous whipping in the event of a hose rupture or sudden disconnect?",
+      "options": [
+        "A quick-disconnect pressure check-valve fitting",
+        "A mechanical safety check-valve (velocity fuse) and a safety cable/clip across the coupling joint",
+        "A brass manifold regulator set to 90 psi",
+        "A heavy rubber collar wrap over the steel coupling threads"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Under pneumatic tool safety codes (CSA Z114), any pressure line exceeding 1/2-inch inside diameter must be fitted with an in-line mechanical safety check-valve (also known as a velocity fuse) to immediately shut off air flow if the line ruptures. Furthermore, safety cables, pins, or clips must secure the couplings together to prevent joint separation and physical hose whipping.",
+      "codeReference": "CSA Z114-16 / OHS Section 12.11"
+    },
+    {
+      "id": 205,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "A table saw operator is preparing to rip several 3/4\" plywood pieces down to a width of 75 mm (approx 3 inches). According to safe machinery operation standards, what accessory is mandatory, and where must the riving knife (splitter) be positioned relative to the saw blade?",
+      "options": [
+        "A feather-board is required, and the riving knife must be aligned 1/2\" to the right of the blade alignment.",
+        "A push stick is mandatory for cuts under 120 mm, and the riving knife must be aligned exactly with and 3-8 mm behind the blade.",
+        "An overhead guard is optional, and the riving knife must be positioned below the throat plate.",
+        "A miter gauge is mandatory, and the riving knife must be set 10 mm higher than the crown of the blade."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "For safety on stationary table saws, a push stick is mandatory when ripping stock narrower than 120 mm to keep the operator's fingers safe. The riving knife (which prevents kickbacks by keeping the wood kerf from pinching the back teeth of the blade) must be aligned perfectly with the blade kerf and positioned between 3 mm and 8 mm behind the blade perimeter.",
+      "codeReference": "CSA Z114 / Table Saw Safety Standards"
+    },
+    {
+      "id": 206,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "While reading architectural drawings with a metric scale of 1:50, a carpenter measures a concrete structural column on the drawing using a ruler. The column outline on paper measures exactly 14 mm in width and 22 mm in depth. What are the actual physical dimensions of the concrete column to be poured?",
+      "options": [
+        "280 mm x 440 mm",
+        "700 mm x 1100 mm",
+        "140 mm x 220 mm",
+        "350 mm x 550 mm"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Under a 1:50 scale, 1 unit on the drawing represents 50 units in the physical world. Let's calculate:\nWidth: 14 mm * 50 = 700 mm.\nDepth: 22 mm * 50 = 1100 mm.\nThus, the concrete column must be poured at exactly 700 mm wide by 1100 mm deep (0.7 m x 1.1 m).",
+      "codeReference": "Blueprint Scaling Conventions (CSA B78.2)"
+    },
+    {
+      "id": 207,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "A worker is reviewing a 16-section GHS Safety Data Sheet (SDS) for a newly arrived polyurethane construction adhesive. If they need to quickly identify the chemical's lower explosive limit (LEL), upper explosive limit (UEL), and auto-ignition temperature, which section of the SDS contains this quantitative data?",
+      "options": [
+        "Section 4: First-Aid Measures",
+        "Section 5: Fire-Fighting Measures",
+        "Section 9: Physical and Chemical Properties",
+        "Section 10: Stability and Reactivity"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Under GHS/WHMIS standardized rules, Section 9 of the Safety Data Sheet (SDS) lists all 'Physical and Chemical Properties' including appearance, odor, pH, melting/freezing points, boiling point, flash point, flammability limits (LEL/UEL), vapor pressure, and auto-ignition temperature. Section 5 describes how to fight fires, but Section 9 holds the quantitative properties.",
+      "codeReference": "WHMIS 2015 SDS Section 9"
+    },
+    {
+      "id": 208,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "On an architectural blueprint, a line style is represented by a repeating pattern of one long dash followed by a space, then a small dot, then another space and a long dash. According to Canadian drafting conventions (CSA B78.2), what structural feature does this line represent?",
+      "options": [
+        "A hidden structural beam or footing outline",
+        "A center line of a column, wall, or structural grid",
+        "A property line or boundary limit",
+        "A cut plane line for cross-sectional views"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "In Canadian drafting standards, a thin line composed of alternating long dashes and short dashes (or dots) is used as a Center Line. It is used to mark symmetrical axes, centers of columns, pile grids, walls, and structural window alignments. Section-cut lines are typically heavy lines with arrows pointing in the direction of the view.",
+      "codeReference": "CSA B78.2-18 / Drawing Line Conventions"
+    },
+    {
+      "id": 209,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "A carpenter is planning to use a 120-Volt, 15-Amp portable circular saw at a wet basement renovation site. According to provincial electrical safety codes, how must this tool be connected to protect against fatal ground-fault shocks?",
+      "options": [
+        "Connected to a heavy-duty 14 AWG extension cord without a grounding pin.",
+        "Plugged directly into a Ground Fault Circuit Interrupter (GFCI) protected receptacle or in-line portable GFCI device.",
+        "Plugged into any 20-Amp breaker outlet as long as rubber-soled boots are worn.",
+        "Wrapped with electrical vinyl tape around the tool metal housing."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "On construction sites, and specifically in damp/wet environments, all 120V single-phase electrical tools must be plugged into a Ground Fault Circuit Interrupter (GFCI). A GFCI monitors current imbalance between hot and neutral wires; if an imbalance of 4 to 6 milliamperes is detected (indicating current leaking to ground through a path like a human), the circuit is opened in 1/25th of a second.",
+      "codeReference": "Canadian Electrical Code (CEC) Section 76-016"
+    },
+    {
+      "id": 210,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "A carpenter is coordinating an architectural drawing with a structural framing plan. The architectural plan specifies a window rough opening measuring 1500 mm wide. The framing plan shows double 2x10 SPF lumber headers supported by trimmer (jack) studs. If each trimmer stud is actual 38 mm thick, and a standard 10 mm installation clearance is required on both sides of the window framing, what is the exact horizontal cut length of the double 2x10 headers?",
+      "options": [
+        "1520 mm",
+        "1576 mm",
+        "1596 mm",
+        "1616 mm"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Let's calculate the horizontal cut length of the structural header (lintel) step-by-step:\n1. Find the required Rough Opening (RO) width between the trimmers:\nRO = Window Width + Left Clearance + Right Clearance = 1500 mm + 10 mm + 10 mm = 1520 mm.\n2. The header sits directly on top of the trimmer studs on each side. The cut length of the header must span the RO plus the thickness of both trimmer studs:\nHeader Length = RO + (2 * Trimmer Thickness) = 1520 mm + (2 * 38 mm) = 1520 mm + 76 mm = 1596 mm.",
+      "codeReference": "NBC 9.23.10.6 / Header Geometry"
+    },
+    {
+      "id": 211,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "A worker is exposed to an average daily occupational noise level of 93 dBA over their 8-hour shift. According to CSA Z94.2 and provincial OHS regulations, what is the maximum recommended continuous exposure limit before mandatory hearing protection is required, and by what factor does noise energy double as decibels increase?",
+      "options": [
+        "90 dBA, doubling every 5 dB increase",
+        "85 dBA, doubling every 3 dB increase",
+        "80 dBA, doubling every 10 dB increase",
+        "85 dBA, doubling every 6 dB increase"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Under Canadian OHS and CSA Z94.2 standards, the maximum allowable 8-hour daily noise exposure limit without hearing protection is 85 dBA. Noise level increases logarithmically; an increase of 3 dBA represents a doubling of acoustic energy. Therefore, an exposure of 88 dBA is safe for only 4 hours, and 91 dBA is safe for only 2 hours. At 93 dBA, protection is absolutely mandatory.",
+      "codeReference": "CSA Z94.2-14 / OHS Section 7"
+    },
+    {
+      "id": 212,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "Under Canadian safety codes, what is the minimum required vertical height of a temporary guardrail top rail installed on a high-elevation working platform, and what is the minimum horizontal load the top rail must withstand without structural failure?",
+      "options": [
+        "910 mm high, capable of withstanding a point load of 450 N (100 lbs)",
+        "1020 mm high, capable of withstanding a point load of 900 N (200 lbs)",
+        "1070 mm high, capable of withstanding a point load of 450 N (100 lbs)",
+        "1020 mm high, capable of withstanding a point load of 675 N (150 lbs)"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Canadian guardrail standards require the top rail to be installed between 910 mm (36 in) and 1070 mm (42 in) high (with 1020 mm / 40 inches as the typical provincial target). Under CSA S269.2 and OHS, the top rail must be structurally capable of withstanding a concentrated horizontal force of 900 Newtons (200 lbs) applied at any point along its length.",
+      "codeReference": "CSA S269.2 / OHS Guardrail Specifications"
+    },
+    {
+      "id": 213,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "A decanted chemical solvent has a vapor density of 2.4 relative to air (air = 1.0) and a flash point of -12°C. Based on WHMIS and basic physics, which statement describes the behavior of these vapors and their hazard level in an enclosed space?",
+      "options": [
+        "Vapors will rise to the ceiling because vapor density is high, presenting a low flammability risk.",
+        "Vapors will concentrate along the floor and lowest points, presenting an extreme fire and explosion hazard at room temperature.",
+        "Vapors will dissolve immediately in air, neutralizing the hazard.",
+        "Vapors will behave as a liquid and require a wet-vacuum extraction system."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A vapor density of 2.4 means the vapors are 2.4 times heavier than air, causing them to sink, accumulate in low-lying areas (such as floor corners, sumps, or crawl spaces). A flash point of -12°C is well below standard room temperature (20°C), meaning the chemical releases flammable vapors at normal temperatures, which can ignite instantly if they contact static electricity or power tool motor sparks.",
+      "codeReference": "WHMIS 2015 SDS Section 9 / Section 10"
+    },
+    {
+      "id": 214,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "An safety inspector notices a heavy-duty portable cord is plugged into a temporary power panel. Upon inspection, the ground prong of the three-prong plug is missing. What action is required under electrical safety regulations?",
+      "options": [
+        "The cord can remain in use if the tools connected to it are double-insulated.",
+        "The cord must be immediately tagged out of service, removed from use, and repaired or replaced.",
+        "The plug can be wrapped in electrical tape to insulate the missing prong slot.",
+        "The panel breaker must be upgraded to a 30-Amp circuit to handle any potential grounding faults."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Under electrical safety regulations, any electrical tool, cord, or equipment with a damaged or missing grounding prong must be immediately removed from service and tagged out. Defective equipment presents an immediate shock hazard, as a ground fault would energize the tool's metal chassis rather than safely tripping the circuit breaker.",
+      "codeReference": "CSA C22.1 / OHS Electrical Equipment Rules"
+    },
+    {
+      "id": 215,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "A carpenter is setting up a laser level to establish elevation lines for foundation walls. If the level is rated with a tolerance of ±2.0 mm at 30 meters, and the transit instrument is set up at a central point with one elevation shot taken at a distance of 15 meters and another at 45 meters, what is the maximum potential instrument elevation variance (range of error) between these two layout marks?",
+      "options": [
+        "1.0 mm",
+        "3.0 mm",
+        "4.0 mm",
+        "2.0 mm"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "1. The error of a leveling instrument accumulates linearly with distance. \n2. The base rate of error is 2.0 mm per 30 meters = 0.0667 mm/m.\n3. Shot 1 error at 15 m: 15 * 0.0667 = ±1.0 mm.\n4. Shot 2 error at 45 m: 45 * 0.0667 = ±3.0 mm.\n5. The maximum potential differential variance between these two shots is the maximum deviation of Shot 2, which represents ±3.0 mm from absolute datum. Therefore, Option B represents the precise mathematical limit of the instrument variance.",
+      "codeReference": "Instrument Layout Tolerance Standards"
+    },
+    {
+      "id": 216,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "Under CSA Z195, what specific markings must be permanently visible on safety boots to certify they possess Class 1 protective toe caps (withstanding 125 Joules of kinetic impact) and steel/composite puncture-resistant midsoles?",
+      "options": [
+        "A black box patch with a yellow exclamation mark",
+        "A green triangular patch containing the CSA logo, and a white rectangle patch with an orange Greek letter Omega (Ω)",
+        "A green triangular patch containing the CSA logo, and a white square patch with a blue 'S'",
+        "A solid orange circle on the outer tongue"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Under CSA Z195 (Protective Footwear), safety footwear certifications are color-coded:\n- A Green Triangular Patch indicates Class 1 protective toe cap (impact resistance up to 125 Joules) with a puncture-resistant sole plate. This is mandatory for construction and heavy framing sites.\n- A White Rectangle with an Orange Omega Symbol (Ω) indicates electric-shock resistant soles (capable of withstanding 18,000V). Option B is correct.",
+      "codeReference": "CSA Z195-14 / PPE Footwear Standards"
+    },
+    {
+      "id": 217,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "According to GHS/WHMIS regulations, what is the exact number of standard mandatory sections that must appear in sequence on a compliant Safety Data Sheet (SDS), and which section describes Fire-Fighting Measures?",
+      "options": [
+        "9 sections, with Section 3 describing fire-fighting measures",
+        "12 sections, with Section 4 describing fire-fighting measures",
+        "16 sections, with Section 5 describing fire-fighting measures",
+        "10 sections, with Section 6 describing fire-fighting measures"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "WHMIS 2015 fully aligned with GHS standards. This mandated a highly structured, 16-section Safety Data Sheet (SDS) layout in a specific order. Section 5 is dedicated to 'Fire-Fighting Measures' (detailing extinguishing media, chemical flammability hazards, and specialized protective gear for fire crews).",
+      "codeReference": "WHMIS 2015 Section 5"
+    },
+    {
+      "id": 218,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "A partition wall is shown intersecting an exterior wall. On a standard framing plan, the interior drywall backing must be detailed. If the drawing is to a scale of 1:10 (metric), what is the represented drawing length on paper of a 140 mm (2x6) framing member?",
+      "options": [
+        "1.4 mm",
+        "14 mm",
+        "140 mm",
+        "28 mm"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Under a metric scale of 1:10, 1 unit on paper represents 10 units in actual physical size.\nTo find the drawing length on paper:\nDrawing Length = Actual Length / 10 = 140 mm / 10 = 14 mm. Therefore, a 2x6 stud is represented as exactly 14 mm wide on paper.",
+      "codeReference": "Blueprint scale metrics (CSA B78.2)"
+    },
+    {
+      "id": 219,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "While working with pressure vessels and air lines on a cold morning (-15°C), a carpenter notes that water is condensing and freezing inside the compressor's air receiver tank. Under CSA Z114, what maintenance action is required to prevent tank rupture, and how often must this be performed?",
+      "options": [
+        "The tank must be wrapped with an electric heating blanket and checked monthly.",
+        "The tank drain valve must be opened daily (or after each shift) to discharge accumulated moisture, and the safety relief valve must be manually tested.",
+        "The tank must be kept pressurized to 150 psi to prevent ice crystallization.",
+        "Antifreeze liquid must be poured directly into the air intake filter."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Under compressor safety standards, air compressor receiver tanks accumulate water condensation from compressed air. This moisture can cause internal rusting and wall thinning, which leads to catastrophic explosive rupture under high pressures. The drain valve must be opened daily (or after every shift) to drain moisture. Additionally, safety relief valves must be manually checked regularly to ensure they release pressure at their designated limit.",
+      "codeReference": "CSA Z114-16 / ASME Boiler & Pressure Vessel Code"
+    },
+    {
+      "id": 220,
+      "block": "Block A",
+      "blockTitle": "Common Occupational Skills",
+      "difficulty": "Advanced",
+      "question": "A blueprint partition plan shows a plumbing stack with an outer diameter of 92 mm (approx 3.6 inches) running vertically inside a partition wall. If standard 2x4 framing (actual stud depth 89 mm) is specified for the partition, what framing action must the carpenter take to accommodate this plumbing line while complying with NBC 9.23.10 load-bearing requirements?",
+      "options": [
+        "The 2x4 studs can be notched by 92 mm, since interior walls are not structural.",
+        "The wall partition must be widened to 2x6 studs (140 mm actual depth) or double-framed as a 'plumbing wall' to contain the pipe inside the wall cavity and allow dry-walling.",
+        "The plumbing pipe must be wrapped in heavy structural steel tape and sheathed directly with drywall.",
+        "A 3/4\" steel reinforcing band must be nailed across the top and bottom plates of the 2x4 wall, bypassing the pipe."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Under NBC 9.23.10 and carpentry trade rules, you cannot notch or drill a stud by an amount that compromises its structural stability. Since a 92 mm pipe exceeds the total 89 mm depth of a 2x4 stud, running it vertically through a 2x4 wall is impossible without completely cutting the studs. The framing carpenter must coordinate with mechanical drawings and construct a wider wall, either using 2x6 studs (140 mm depth) or building double 2x4 walls separated by a gap (wet wall) to contain the pipe cavity and provide solid backing for drywall fasteners on both sides.",
+      "codeReference": "NBC 9.23.10.2 / Stud Structural Restrictions"
+    }
+  ]
+}

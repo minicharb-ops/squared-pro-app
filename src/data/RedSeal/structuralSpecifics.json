@@ -1,0 +1,893 @@
+[
+  {
+    "id": "site_hoarding_heating",
+    "category": "Site Prep & Safety",
+    "title": "Site Hoarding & Heating",
+    "subTitle": "TEMPORARY ENCLOSURES, TARPS & VENTILATION",
+    "iconBgClass": "bg-amber-500",
+    "image": "blueprint_wood",
+    "jobsiteProcess": "In cold climates, winter construction requires site hoarding\u2014building temporary enclosures wrapped in insulated tarps or heavy-duty poly to trap heat. This is mandatory for pouring concrete or installing masonry, as freezing destroys the chemical hydration process. Temporary heaters (propane, natural gas, or diesel) are used to maintain temperatures, but they introduce severe risks of carbon monoxide poisoning and fire.",
+    "codeRequirements": [
+      "CSA A23.1: Concrete must be maintained at a minimum temperature of 10\u00b0C (50\u00b0F) for at least 3 days (or up to 7 days for certain mixes) after placement to ensure proper curing.",
+      "Safety Regs: Direct-fired temporary heaters used inside a hoarding enclosure must be properly vented to the exterior to prevent the buildup of lethal carbon monoxide (CO) gas."
+    ],
+    "journeymanProTip": "Watch your snow loads! A hoarding enclosure is effectively a massive, un-engineered tent. If you build a flat temporary roof out of tarps and 2x4s, a heavy overnight snowfall will collapse the entire structure right onto your freshly poured concrete. Always pitch the roof of your hoarding steeply so snow and freezing rain can slide off.",
+    "tags": [
+      "SITE PREP",
+      "OH&S CODES"
+    ],
+    "modalData": {
+      "title": "Site Hoarding & Heating",
+      "iconName": "Flame",
+      "iconColor": "text-amber-500",
+      "definition": "Access detailed NBC reference guides for TEMPORARY ENCLOSURES, TARPS & VENTILATION.",
+      "exampleCase": "Reference CSA A23.1 regarding minimum curing temperatures.",
+      "proTip": "Watch your snow loads! A hoarding enclosure is effectively a massive, un-engineered tent. If you build a flat temporary roof out of tarps and 2x4s, a heavy overnight snowfall will collapse the entire structure right onto your freshly poured concrete. Always pitch the roof of your hoarding steeply so snow and freezing rain can slide off."
+    }
+  },
+  {
+    "id": "access_scaffolding",
+    "category": "Site Safety",
+    "title": "Access & Scaffolding",
+    "subTitle": "Mudsills, Guardrails, Ladders & Rigging",
+    "image": "blueprint_scaffold",
+    "jobsiteProcess": "Safe access is highly regulated. Scaffold towers must be erected on solid, compacted ground utilizing continuous 2x10 mudsills and adjustable screw jacks to achieve a perfectly level base. Platforms must be fully planked using graded scaffold wood (not standard framing lumber). If a scaffold's height exceeds 3 times its minimum base width (the 3:1 rule), it must be mechanically tied into the building structure to prevent tipping.",
+    "codeRequirements": [
+      "Safety Regs: Guardrails are mandatory on open sides of platforms higher than 3m (10 ft) in most jurisdictions, comprising a top rail, mid rail, and toe board.",
+      "Safety Regs: Scaffold planks must overhang their supports by a minimum of 150mm (6\") and a maximum of 300mm (12\") unless securely cleated to prevent sliding.",
+      "Safety Regs: Extension ladders must be set at a 4:1 ratio (1 foot out for every 4 feet up) and extend at least 900mm (3 ft) past the landing point."
+    ],
+    "journeymanProTip": "Never ride a rolling scaffold! It is incredibly dangerous and a massive OH&S violation to stay on the platform while a coworker rolls the scaffold to a new location. A single stray 2x4 on the ground can lock a caster wheel and instantly topple the entire tower. Climb down, move it, verify it is level, lock the wheels, and climb back up.",
+    "tags": [
+      "SITE SAFETY",
+      "OH&S CODES"
+    ],
+    "modalData": {
+      "title": "Access & Scaffolding",
+      "iconName": "Construction",
+      "iconColor": "text-yellow-500",
+      "definition": "Access detailed OH&S reference guides for mudsills, guardrails, ladders & rigging.",
+      "exampleCase": "Reference OH&S Regulations for guardrail requirements on platforms above 3m (10 ft).",
+      "proTip": "Never ride a rolling scaffold! It is incredibly dangerous and a massive OH&S violation to stay on the platform while a coworker rolls the scaffold to a new location. A single stray 2x4 on the ground can lock a caster wheel and instantly topple the entire tower. Climb down, move it, verify it is level, lock the wheels, and climb back up."
+    },
+    "iconBgClass": "bg-amber-500"
+  },
+  {
+    "id": "rigging_hoisting",
+    "category": "Site Safety",
+    "title": "Rigging & Hoisting",
+    "subTitle": "SLING ANGLES, SWL & CENTER OF GRAVITY",
+    "iconBgClass": "bg-amber-500",
+    "image": "blueprint_scaffold",
+    "jobsiteProcess": "Rigging requires exact calculations to prevent catastrophic failure. The most critical factor is the sling angle. As the angle between the sling leg and the horizontal load decreases, the tension on the sling exponentially increases. A sling at a 30-degree angle experiences twice the stress as a sling holding the same load vertically. Always rig loads above their center of gravity (COG) to prevent them from flipping when lifted, and ensure all shackles are loaded pin-to-bow, never side-loaded.",
+    "codeRequirements": [
+      "Safety Regs: Slings shall not be used at an angle of less than 30 degrees to the horizontal unless specifically designed for that application.",
+      "Safety Regs: The Safe Working Load (SWL) of any rigging hardware must never be exceeded, and all equipment must be inspected daily for fraying, kinks, or stretching."
+    ],
+    "journeymanProTip": "Never saddle a dead horse! When making a wire rope eye using Crosby clips (U-bolts), the U-bolt part of the clip must always sit on the \"dead\" (short) end of the rope, while the saddle sits on the \"live\" (load-bearing) end. Doing this backward crushes the live rope and reduces its lifting capacity by up to 40%.",
+    "tags": [
+      "SITE SAFETY",
+      "OH&S CODES"
+    ],
+    "modalData": {
+      "title": "Rigging & Hoisting",
+      "iconName": "Construction",
+      "iconColor": "text-yellow-500",
+      "definition": "Access detailed OH&S reference guides for sling angles, SWL & center of gravity.",
+      "exampleCase": "Reference Safety Regs for Safe Working Load (SWL) and sling angle limits.",
+      "proTip": "Never saddle a dead horse! When making a wire rope eye using Crosby clips (U-bolts), the U-bolt part of the clip must always sit on the \"dead\" (short) end of the rope, while the saddle sits on the \"live\" (load-bearing) end. Doing this backward crushes the live rope and reduces its lifting capacity by up to 40%."
+    }
+  },
+  {
+    "id": "surveying_layout",
+    "category": "Site Safety",
+    "title": "Surveying & Site Layout",
+    "subTitle": "BUILDER'S LEVEL, BENCHMARKS & ELEVATIONS",
+    "iconBgClass": "bg-amber-500",
+    "image": "blueprint_surveying",
+    "jobsiteProcess": "Before digging begins, building lines and elevations must be established using a builder's level or laser level. The instrument is set up and leveled using the 3-screw base. A reading is taken from a known Benchmark (BM)\u2014a permanent elevation point on the site. This establishes the Height of Instrument (HI). From this HI, you can calculate the necessary cuts (digging down) or fills (adding dirt) for footing trenches and floor slabs by reading the leveling rod at various points on the site.",
+    "codeRequirements": [
+      "NBC 9.12.1.1: Excavation for foundations shall be extended to undisturbed soil or rock, and must not encroach on adjacent property boundaries.",
+      "NBC 9.15.4.1: Foundation walls shall be positioned accurately on footings with specified tolerances for plumb and alignment."
+    ],
+    "journeymanProTip": "Always \"close the loop\" when shooting elevations. After moving your transit around the site and establishing all your height pegs, take one final reading back on your original Benchmark. If the final reading doesn't match the original benchmark elevation, your instrument was bumped or settled into the mud, and all your heights are wrong!",
+    "tags": [
+      "SITE PREP",
+      "NBC / LAYOUT"
+    ],
+    "modalData": {
+      "title": "Surveying & Site Layout",
+      "iconName": "Construction",
+      "iconColor": "text-yellow-500",
+      "definition": "Access detailed NBC reference guides for builder's level, benchmarks & elevations.",
+      "exampleCase": "Reference NBC 9.12.1.1 requiring excavation for foundations to extend to undisturbed soil or rock.",
+      "proTip": "Always \"close the loop\" when shooting elevations. After moving your transit around the site and establishing all your height pegs, take one final reading back on your original Benchmark. If the final reading doesn't match the original benchmark elevation, your instrument was bumped or settled into the mud, and all your heights are wrong!"
+    }
+  },
+  {
+    "id": "site_prep_retaining_walls",
+    "category": "Substructure",
+    "title": "Site Prep & Retaining Walls",
+    "subTitle": "Excavation, Batter Boards & Earth Shoring",
+    "image": "blueprint_site_prep_retaining_walls",
+    "jobsiteProcess": "Establish building lines using a builder's level/transit and erect batter boards outside the excavation zone. Pull string lines and use the 3-4-5 rule to ensure perfect right angles, dropping a plumb bob to mark footing corners. When managing slopes or disturbed soil from excavation, build a retaining wall. For timber retaining walls, excavate a level base and lay a perforated drainage pipe surrounded by clear stone behind the base. Step back each course of 6x6 timbers slightly (battering). Install 'deadmen' anchors\u2014timbers extending perpendicular back into the hillside\u2014every 2 to 3 courses to tie the wall into the earth and prevent a blowout.",
+    "codeRequirements": [
+      "NBC 9.12.1.1 (Topsoil): All topsoil and organic material must be completely removed from beneath the footprint of the building to prevent settlement as the organics decompose.",
+      "NBC 9.4.4.6 (Retaining Walls): Retaining walls that exceed 1.2m (4 ft) in height, or walls supporting additional surcharge loads (like a driveway or structure above them), MUST be designed by a professional engineer.",
+      "NBC 9.14.3.1 (Drainage): Proper hydrostatic pressure relief is mandatory. Granular drainage material and weeping tile must be installed at the base of retaining walls and foundations to prevent water buildup, which will structurally fail the wall.",
+      "Safe Trenching (Provincial OH&S): Any excavation deeper than 1.2m (4 ft) must be sloped (usually 1-to-1), benched, or shored with trench boxes before a carpenter can safely enter to form footings."
+    ],
+    "journeymanProTip": "Water is the ultimate wall killer. A retaining wall rarely fails because of the dirt; it fails because the dirt fills up with water, and hydrostatic pressure pushes the wall over. Always backfill the first 12-18 inches directly behind your timbers with clean, washed \u00be-inch clear stone (wrapped in filter fabric), not the soil you just dug up. Give the water an easy path straight down to the drainage pipe.",
+    "modalData": {
+      "title": "Site Prep & Retaining Walls",
+      "iconName": "Mountain",
+      "iconColor": "text-emerald-600",
+      "definition": "Access detailed NBC reference guides for excavation, batter boards, and earth shoring. Includes jobsite processes like establishing building lines with a builder's level/transit, erecting batter boards, and using the 3-4-5 rule. Also covers building timber retaining walls by stepping back (battering) 6x6 timbers and installing 'deadmen' anchors every 2 to 3 courses.",
+      "exampleCase": "Reference NBC 9.12.1.1 requiring complete removal of topsoil beneath a building footprint. NBC 9.4.4.6 dictates retaining walls exceeding 1.2m (4 ft) or supporting surcharge loads MUST be engineered. Per NBC 9.14.3.1, granular drainage and weeping tile are mandatory for hydrostatic pressure relief. Additionally, Provincial OH&S requires excavations deeper than 1.2m (4 ft) to be sloped (1-to-1), benched, or shored before entry.",
+      "proTip": "Water is the ultimate wall killer. A retaining wall rarely fails because of the dirt; it fails because the dirt fills up with water, and hydrostatic pressure pushes the wall over. Always backfill the first 12-18 inches directly behind your timbers with clean, washed \u00be-inch clear stone (wrapped in filter fabric), not the soil you just dug up. Give the water an easy path straight down to the drainage pipe."
+    },
+    "iconBgClass": "bg-amber-500"
+  },
+  {
+    "id": "concrete_formwork",
+    "category": "Substructure",
+    "title": "Concrete Formwork",
+    "subTitle": "Wall Forms, Shores, Walers & Ties",
+    "image": "blueprint_formwork",
+    "jobsiteProcess": "Formwork must be built to withstand massive lateral hydrostatic pressure from wet concrete. Standard wall forms utilize 3/4\" form ply backed by vertical studs and horizontal double-walers. The entire assembly is locked together using steel snap ties and wedges, which dictate the wall thickness and prevent blowouts. Forms must be shot in with a transit, squared using the 3-4-5 method, and heavily braced/shored to the ground before pouring.",
+    "codeRequirements": [
+      "NBC 9.3 / CSA A23.1: Formwork and falsework shall be designed to safely support all vertical and lateral loads until the concrete has reached sufficient strength.",
+      "NBC 9.15.4.2: Foundation walls shall be supported by the footing and securely tied to the intersecting walls and floor framing."
+    ],
+    "journeymanProTip": "Pour rate is everything! Liquid concrete acts like water\u2014the faster you pour, the higher the hydrostatic pressure climbs at the bottom of the forms. If you fill a 10-foot form in 15 minutes, you will blow out the bottom plates. Pour in lifts (usually 3-4 feet at a time) and vibrate properly to consolidate the mix without separating the aggregate.",
+    "modalData": {
+      "title": "Concrete Formwork",
+      "iconName": "Layers",
+      "iconColor": "text-slate-500",
+      "definition": "Access detailed NBC/CSA reference guides for wall forms, shores, walers & ties.",
+      "exampleCase": "Reference NBC 9.3 / CSA A23.1 for formwork design to resist lateral and vertical loads.",
+      "proTip": "Pour rate is everything! Liquid concrete acts like water\u2014the faster you pour, the higher the hydrostatic pressure climbs at the bottom of the forms. If you fill a 10-foot form in 15 minutes, you will blow out the bottom plates. Pour in lifts (usually 3-4 feet at a time) and vibrate properly to consolidate the mix without separating the aggregate."
+    },
+    "tags": [
+      "NBC / CSA"
+    ],
+    "iconBgClass": "bg-emerald-500"
+  },
+  {
+    "id": "concrete_stairs",
+    "category": "Substructure",
+    "title": "Concrete Stair Formwork",
+    "subTitle": "SOFFITS, RISERS & KICKERS",
+    "iconBgClass": "bg-emerald-500",
+    "image": "blueprint_wood",
+    "jobsiteProcess": "Forming suspended or slab-supported concrete stairs requires resisting immense hydrostatic pressure that pushes downward and outward. The sloped bottom (soffit) is framed and shored first. Riser boards are cut (often beveled at the bottom to allow trowel access to the treads) and suspended between the side walls. To prevent the wet concrete from blowing the risers outward, a diagonal stringer (kicker) must be strongly fastened across the top of the riser boards to lock them in place.",
+    "codeRequirements": [
+      "NBC 9.8.4: Concrete stair treads must have a uniform run, and risers must have a uniform rise. The maximum variation between the tallest and shortest riser in a single flight cannot exceed 5mm (3/16\").",
+      "CSA A23.1: Formwork must remain in place until the concrete has reached sufficient compressive strength to support its own weight and any superimposed loads."
+    ],
+    "journeymanProTip": "Don't trap your trowel! Always bevel the bottom edge of your riser boards (cutting them at a 45-degree angle). If you leave the bottom of the board square, the finisher cannot get their magnesium float all the way to the back of the tread, leaving a rough, ugly corner on every single step.",
+    "tags": [
+      "SUBSTRUCTURE",
+      "NBC PART 9"
+    ],
+    "modalData": {
+      "title": "Concrete Stair Formwork",
+      "iconName": "Layers",
+      "iconColor": "text-emerald-500",
+      "definition": "Access detailed NBC reference guides for SOFFITS, RISERS & KICKERS.",
+      "exampleCase": "Reference NBC 9.8.4 regarding restrictions on stair variations.",
+      "proTip": "Don't trap your trowel! Always bevel the bottom edge of your riser boards (cutting them at a 45-degree angle). If you leave the bottom of the board square, the finisher cannot get their magnesium float all the way to the back of the tread, leaving a rough, ugly corner on every single step."
+    }
+  },
+  {
+    "id": "footings",
+    "category": "Substructure",
+    "title": "Footings",
+    "subTitle": "STRIP, PAD, STEPPED, BEDROCK & ENGINEERED",
+    "image": "blueprint_footings",
+    "jobsiteProcess": "Excavate to undisturbed soil below the local frost depth (typically 1.2m (4 ft) in Ontario). For standard strip footings, form outlines using clean 2x8 or 2x10 lumber, squaring corners utilizing the 3-4-5 method. If pouring on bedrock, the rock must be cleared of loose debris, washed, and leveled or stepped; slopes exceeding 10% require pinning with vertical rebar dowels drilled and epoxied into the rock. Place continuous horizontal rebar as required, supported by chairs to maintain minimum concrete cover (usually 75mm (3 in) against earth). To provide lateral shear resistance for the future wall: use a beveled 2x4 keyway for traditional poured walls, OR wet-set vertical rebar dowels (e.g., 15M (#5)) for ICF and engineered walls. Call for municipal inspection prior to pouring.",
+    "codeRequirements": [
+      "NBC 9.15.3.3: Footings must rest on undisturbed soil, rock, or compacted granular fill with adequate bearing capacity (minimum 75 kPa (~1.6 ksf) for soft clay, up to 400+ kPa (~8.3 ksf) for dense gravel/rock).",
+      "NBC 9.15.3.4: Concrete poured for footings must never be placed in standing water, on frozen ground, or on soil containing organic material (topsoil).",
+      "NBC 9.15.3.5: Minimum footing width for 1-storey wood-frame walls is 250mm (10 in). For 2-storey, 350mm (14 in).",
+      "NBC 9.15.3.8: Footing thickness must be a minimum of 100mm (4 in) OR equal to the projection of the footing beyond the supported wall, whichever is greater.",
+      "NBC 9.12.2.2 / OBC Specifics: Footings must be placed below the frost line to prevent frost heave. This requires a minimum depth of 1.2m (4 ft), though northern regions may require more. Alternatively, footings can be protected by engineered shallow frost foundations.",
+      "NBC 9.15.3.9: Step footings must have a vertical rise no greater than 600mm (24 in) and a horizontal run no less than 600mm (24 in). The specific grade of the step cannot exceed a 1:2 ratio."
+    ],
+    "journeymanProTip": "Always over-dig your trench width by at least 1-2 feet on each side to provide ample working room to set forms, install weeping tile, and apply exterior waterproofing later. When wet-setting vertical dowels for ICF walls, pull a string line down the center of your footing before the concrete sets to ensure every piece of rebar lands perfectly in the center of the block cavity!",
+    "tags": [
+      "NBC PART 9",
+      "OBC SPECIFIC"
+    ],
+    "modalData": {
+      "title": "Footings",
+      "iconName": "Layers",
+      "iconColor": "text-emerald-400",
+      "definition": "Access detailed NBC reference guides for strip, pad, stepped, bedrock, and engineered footings. Includes interactive blueprints and jobsite assembly steps, from excavating below local frost depth to forming with the 3-4-5 method.",
+      "exampleCase": "Quickly reference crucial NBC Code Requirements on the job, such as NBC 9.15.3.5 for minimum footing widths (250mm for 1-storey, 350mm for 2-storey) or NBC 9.15.3.9 for step footing vertical rise limits.",
+      "proTip": "Always over-dig your trench width by at least 1-2 feet on each side to provide ample working room. When wet-setting vertical dowels for ICF walls, pull a string line down the center of your footing before the concrete sets to ensure perfect rebar placement."
+    },
+    "iconBgClass": "bg-emerald-500"
+  },
+  {
+    "id": "foundations",
+    "category": "Substructure",
+    "title": "Foundations",
+    "subTitle": "Poured, Block, ICF & Foundation Lintels",
+    "image": "blueprint_foundations",
+    "jobsiteProcess": "Clean the footing surface and ensure keyways or vertical dowels are clear. For Poured Walls, oil forms, tie the rebar grid, and secure form ties tightly. For Concrete Block (CMU), lay blocks in a mortar bed, ensuring joints are struck and exterior is parged. For Lintels, form openings securely with bottom-chord reinforcing steel. For ICF (Insulated Concrete Forms) Systems: Stack blocks in a running bond, securing corner blocks with exterior vertical strapping extending 900mm (3 ft) back. Install turnbuckle bracing every 1.5m (5 ft) to 1.8m (6 ft) horizontally. Adjust turnbuckles prior to pouring to lean walls 6mm (1/4 in) inward to compensate for concrete-induced outward hydrostatic pressure. For 150mm (6 in) concrete cores, use #4 or #5 rebar spaced at 400mm (16 in) or 600mm (24 in) O.C. horizontally and vertically. For 200mm (8 in) cores, use heavier #5 or #6 rebar at 400mm (16 in) O.C. to handle higher lateral loads. Order a high-slump concrete mix of 140mm (5.5 in) to 165mm (6.5 in) slump with 10mm (3/8 in) maximum pea-gravel aggregates and superplasticizer. Pour in continuous horizontal lifts of maximum 1.2m (4 ft) per hour, consolidating with a pencil vibrator under 25mm (1 in) diameter.",
+    "codeRequirements": [
+      "NBC 9.15.4.2: Foundation walls must be laterally supported at the top (by the floor system) and bottom (by the footing or slab) before backfilling to prevent structural collapse.",
+      "NBC 9.15.4.3: Minimum thickness for poured solid concrete or ICF walls is generally 150mm (6 in) for standard residential heights, but must be increased depending on the height of unbalanced backfill and lateral soil pressure.",
+      "NBC 9.13.2.1: The exterior of foundation walls enclosing interior space must be damp-proofed (e.g., bituminous coating or dimple board) from the finished exterior ground level down to the top of the footing.",
+      "NBC 9.20.17 (Concrete Lintels): Openings in foundation walls must be spanned by a reinforced concrete or steel lintel. Concrete lintels require a minimum bearing of 150mm (6 in) on each side of the opening and bottom-chord reinforcing steel to handle tensile loads.",
+      "NBC 9.15.4.6 (Block Walls): Concrete block foundation walls must be capped with at least 100mm (4 in) of solid masonry or concrete to distribute floor loads evenly.",
+      "ICF Bracing & Plumb: Turnbuckle bracing must be installed at maximum 1.8m (6 ft) horizontal intervals to maintain wall plumb, with corner blocks strapped securely. Align bracing to lean walls 6mm (1/4 in) inward before the concrete pour.",
+      "ICF Concrete Slump: Concrete mixes must maintain a slump of 140mm (5.5 in) to 165mm (6.5 in) using a maximum 10mm (3/8 in) aggregate (pea gravel) to flow cleanly without voiding in narrow 150mm (6 in) and 200mm (8 in) cores.",
+      "ICF Rebar Spacing: 150mm (6 in) concrete cores require #4 or #5 rebar at 400mm (16 in) or 600mm (24 in) O.C. 200mm (8 in) concrete cores require #5 or #6 rebar at 400mm (16 in) O.C. to resist increased lateral soil pressure.",
+      "NBC 9.23.6.1 (Anchor Bolts): Foundation walls must be connected to the floor framing using anchor bolts no less than 12.7mm (1/2 in) in diameter, embedded a minimum of 100mm (4 in) into the concrete, and spaced no more than 2.4m (8 ft) apart.",
+      "NBC 9.15.4.6 (Clearance to Grade): To prevent moisture damage, foundation walls must extend a minimum of 150mm (6 in) above finished ground level before the sill plate and wood framing begin.",
+      "NBC 9.13.2.3 (Parging): Concrete block (CMU) foundation walls below ground must be covered with a continuous parge coat (minimum 6mm or 1/4 in thick) prior to the application of damp-proofing."
+    ],
+    "journeymanProTip": "When pouring ICF walls, always pour in maximum 4-foot 'lifts' (layers) and consolidate carefully. Over-vibrating will blow out the foam blocks and cause a massive blowout! Ensure corner blocks are reinforced with 90-degree rebar hooks and exterior vertical strapping. Order a 5.5 to 6.5-inch concrete slump with 3/8-inch pea gravel so it flows effortlessly. Lastly, NEVER backfill a fresh foundation wall until the first-floor joist system and subfloor are fully nailed off\u2014that floor acts as the critical top brace holding back tons of dirt. Exam Trap: Never confuse damp-proofing with waterproofing. Damp-proofing (like black tar) slows moisture from damp soil, while waterproofing bridges cracks and handles hydrostatic pressure. Furthermore, always remember that weeping tile must be covered by a minimum of 150mm (6 in) of crushed clean stone to prevent silt clogging!",
+    "modalData": {
+      "title": "Foundations",
+      "iconName": "Shield",
+      "iconColor": "text-emerald-500",
+      "definition": "Access detailed NBC reference guides and interactive blueprints for poured, block, and ICF foundation walls, as well as foundation lintels. Covers jobsite processes from cleaning footing surfaces to tying rebar grids and securing form ties.",
+      "exampleCase": "Reference NBC 9.15.4.2 to confirm foundation walls must be laterally supported at the top (by the floor system) and bottom before backfilling, or NBC 9.15.4.3 for minimum 150mm (6 in) poured concrete wall thickness requirements.",
+      "proTip": "When pouring ICF walls, always pour in maximum 4-foot 'lifts' to prevent foam blowouts. NEVER backfill a fresh foundation wall until the first-floor joist system and subfloor are fully nailed off, as that floor acts as the critical top brace holding back tons of dirt."
+    },
+    "iconBgClass": "bg-emerald-500"
+  },
+  {
+    "id": "icf",
+    "category": "Substructure",
+    "title": "ICF Foundations",
+    "subTitle": "Insulated Concrete Forms & Bracing",
+    "image": "blueprint_icf",
+    "jobsiteProcess": "Stack interlocking expanded polystyrene (EPS) blocks in a running bond, securing corner blocks with vertical reinforcement zip-tied together. For 150mm (6 in) concrete cores, install horizontal #4 or #5 rebar spaced at 400mm (16 in) or 600mm (24 in) O.C. For 200mm (8 in) cores, use #5 or #6 rebar at 400mm (16 in) O.C. to resist higher lateral loads. Ensure horizontal lintel steel spans over all window/door bucks, extending at least 600mm (24 in) past openings. Set up heavy-duty turnbuckle bracing every 1.5m to 1.8m (5 to 6 ft) horizontally. Adjust the turnbuckles before pouring to lean the walls slightly inward by 6mm (1/4 in) to compensate for wet concrete's hydrostatic pressure. Order a high-slump concrete mix of 100mm to 150mm (4 to 6 in) slump with 10mm (3/8 in) maximum pea-gravel aggregates. Pour concrete in continuous horizontal lifts of maximum 1.2m (4 ft) per hour, consolidating with a mechanical pencil vibrator (under 25mm / 1 in diameter) to prevent voids without blowing out the foam.",
+    "codeRequirements": [
+      "NBC 9.15.4.3: Minimum thickness for ICF foundation walls is 150mm (6 in) for standard residential heights, or 200mm (8 in) depending on the height of unbalanced backfill and lateral soil pressure.",
+      "NBC 9.15.4.3 / Reinforcement: 6-inch cores require horizontal #4 or #5 rebar spaced at 400mm (16 in) or 600mm (24 in) O.C., and vertical #4 or #5 rebar at 400mm (16 in) or 600mm (24 in) O.C. 8-inch cores require #5 or #6 rebar at 400mm (16 in) O.C.",
+      "ICF Concrete Slump: To prevent voids in narrow 150mm (6 in) and 200mm (8 in) cores with dense steel, concrete must have a slump of 100mm to 150mm (4 to 6 in) utilizing maximum 10mm (3/8 in) pea-gravel aggregates.",
+      "ICF Bracing & Pour Limits: Turnbuckle bracing must be installed at maximum 1.8m (6 ft) spacing. Continuous concrete pours must be placed in maximum 1.2m (4 ft) lifts per hour to prevent bottom form blowout.",
+      "Corner & Buck Reinforcement: Corner block intersections must be reinforced with 90-degree horizontal steel rebar hooks inside the core, and exterior vertical bracing strapped across the corner. Openings must be framed with wood or plastic bucks and reinforced with lintel steel."
+    ],
+    "journeymanProTip": [
+      "Always 'over-brace' your corners and door/window bucks! Corners experience the highest perpendicular hydrostatic force, which can easily split interlocking blocks.",
+      "Avoid using raw wood bucks without internal diagonal bracing\u2014the concrete pressure will warp or crush them instantly.",
+      "Never use standard high-frequency vibrators; a gentle pencil vibrator dropped directly into the core is required to avoid tearing the inner EPS ties.",
+      "EXAM TRAP: Standard bituminous (solvent-based) damp-proofing will melt EPS foam! You must use a water-based damp-proofing membrane or peel-and-stick application.",
+      "EXAM TRAP: EPS foam suffers from UV degradation (yellowing/chalking). Code requires the exposed above-grade portion of the ICF foundation to be covered with parging, acrylic stucco, or siding."
+    ],
+    "modalData": {
+      "title": "ICF Foundations",
+      "iconName": "Shield",
+      "iconColor": "text-emerald-500",
+      "definition": "Access detailed NBC reference guides for Insulated Concrete Forms & bracing. Includes jobsite processes like stacking interlocking EPS blocks in a running bond, setting up heavy-duty turnbuckle bracing every 1.5m to 1.8m, and adjusting turnbuckles to lean walls 6mm (1/4 in) inward to compensate for wet concrete's hydrostatic pressure.",
+      "exampleCase": "Reference NBC 9.15.4.3 for minimum thickness requirements (150mm for standard residential, 200mm for higher lateral loads) and core reinforcement schedules, such as requiring horizontal and vertical #4 or #5 rebar spaced at 400mm or 600mm O.C.",
+      "proTip": "Always 'over-brace' your corners and bucks to withstand perpendicular hydrostatic force, and only use a gentle pencil vibrator to avoid tearing EPS ties. EXAM TRAP: Solvent-based damp-proofing will melt EPS foam, and code requires exposed above-grade EPS to be covered with parging or siding to prevent UV degradation."
+    },
+    "iconBgClass": "bg-emerald-500"
+  },
+  {
+    "id": "concrete_slabs",
+    "category": "Substructure",
+    "title": "Concrete Slabs & Floors",
+    "subTitle": "SLAB-ON-GRADE, MESH, POLY & CONTROL JOINTS",
+    "image": "blueprint_substructure",
+    "jobsiteProcess": "A successful slab-on-grade requires strict subgrade preparation. After excavating to undisturbed soil, a base of drainable granular fill (gravel) is compacted. A continuous 6-mil polyethylene sheet is laid over the gravel to prevent soil moisture from wicking up into the concrete. Welded wire mesh (WWM) or rebar is placed on chairs to keep it in the upper third of the slab to resist shrinkage cracks. Once poured and troweled, control joints must be cut into the slab to dictate where the concrete will inevitably crack as it cures.",
+    "codeRequirements": [
+      "NBC 9.16.4.1: Dampproofing (typically 6-mil polyethylene) shall be installed below a slab-on-grade whenever the slab is intended for residential occupancy.",
+      "NBC 9.16.2.1: Slabs-on-grade shall be supported by undisturbed soil, rock, or compacted granular fill to prevent differential settlement.",
+      "NBC 9.16.4.3: Concrete slabs shall be not less than 75mm (3 inches) thick."
+    ],
+    "journeymanProTip": "Stop \"hooking\" your wire mesh during the pour! A common lazy jobsite practice is laying the wire mesh flat on the poly, walking on it while pouring, and trying to pull it up into the wet concrete with a hook. It almost always sinks back to the bottom where it does absolutely zero structural good. Spend the extra money on rebar chairs so the steel sits exactly where it needs to be.",
+    "tags": [
+      "SUBSTRUCTURE",
+      "NBC PART 9"
+    ],
+    "modalData": {
+      "title": "Concrete Slabs & Floors",
+      "iconName": "Layers",
+      "iconColor": "text-emerald-400",
+      "definition": "Access detailed NBC reference guides for slab-on-grade floors.",
+      "exampleCase": "Reference NBC 9.16.4.3 for concrete slab thickness.",
+      "proTip": "Stop \"hooking\" your wire mesh during the pour! A common lazy jobsite practice is laying the wire mesh flat on the poly, walking on it while pouring, and trying to pull it up into the wet concrete with a hook. It almost always sinks back to the bottom where it does absolutely zero structural good. Spend the extra money on rebar chairs so the steel sits exactly where it needs to be."
+    },
+    "iconBgClass": "bg-emerald-500"
+  },
+  {
+    "id": "masonry_parging",
+    "category": "Substructure",
+    "title": "Masonry & Parging",
+    "subTitle": "Mortar Types, Damp-proofing & CMU Reinforcement",
+    "image": "blueprint_masonry_parging",
+    "jobsiteProcess": "For CMU Block Walls: Lay concrete masonry units (CMU) in a running bond, buttering the head and bed joints with mortar. Install continuous horizontal joint reinforcement (9-gauge wire ladder or truss type) every 400mm (16 in) vertically. Insert vertical #4 or #5 rebar into cores specified for reinforcement (especially at corners, adjacent to openings, and every 1.2m (4 ft) to 2.4m (8 ft)) and fill those cores with wet grout. For Parging: Apply parging on the exterior face of CMU foundation walls below grade. First, apply a parging coat of Portland cement and sand mortar at least 6mm (1/4 in) thick, beveling the top edge at the grade line and forming a cove at the footing junction. Once the parging is cured, apply a heavy coat of bituminous damp-proofing sealant over the entire surface to prevent moisture ingress into the block cores.",
+    "codeRequirements": [
+      "NBC 9.20.11.2 (Mortar Types): Type S mortar is mandatory for masonry walls in contact with soil (foundations, retaining walls) due to its high lateral strength and bond durability. Type N mortar is suitable for non-loadbearing interior walls and exterior walls above grade. Type M mortar provides the highest compressive strength and is used for high-gravity load applications.",
+      "NBC 9.15.6.1 (Parging): Concrete block foundation walls below grade must be parged on the exterior with at least 6mm (1/4 in) of Portland cement mortar, extending from the footing to the finished grade line.",
+      "NBC 9.13.2.2 (Damp-proofing): Parged block walls below grade must be coated with an approved damp-proofing material (such as a bituminous coating) over the parging to block capillary water transfer.",
+      "NBC 9.20.16.1 (CMU Reinforcement): Basements built with CMU block walls resisting lateral earth pressure must be reinforced vertically and horizontally as specified by local codes or engineering details, with reinforced cores fully grouted using a minimum 15 MPa (~2200 PSI) compressive strength grout."
+    ],
+    "journeymanProTip": "Always damp the concrete block surface slightly with a wet brush or spray before applying your parge coat! If the block is bone dry, it will suck the water out of the parge mortar instantly, ruining the chemical cure and causing the parging to flake off or crack in a couple of years. Also, remember that parging and bituminous paint are damp-proofing, NOT waterproofing. If you have a high water table, you need a true waterproof elastomeric membrane and a dimpled drainage board (like DELTA-MS) to keep that basement dry!",
+    "modalData": {
+      "title": "Masonry & Parging",
+      "iconName": "BrickWall",
+      "iconColor": "text-orange-700",
+      "definition": "Access detailed NBC reference guides for mortar types, damp-proofing, and CMU reinforcement. Includes jobsite processes like laying CMU in a running bond, installing 9-gauge horizontal joint reinforcement every 400mm (16 in) vertically, and inserting vertical #4 or #5 rebar every 1.2m (4 ft) to 2.4m (8 ft) into cores filled with wet grout. Also covers applying a 6mm (1/4 in) parging coat with a coved footing junction.",
+      "exampleCase": "Reference NBC 9.20.11.2: Type S mortar is mandatory for masonry walls in contact with soil (foundations). Type N is for non-loadbearing or above-grade walls, and Type M is for high-gravity loads. Per NBC 9.15.6.1, block foundation walls below grade must be parged on the exterior with at least 6mm (1/4 in) of Portland cement. Reinforced CMU cores must be fully grouted using a minimum 15 MPa (~2200 PSI) compressive strength grout.",
+      "proTip": "Always damp the concrete block surface slightly with a wet brush or spray before applying your parge coat! If the block is bone dry, it will suck the water out of the parge mortar instantly, ruining the chemical cure. Also, remember that parging and bituminous paint are damp-proofing, NOT waterproofing. If you have a high water table, you need a true waterproof elastomeric membrane and a dimpled drainage board (like DELTA-MS) to keep that basement dry!"
+    },
+    "iconBgClass": "bg-emerald-500"
+  },
+  {
+    "id": "beams_columns_piers",
+    "category": "Superstructure",
+    "title": "Beams, Columns & Piers",
+    "subTitle": "Steel W-Shapes, Engineered Wood, Teleposts & Concrete Piers",
+    "image": "blueprint_beams",
+    "jobsiteProcess": "Pad footings and concrete piers must be poured on undisturbed soil below the frost line (unless acting as interior basement pads). Once cured, layout beam pockets and telepost locations using a string line and plumb bob to ensure absolute vertical alignment. Built-up wood beams must be assembled with staggered butt joints (at least one stud spacing apart) and crowned UP to account for future settling. When installing adjustable steel columns (teleposts), ensure the base plate is pinned or anchored to the concrete, and the adjustable threaded rod remains at the top. Do not permanently weld or lock the adjustable threads until the full dead load of the structure has been applied to the framing.",
+    "codeRequirements": [
+      "NBC 9.17.3.1: Steel pipe columns must have an outside diameter of not less than 73mm (2 7/8\"), a wall thickness of 4.76mm (3/16\"), and plates at both ends.",
+      "NBC 9.23.4.2: Wood or steel beams must have a minimum length of bearing of 89mm (3.5\") when supported by masonry or concrete, and 38mm (1.5\") when supported by wood framing.",
+      "NBC 9.23.8.3: Built-up wood beams must have joints staggered. End joints in individual plies must occur over a column/support, or be situated at or within a distance equal to 1/4 the span from the support.",
+      "NBC 9.15.3.1: Column loads must be transferred to the soil through concrete pad footings, sized according to the soil bearing capacity and the supported load."
+    ],
+    "journeymanProTip": "Never aggressively jack up a telepost under an existing, finished structure to fix a sag all at once\u2014you will crack drywall and pop trim! Adjust teleposts incrementally (1/4 turn every few weeks) to allow the wood framing to slowly acclimate back to a level position. Also, always inspect your lumber before building a beam; put the crown (the upward curve) facing the sky so the building's weight naturally flattens it out.",
+    "modalData": {
+      "title": "Beams, Columns & Piers",
+      "iconName": "Pillar",
+      "iconColor": "text-emerald-600",
+      "definition": "Access detailed NBC reference guides for steel W-shapes, engineered wood, teleposts, and concrete piers.",
+      "exampleCase": "Reference NBC 9.17.3.1 requiring steel pipe columns to have an outside diameter of at least 73mm, a wall thickness of 4.76mm, and plates at both ends.",
+      "proTip": "Never aggressively jack up a telepost under an existing, finished structure to fix a sag all at once\u2014you will crack drywall and pop trim! Adjust teleposts incrementally (1/4 turn every few weeks) to allow the wood framing to slowly acclimate back to a level position."
+    },
+    "iconBgClass": "bg-blue-500"
+  },
+  {
+    "id": "floor_systems",
+    "category": "Substructure",
+    "title": "Floor Systems",
+    "subTitle": "Joists, Bridging, Subfloor & Cantilevers",
+    "image": "blueprint_floor_systems",
+    "jobsiteProcess": "Install the treated sill plate over the foundation wall using a foam sill gasket and anchor bolts. Layout joist spacing (typically 400mm / 16 in or 488mm / 19.2 in O.C. for engineered I-joists). Install rim joists and drop in the floor joists, securing them with hangers or end-nailing. Install cross-bridging or solid blocking mid-span to prevent joist twisting and bounce. For the subfloor, apply a heavy, continuous bead of polyurethane subfloor adhesive to the top of the joists. Lay the tongue-and-groove (T&G) OSB or plywood perpendicular to the joists. Tap the T&G joints together using a sledgehammer and a scrap block, and immediately screw down the panels (never just nail) to prevent squeaks.",
+    "codeRequirements": [
+      "NBC 9.23.14.2 (Subfloor): Wood-based subflooring panels must be installed with their face grain or strength axis perpendicular to the floor joists, with end joints staggered.",
+      "NBC 9.23.9.4 (Bridging): Floor joists require continuous strapping, solid blocking, or cross-bridging at intervals not exceeding 2.1m (6 ft 10 in) to distribute point loads and prevent twisting.",
+      "NBC 9.23.6.1 (Anchorage): Sill plates must be anchored to the foundation with minimum 12.7mm (1/2 in) anchor bolts spaced no more than 2.4m (8 ft) apart, and no more than 300mm (12 in) from the ends of the plate.",
+      "NBC 9.23.9.9 (Cantilevers): Dimensional lumber floor joists cantilevering to support an exterior wall cannot exceed 400mm (16 in) or 600mm (24 in) depending on joist size, without specific engineering."
+    ],
+    "journeymanProTip": [
+      "Squeaky floors generate more homeowner callbacks than almost any other framing defect. Always glue AND screw your subfloor.",
+      "Use a premium structural adhesive, and don't lay down more glue than you can cover with a sheet in 5 minutes, or it will 'skin over' and lose its holding power.",
+      "Drive your subfloor screws every 150mm (6 in) on the panel edges and 300mm (12 in) in the field.",
+      "EXAM TRAP: The untreated wood beam in a masonry or concrete pocket MUST have a minimum 12mm (1/2 in) air gap on the sides and ends. This breaks the capillary action and prevents the concrete from wicking moisture into the wood, which causes rot.",
+      "EXAM TRAP: Joist crowns must ALWAYS be installed pointing UP. As the floor system is loaded with dead weight and live loads, the crown will settle flat. If installed down, the floor will permanently sag."
+    ],
+    "modalData": {
+      "title": "Floor Systems",
+      "iconName": "Grid",
+      "iconColor": "text-teal-400",
+      "definition": "Access detailed NBC reference guides for joists, bridging, subfloor, and cantilevers. Includes jobsite processes like installing treated sill plates with foam gaskets, dropping in floor joists (typically 400mm or 488mm O.C.), adding mid-span cross-bridging, and gluing/screwing T&G OSB perpendicular to the joists.",
+      "exampleCase": "Reference NBC 9.23.14.2 to confirm subflooring must be installed with the strength axis perpendicular to floor joists with staggered end joints, or NBC 9.23.9.4 requiring cross-bridging or solid blocking at intervals not exceeding 2.1m (6 ft 10 in) to prevent twisting.",
+      "proTip": "Always glue AND screw your subfloor to prevent squeaky floors, driving screws every 150mm (6 in) on edges and 300mm (12 in) in the field. EXAM TRAPS: Untreated wood beams in a concrete pocket MUST have a minimum 12mm (1/2 in) air gap on sides/ends to prevent rot, and joist crowns must ALWAYS be installed pointing UP."
+    },
+    "iconBgClass": "bg-blue-500"
+  },
+  {
+    "id": "framing",
+    "category": "Superstructure",
+    "title": "Framing",
+    "subTitle": "Wood vs. Steel Wall Assemblies",
+    "image": "blueprint_framing",
+    "jobsiteProcess": "Begin by snapping chalk lines for your wall layout on the subfloor. Cut top and bottom plates to length and lay them side-by-side to mark your stud spacing (typically 400mm / 16 in O.C.). For Wood: 'Crown' every stud, placing the natural bow facing the same direction (usually out/up). Nail studs to plates, frame in window/door rough openings using king studs, jack studs (trimmers), and lintels. Sheathe the wall while it's flat and square, then raise, plumb, and brace it. For Steel: Fasten the bottom track to the floor and the top track to the ceiling. Twist the steel C-studs into the track, align them plumb, and secure using pan-head framing screws or a crimping tool. Install plastic grommets in the pre-punched knockouts before running any electrical wire.",
+    "codeRequirements": [
+      "NBC 9.23.10.1: Standard stud spacing is 400mm (16 in) or 600mm (24 in) O.C. depending on the lumber grade, wall height, and supported loads.",
+      "NBC 9.23.5.3 (Notching & Drilling): Holes drilled in load-bearing wall studs must not exceed 1/3 of the stud depth. Notches must not exceed 2/3 of the depth for non-load-bearing studs, and are strictly prohibited from exceeding 1/3 in load-bearing studs unless structurally reinforced.",
+      "NBC 9.23.11.3 (Top Plates): Top plates in load-bearing walls must be doubled, with joints staggered by at least one stud spacing. Single top plates are permitted ONLY if the supported roof/floor framing members align directly over the studs within a 50mm tolerance.",
+      "NBC 9.23.3.4 (Fastening): Wood studs must be end-nailed to top and bottom plates using at least two 82mm (3.25 in) nails, or toe-nailed with four 63mm (2.5 in) nails.",
+      "NBC 9.24 (Steel Framing): Non-load-bearing steel studs must be a minimum of 0.46mm (0.018 in) thick (25 gauge). Structural/load-bearing steel studs must adhere to strict engineered gauge requirements (e.g., 18 or 16 gauge) and utilize structural tracks."
+    ],
+    "journeymanProTip": [
+      "Always 'crown' your lumber! Look down the edge of the stud to find the natural curve. Mark it and frame the wall so all crowns face the exact same way (usually facing the exterior). When the drywall goes on, it will bridge the curve evenly instead of creating a wavy wall.",
+      "For steel framing, make sure the open 'C' side of all studs faces the same direction so you can easily slide insulation and backing in later.",
+      "EXAM TRAP: Know your notching and drilling limits! In a load-bearing wall, a drilled hole cannot exceed 1/3 the depth of the stud, and you MUST leave at least 50mm (2 in) of solid wood between the hole and the edge of the stud.",
+      "EXAM TRAP: Notches in non-load-bearing partitions can be up to 2/3 the depth of the stud. However, notches in load-bearing studs can never exceed 1/3 the depth.",
+      "EXAM TRAP: Staggered joints in a double top plate must be offset by at least one full stud spacing (minimum 400mm / 16 in) to maintain the structural continuity of the top plate."
+    ],
+    "modalData": {
+      "title": "Framing",
+      "iconName": "Hammer",
+      "iconColor": "text-blue-400",
+      "definition": "Access detailed NBC reference guides for wood vs. steel wall assemblies. Includes jobsite processes like marking stud spacing at 400mm (16 in) O.C., framing rough openings with king and jack studs, and securing steel C-studs into tracks with pan-head framing screws.",
+      "exampleCase": "Reference NBC 9.23.10.1 for standard stud spacing requirements of 400mm (16 in) or 600mm (24 in) O.C., or check NBC 9.23.5.3 for strict notching and drilling limits based on load-bearing requirements.",
+      "proTip": "Always 'crown' your lumber facing the same direction (usually exterior) to ensure flat walls, and keep the open 'C' side of steel studs facing the same way for easy insulation. EXAM TRAPS: Drilled holes in load-bearing studs cannot exceed 1/3 the depth and must leave at least 50mm (2 in) of solid edge. Additionally, double top plate staggered joints must be offset by at least one full stud spacing (minimum 400mm / 16 in)."
+    },
+    "iconBgClass": "bg-blue-500"
+  },
+  {
+    "id": "stairs",
+    "category": "Superstructure",
+    "title": "Stairs",
+    "subTitle": "Stringers, Risers & Treads",
+    "image": "blueprint_stairs",
+    "jobsiteProcess": "1. CALCULATION: Determine total rise (finished floor to finished floor). Divide by the ideal riser height (e.g., 180mm or 7 in) to find the number of risers, then divide total rise by that whole number for your exact riser height.\n\n2. LAYOUT: Lay out a straight 2x12 stringer using a framing square and brass stair gauges. 'Drop the stringer' by cutting the thickness of your finished tread off the bottom plumb cut.\n\n3. CUTTING: Cut the stringer carefully\u2014never overcut the notches with a circular saw! Finish the inside corners with a handsaw or jigsaw to prevent structural splitting.\n\n4. INSTALLATION: Secure the top of the stringers using structural hangers, then generously apply construction adhesive and screw down the risers and treads to prevent squeaks.",
+    "codeRequirements": [
+      "NBC 9.8.4.1 (Dimensions): For private residential stairs, the maximum riser height is 200mm (8 in) (7-7/8 in) and the minimum is 125mm (5 in). The minimum tread run is 255mm (10 in).",
+      "NBC 9.8.4.4 (Uniformity): Tolerances are incredibly strict to prevent tripping. The difference between the tallest and shortest riser (or longest and shortest tread) in a single flight cannot exceed 10mm (3/8 in). Adjacent risers or treads cannot vary by more than 5mm (3/16 in).",
+      "NBC 9.8.2.1 (Headroom): Minimum clear headroom above private stairs is 1950mm (6 ft 5 in), measured vertically from a line drawn tangent to the outer edges of the tread nosings.",
+      "NBC 9.8.9.4 (Stringers): Cut wooden stringers must have an 'effective depth' (the solid wood remaining below the cut notches) of at least 90mm (3.5 in). Stringers must be spaced no more than 600mm (24 in) O.C. for 38mm (1.5 in) treads, or 400mm (16 in) O.C. for thinner treads."
+    ],
+    "journeymanProTip": "'Dropping the stringer' is the #1 place apprentices mess up on the job. If your finished wooden treads are 1 inch thick, you MUST cut exactly 1 inch off the very bottom of your stringer before installing it. If you forget to account for the tread thickness, your first step will be 1 inch too high, your top step will be 1 inch too low, and the building inspector will make you rip the entire staircase out!",
+    "modalData": {
+      "title": "Stairs",
+      "iconName": "Compass",
+      "iconColor": "text-indigo-500",
+      "definition": "Access detailed NBC reference guides for stringers, risers, and treads. Includes jobsite processes like calculating total rise, laying out a 2x12 stringer using a framing square and brass stair gauges, and finishing inside corners with a handsaw or jigsaw to prevent structural splitting from circular saw overcuts.",
+      "exampleCase": "Reference NBC 9.8.4.1 for stair dimensions: maximum riser height is 200mm (8 in) and minimum is 125mm (5 in), with a minimum tread run of 255mm (10 in). Additionally, NBC 9.8.9.4 requires cut wooden stringers to have an 'effective depth' (throat) of at least 90mm (3.5 in). Stringers must be spaced no more than 600mm (24 in) O.C. for 38mm (1.5 in) treads, or 400mm (16 in) O.C. for thinner treads.",
+      "proTip": "'Dropping the stringer' is the #1 place apprentices mess up on the job. If your finished wooden treads are 1 inch thick, you MUST cut exactly 1 inch off the very bottom of your stringer before installing it. If you forget to account for the tread thickness, your first step will be 1 inch too high, your top step will be 1 inch too low, and the building inspector will make you rip the entire staircase out!"
+    },
+    "iconBgClass": "bg-blue-500"
+  },
+  {
+    "id": "roof_systems",
+    "category": "Superstructure",
+    "title": "Roof Systems",
+    "subTitle": "Trusses, Rafters, Sheathing & Bracing",
+    "image": "blueprint_roof_systems",
+    "jobsiteProcess": "1. LAYOUT: Mark the truss layout on your double top plates (typically 600mm / 24 in O.C.).  \n\n2. ERECTION: When flying trusses with a crane, secure the first gable truss perfectly plumb and aggressively brace it to the ground or wall. Roll subsequent trusses and lock them in with temporary continuous lateral bracing to prevent the 'domino effect'.  \n\n3. PERMANENT BRACING: Install permanent bracing (sway, cross, and lateral) exactly as specified by the truss manufacturer's engineered drawings to prevent lateral deflection and buckling.  \n\n4. SHEATHING: Install sub-fascia to tie the rafter tails. Apply roof sheathing, leaving a 2mm to 3mm (1/8 in) gap between panels for thermal expansion. Use metal H-clips midway between trusses for edge support on standard OSB.",
+    "codeRequirements": [
+      "NBC 9.23.13.11 (Bracing): Roof trusses must be braced during erection and permanently braced to prevent lateral deflection and buckling, strictly following the manufacturer's engineered specifications.",
+      "NBC 9.23.14.3 (Edge Support): Roof sheathing requires edge support. For standard 9.5mm (3/8 in) or 11.1mm (7/16 in) OSB on 600mm (24 in) centers, metal H-clips or tongue-and-groove edges are mandatory to prevent panel deflection under snow/live loads.",
+      "NBC 9.23.14.5 (Expansion): A minimum 2mm (1/16 in) to 3mm (1/8 in) gap must be left between all roof sheathing panels to allow for thermal expansion and moisture swelling.",
+      "NBC 9.23.13.11 (Modifications): Modifying, cutting, notching, or drilling ANY part of an engineered roof truss (chords or webs) is strictly prohibited without written approval from a professional structural engineer.",
+      "NBC 9.23.13.1 (Rafters): Conventional rafters must be tied together at the ridge and supported by ceiling joists or collar ties to prevent the roof from 'pancaking' and pushing the exterior walls outward."
+    ],
+    "journeymanProTip": "Never underestimate the 'domino effect'! Unbraced trusses can fold over like a deck of cards under a slight breeze or the weight of a single carpenter, causing catastrophic accidents on site. Also, if a plumber or HVAC tech cuts through a truss web to run a pipe, STOP all work. The truss is compromised, and they just bought a very expensive engineered repair detail!",
+    "modalData": {
+      "title": "Roof Systems",
+      "iconName": "Triangle",
+      "iconColor": "text-stone-500",
+      "definition": "Access detailed NBC reference guides for trusses, rafters, sheathing, and bracing. Includes jobsite processes like marking layout on double top plates (typically 600mm / 24 in O.C.), securing and aggressively bracing the first gable truss, and applying roof sheathing with a 2mm to 3mm (1/8 in) gap for thermal expansion using metal H-clips midway between trusses.",
+      "exampleCase": "Reference NBC 9.23.13.11 to ensure roof trusses are braced during erection and permanently braced following the manufacturer's engineered specifications. Note that cutting truss components (chords or webs) is strictly prohibited without written approval from a structural engineer. Additionally, per NBC 9.23.13.1, conventional rafters must be tied together at the ridge and supported by ceiling joists or collar ties to prevent the roof from 'pancaking'.",
+      "proTip": "Never underestimate the 'domino effect'! Unbraced trusses can fold over like a deck of cards under a slight breeze or the weight of a single carpenter, causing catastrophic accidents on site. Also, if a plumber or HVAC tech cuts through a truss web to run a pipe, STOP all work. The truss is compromised, and they just bought a very expensive engineered repair detail!"
+    },
+    "iconBgClass": "bg-blue-500"
+  },
+  {
+    "id": "heavy_mass_timber",
+    "category": "Superstructure",
+    "title": "Heavy & Mass Timber",
+    "subTitle": "GLULAM, CLT & HEAVY TIMBER CONNECTORS",
+    "iconBgClass": "bg-blue-500",
+    "image": "blueprint_timber",
+    "jobsiteProcess": "Mass timber (CLT, Glulam) differs from light wood framing because it utilizes massive, solid wood elements capable of spanning commercial distances. Because of their immense weight, installation requires crane rigging and precise steel connectors (like saddle brackets, shear plates, and split rings) rather than standard nails. When drilling for through-bolts, holes must be drilled slightly oversized (typically 1/16\") to allow for wood shrinkage without splitting the timber.",
+    "codeRequirements": [
+      "NBC 3.1.4.6: Heavy timber construction achieves its fire-resistance rating not through drywall, but through charring. Large wood members char on the outside, which insulates the structural core during a fire.",
+      "NBC 4.3.1.1: Design of structural timber must account for moisture content, grade, and species when calculating load-bearing capacity."
+    ],
+    "journeymanProTip": "Keep it dry! Glulam beams come wrapped from the factory for a reason. If a Glulam gets soaked with rain on the jobsite before the roof is on, the wood will swell and the intense pressure can actually pop the lamination glue lines or split the timber. Always protect mass timber from bulk water during construction.",
+    "tags": [
+      "SUPERSTRUCTURE",
+      "NBC PART 4 / 9"
+    ],
+    "modalData": {
+      "title": "Heavy & Mass Timber",
+      "iconName": "Construction",
+      "iconColor": "text-blue-500",
+      "definition": "Access detailed NBC reference guides for Glulam, CLT & heavy timber connectors.",
+      "exampleCase": "Reference NBC 3.1.4.6 for fire-resistance rating of heavy timber construction.",
+      "proTip": "Keep it dry! Glulam beams come wrapped from the factory for a reason. If a Glulam gets soaked with rain on the jobsite before the roof is on, the wood will swell and the intense pressure can actually pop the lamination glue lines or split the timber. Always protect mass timber from bulk water during construction."
+    }
+  },
+  {
+    "id": "light_gauge_steel",
+    "category": "Superstructure",
+    "title": "Light-Gauge Steel Framing",
+    "subTitle": "TRACKS, STUDS & DEFLECTION CHANNELS",
+    "iconBgClass": "bg-blue-500",
+    "image": "blueprint_steel",
+    "jobsiteProcess": "Light-gauge steel framing is the standard for non-combustible commercial construction. Unlike wood framing, steel utilizes U-shaped continuous tracks on the floor and ceiling, with C-shaped studs twisted and locked into place before being screwed with low-profile pan-head screws. Because steel edges are razor-sharp, plastic grommets must be inserted into the pre-punched knockouts before running electrical wires to prevent stripping the insulation.",
+    "codeRequirements": [
+      "Fire & Sound: Steel conducts heat and sound much faster than wood. Resilient channel (RC) or staggered stud assemblies are frequently required to meet acoustic transmission (STC) ratings in commercial demising walls.",
+      "Structural: In high-rises, non-load-bearing steel walls must utilize a \"deflection track\" at the ceiling. This deep track allows the concrete slab above to sag and flex without crushing the steel studs beneath it."
+    ],
+    "journeymanProTip": "Don't over-torque your screws! Steel studs are thin (typically 20 or 25 gauge for non-load bearing). If you hold the trigger on your impact driver for a split second too long, you will strip the thin sheet metal, and that screw will have zero holding power. Let the screw pull the metal tight, and stop immediately.",
+    "tags": [
+      "SUPERSTRUCTURE",
+      "COMMERCIAL"
+    ],
+    "modalData": {
+      "title": "Light-Gauge Steel Framing",
+      "iconName": "Construction",
+      "iconColor": "text-blue-500",
+      "definition": "Access detailed NBC reference guides for tracks, studs & deflection channels.",
+      "exampleCase": "Reference Structural Code requiring deflection tracks for non-load-bearing walls in high-rises.",
+      "proTip": "Don't over-torque your screws! Steel studs are thin (typically 20 or 25 gauge for non-load bearing). If you hold the trigger on your impact driver for a split second too long, you will strip the thin sheet metal, and that screw will have zero holding power. Let the screw pull the metal tight, and stop immediately."
+    }
+  },
+  {
+    "id": "engineered_wood",
+    "category": "Superstructure",
+    "title": "Engineered Wood Products",
+    "subTitle": "LVL, PSL, LSL & I-JOISTS",
+    "iconBgClass": "bg-blue-500",
+    "image": "blueprint_wood",
+    "jobsiteProcess": "Engineered Wood Products (EWPs) are manufactured by binding wood fibers, veneers, or strands with adhesives to create ultra-strong, perfectly straight structural members. LVLs (Laminated Veneer Lumber) are built like thick plywood and used for heavy beams. I-Joists use an OSB web with LVL flanges to span massive distances for floors. Because they are highly engineered, you must follow the manufacturer's exact specifications for bearing lengths and fastening.",
+    "codeRequirements": [
+      "NBC 9.23.4.1: The top and bottom flanges of a wooden I-joist must NEVER be cut, notched, or drilled. Doing so destroys the structural integrity of the entire joist.",
+      "Manufacturer Specs: When cutting holes in the OSB web for plumbing or HVAC, you must refer to the manufacturer's hole chart. Holes must be kept away from bearing points, and a minimum distance must be maintained between multiple holes."
+    ],
+    "journeymanProTip": "Don't crush your I-Joists! When an I-Joist sits on a beam and has a heavy point load coming down from above (like a load-bearing wall), the thin OSB web will buckle and crush under the pressure. You must install solid wood \"web stiffeners\" on both sides of the OSB web, tightly fitted between the top and bottom flanges, to transfer the weight safely down to the beam.",
+    "tags": [
+      "SUPERSTRUCTURE",
+      "NBC PART 9"
+    ],
+    "modalData": {
+      "title": "Engineered Wood Products",
+      "iconName": "Construction",
+      "iconColor": "text-blue-500",
+      "definition": "Access detailed NBC reference guides for LVL, PSL, LSL & I-joists.",
+      "exampleCase": "Reference NBC 9.23.4.1 regarding restrictions on cutting or notching I-joist flanges.",
+      "proTip": "Don't crush your I-Joists! When an I-Joist sits on a beam and has a heavy point load coming down from above (like a load-bearing wall), the thin OSB web will buckle and crush under the pressure. You must install solid wood \"web stiffeners\" on both sides of the OSB web, tightly fitted between the top and bottom flanges, to transfer the weight safely down to the beam."
+    }
+  },
+  {
+    "id": "roof_coverings",
+    "category": "Building Envelope",
+    "title": "Roof Coverings & Flashing",
+    "subTitle": "Shingles, Eave Protection & Valleys",
+    "image": "blueprint_roof",
+    "jobsiteProcess": "Roofing relies entirely on gravity and proper overlapping. Before shingles are applied, the roof deck must be prepped with a metal drip edge at the eaves and rakes. In cold climates, a self-adhering waterproof membrane (ice and water shield) must be installed at the eaves and in all valleys to prevent water intrusion from ice damming. Asphalt shingles must be nailed precisely on the designated nail line using standard roofing nails, never staples.",
+    "codeRequirements": [
+      "NBC 9.26.5.1: Eave protection (ice and water shield) must extend from the edge of the roof to a line not less than 900mm (36\") up the roof slope past the inner face of the exterior wall.",
+      "NBC 9.26.7.1: Standard asphalt shingles require a minimum roof slope of 1:3 (4 in 12 pitch). Low-slope applications require specialized continuous underlayment."
+    ],
+    "journeymanProTip": "Watch your nailing zones! High-nailing (driving nails above the double-layered tar line on a shingle) is the #1 cause of roof blow-offs in high winds, and it instantly voids the manufacturer's warranty. Nails must penetrate both layers of the overlapping shingles to secure the system properly.",
+    "tags": [
+      "BUILDING ENVELOPE",
+      "NBC PART 9"
+    ],
+    "modalData": {
+      "title": "Roof Coverings & Flashing",
+      "iconName": "Triangle",
+      "iconColor": "text-sky-500",
+      "definition": "Access detailed NBC reference guides for shingles, eave protection & valleys.",
+      "exampleCase": "Reference NBC 9.26.5.1 for eave protection extension past exterior wall.",
+      "proTip": "Watch your nailing zones! High-nailing (driving nails above the double-layered tar line on a shingle) is the #1 cause of roof blow-offs in high winds, and it instantly voids the manufacturer's warranty. Nails must penetrate both layers of the overlapping shingles to secure the system properly."
+    },
+    "iconBgClass": "bg-orange-500"
+  },
+  {
+    "id": "windows_doors",
+    "category": "Exterior & Framing",
+    "title": "Windows, Doors, Hatches & Skylights",
+    "subTitle": "Rough Openings, Flashing & Egress",
+    "image": "blueprint_windows_doors",
+    "jobsiteProcess": "Frame the rough opening (RO) according to the manufacturer's specs (typically 12mm to 25mm / 1/2 in to 1 in larger than the unit). Pre-slope the rough sill using cedar shims or beveled siding, and apply a waterproof peel-and-stick sill pan flashing. Set the window or door into the opening, resting on shims at the sill to keep it level and off any standing moisture. Plumb the jambs, level the head, and check diagonal measurements for square. Fasten the unit through the exterior nailing flange or interior jambs. Apply flashing membrane in a 'shingle' fashion: sill first (already done), then jambs overlapping the sill, and finally the head flashing overlapping the jambs. Insulate the interior RO gap with low-expansion foam. For skylights, frame the roof opening, build a curb if necessary, and meticulously install step-flashing along the sides and saddle-flashing at the top.",
+    "codeRequirements": [
+      "NBC 9.9.10.1 (Egress): Every bedroom MUST have at least one outside window or exterior door openable from the inside without tools or special knowledge. It must provide an unobstructed opening of not less than 0.35 m\u00b2 (3.77 sq ft) with no single dimension less than 380mm (15 in).",
+      "NBC 9.27.3.8: Flashing must be installed at every horizontal junction, including over windows and doors, with a minimum 50mm (2 in) vertical leg extending up behind the sheathing membrane (e.g., Tyvek).",
+      "NBC 9.6.1.4: Glass installed in doors, and any sidelights located within 900mm (3 ft) (35 in) of a door, must be safety glass (tempered, laminated, or wired) to prevent severe injury upon impact.",
+      "NBC 9.26.4.1 (Skylights): Skylights installed on roofs with a slope of less than 1-in-3 require a framed curb extending a minimum of 150mm (6 in) above the roofing surface to prevent snow and water intrusion.",
+      "NBC 9.7.6.1: The gap between the window/door frame and the rough framing must be sealed to maintain the continuity of the air barrier and thermal insulation."
+    ],
+    "journeymanProTip": [
+      "Never use standard high-expansion spray foam around windows and doors! The expanding pressure will permanently bow the jambs inward, causing doors to bind and windows to shatter or stick. Always use specifically rated 'Window & Door' low-expansion foam.",
+      "Never tape or seal the bottom nailing flange on the exterior. If water ever manages to get behind the window tape or siding, it needs a gravity escape route out the bottom of the rough sill.",
+      "EXAM TRAP: Memorize the egress window dimensions for bedrooms. The opening MUST provide an unobstructed area of at least 0.35 m\u00b2 (3.77 sq ft), and NO single dimension can be less than 380mm (15 in).",
+      "EXAM TRAP: Flashing must ALWAYS be applied in 'shingle fashion' to shed water away from the building envelope. This means Sill Pan first, then Jamb flashing (overlapping the sill), and finally Head flashing (overlapping the jambs)."
+    ],
+    "modalData": {
+      "title": "Windows, Doors, Hatches & Skylights",
+      "iconName": "Eye",
+      "iconColor": "text-sky-400",
+      "definition": "Access detailed NBC reference guides for rough openings, flashing, and egress. Includes jobsite processes like framing rough openings 12mm to 25mm (1/2 in to 1 in) larger than the unit, pre-sloping the rough sill, and insulating the interior gap with low-expansion foam.",
+      "exampleCase": "Reference NBC 9.9.10.1 to confirm every bedroom MUST have an egress window providing an unobstructed opening of not less than 0.35 m\u00b2 (3.77 sq ft) with no single dimension less than 380mm (15 in). Alternatively, reference NBC 9.27.3.8 for mandatory flashing at horizontal junctions.",
+      "proTip": "Never tape or seal the bottom exterior nailing flange; if water breaches the siding, it needs a gravity escape route out the bottom of the rough sill. EXAM TRAPS: Flashing must ALWAYS be applied in 'shingle fashion' (Sill Pan, then Jambs, then Head) to shed water away from the building envelope. Also, always memorize the exact egress minimums: 0.35 m\u00b2 (3.77 sq ft) total area AND 380mm (15 in) minimum dimension."
+    },
+    "iconBgClass": "bg-orange-500"
+  },
+  {
+    "id": "rain_screens_flashing",
+    "category": "Building Envelope",
+    "title": "Rain Screens & Flashing",
+    "subTitle": "Capillary Breaks, Weep Holes & Water Management",
+    "image": "blueprint_rainscreen",
+    "jobsiteProcess": "Water management relies on the \"shingle principle\"\u2014every upper layer must overlap the lower layer to shed bulk water outward. Because no cladding is 100% waterproof, a rain screen assembly is required. By installing vertical strapping (typically 1x3s) over the weather barrier, a continuous 10mm airspace (capillary break) is created. This gap serves two critical functions: it allows any bulk water that penetrates the siding to drain safely away, and it equalizes air pressure to prevent wind-driven rain from being sucked into the wall cavity. Metal flashing must be installed at all horizontal interruptions (windows, doors, deck ledgers) and tucked behind the weather barrier.",
+    "codeRequirements": [
+      "NBC 9.27.2.4: A capillary break (rain screen airspace) of not less than 10mm (3/8\") deep must be provided behind the cladding to allow for drainage and ventilation.",
+      "NBC 9.27.3.8: Flashing shall be installed at exterior openings (doors and windows) and must extend not less than 50mm (2\") upward behind the sheathing membrane.",
+      "NBC 9.27.2.2: Exterior cladding must have a minimum clearance of 200mm (8\") from the finished ground to prevent rot and insect damage."
+    ],
+    "journeymanProTip": "Put the caulking gun down! One of the most common deficiencies on a jobsite is an overzealous apprentice caulking the horizontal gap between the bottom of the siding and the window head flashing. If you seal that gap, the rain screen cannot drain, and water will back up into the wall assembly causing catastrophic rot. Always leave the bottom of a drainage plane open!",
+    "modalData": {
+      "title": "Rain Screens & Flashing",
+      "iconName": "Droplets",
+      "iconColor": "text-blue-500",
+      "definition": "Access detailed NBC reference guides for capillary breaks, weep holes, and water management.",
+      "exampleCase": "Reference NBC 9.27.2.4 requiring a capillary break of not less than 10mm behind the cladding.",
+      "proTip": "Put the caulking gun down! One of the most common deficiencies on a jobsite is an overzealous apprentice caulking the horizontal gap between the bottom of the siding and the window head flashing. If you seal that gap, the rain screen cannot drain, and water will back up into the wall assembly causing catastrophic rot. Always leave the bottom of a drainage plane open!"
+    },
+    "iconBgClass": "bg-orange-500"
+  },
+  {
+    "id": "exterior_finish",
+    "category": "Exterior Envelope",
+    "title": "Siding, Soffit & Fascia",
+    "subTitle": "Rain Screens, Cladding & Attic Ventilation",
+    "image": "blueprint_exterior_finish",
+    "jobsiteProcess": "1. WEATHER BARRIER: Apply a weather-resistant barrier (e.g., house wrap) starting from the bottom, lapping horizontal seams by at least 100mm (4 in) and vertical seams by 150mm (6 in).  \n\n2. RAIN SCREEN: Install vertical 1x3 strapping directly over the studs to create a minimum 10mm (3/8 in) 'rain screen' capillary break. This crucial air space allows trapped moisture to drain.  \n\n3. SIDING & OVERHANGS: Fasten the siding to the strapping. For the roof overhang, install the aluminum or wood fascia board covering the sub-fascia, then install vented soffit panels underneath the eaves.  \n\n4. VENTILATION: Ensure intake air can flow through the vented soffit up into the attic space. Verify that insulation baffles are installed so the vital roof airflow isn't choked off.",
+    "codeRequirements": [
+      "NBC 9.27.2.2 (Weather Barrier): A sheathing membrane is required beneath siding unless the cladding itself acts as the primary weather barrier (like sealed metal panels). It must be lapped 100mm (4 in) horizontally and 150mm (6 in) vertically.",
+      "NBC 9.27.2.4 (Rain Screen): In areas with high moisture index, a capillary break (air space of at least 10mm (3/8 in)) must be installed between the cladding and the sheathing membrane to allow drainage.",
+      "NBC 9.19.1.1 (Attic Ventilation): The total unobstructed vent area must be at least 1/300 of the insulated ceiling area. For low-slope roofs (under 1-in-6), the requirement increases to 1/150. Intake (soffit) and exhaust (ridge/roof) vents should be balanced.",
+      "NBC 9.27.5.4 (Siding Clearance): Wood, hardboard, and fiber-cement siding must have a minimum clearance of 200mm (8 in) from finished ground level to prevent rot and termite access."
+    ],
+    "journeymanProTip": "Vinyl siding hangs; it is not nailed tight! When installing vinyl, center your nail in the horizontal slot and leave the nail head out about 1/16 of an inch (roughly the thickness of a dime). Vinyl expands and contracts massively with temperature changes. If you nail it tight to the wall, it will buckle and look like a roller coaster on the first hot summer day.",
+    "modalData": {
+      "title": "Siding, Soffit & Fascia",
+      "iconName": "Wind",
+      "iconColor": "text-sky-500",
+      "definition": "Access detailed NBC reference guides for rain screens, cladding, and attic ventilation. Includes jobsite processes like applying a weather-resistant barrier lapped 100mm (4 in) horizontally and 150mm (6 in) vertically, installing 1x3 strapping to create a minimum 10mm (3/8 in) rain screen capillary break, and ensuring intake air can flow through vented soffit panels up into the attic space using insulation baffles.",
+      "exampleCase": "Reference NBC 9.27.2.2 which requires a sheathing membrane beneath siding lapped 100mm (4 in) horizontally and 150mm (6 in) vertically. NBC 9.27.2.4 requires a capillary break (rain screen) in areas with a high moisture index. Additionally, NBC 9.27.5.4 mandates that wood, hardboard, and fiber-cement siding must have a minimum clearance of 200mm (8 in) from finished ground level to prevent rot and termite access.",
+      "proTip": "Vinyl siding hangs; it is not nailed tight! When installing vinyl, center your nail in the horizontal slot and leave the nail head out about 1/16 of an inch (roughly the thickness of a dime). Vinyl expands and contracts massively with temperature changes. If you nail it tight to the wall, it will buckle and look like a roller coaster on the first hot summer day."
+    },
+    "iconBgClass": "bg-orange-500"
+  },
+  {
+    "id": "thermal_insulation",
+    "category": "Building Envelope",
+    "title": "Thermal Insulation",
+    "subTitle": "R-Values, RSI & Thermal Bridging",
+    "image": "blueprint_insulation",
+    "jobsiteProcess": "Insulation works by trapping tiny pockets of dead air. When installing friction-fit batts, they must be cut to fit the stud cavity perfectly. Do not compress the insulation behind wires or pipes; split the batt so half goes behind the wire and half goes in front. To combat \"thermal bridging\" (where solid wood studs conduct heat directly out of the building), modern assemblies increasingly rely on Continuous Insulation (CI)\u2014typically rigid XPS or EPS foam boards installed on the exterior side of the sheathing to wrap the entire building in a thermal break.",
+    "codeRequirements": [
+      "NBC 9.25.2.3: Insulation shall be installed so that there is a continuous thermal barrier to minimize heat transfer through the building envelope.",
+      "NBC 9.25.2.4: Insulation must be installed so it is in substantial and continuous contact with the air barrier to prevent convective airflow bypass.",
+      "NBC 9.25.2.2: Thermal resistance (RSI / R-Value) requirements vary by climate zone and heating equipment type. RSI is the metric measurement (m\u00b2\u00b7K/W), while R-Value is imperial."
+    ],
+    "journeymanProTip": "More is not always better! Stuffing a thick R-20 fiberglass batt into a shallow 2x4 (R-12) cavity actually LOWERS its effective R-value because you are squeezing out all the trapped air that does the actual insulating. Never compress fiberglass or mineral wool. For tight gaps around windows and doors, use a low-expansion polyurethane spray foam instead of stuffing scrap fiberglass into the crack.",
+    "modalData": {
+      "title": "Thermal Insulation",
+      "iconName": "Thermometer",
+      "iconColor": "text-orange-500",
+      "definition": "Access detailed NBC reference guides for R-Values, RSI, and thermal bridging.",
+      "exampleCase": "Reference NBC 9.25.2.3 requiring a continuous thermal barrier, and NBC 9.25.2.4 requiring insulation to be in continuous contact with the air barrier.",
+      "proTip": "More is not always better! Stuffing a thick R-20 fiberglass batt into a shallow 2x4 (R-12) cavity actually LOWERS its effective R-value because you are squeezing out all the trapped air that does the actual insulating. Never compress fiberglass or mineral wool. For tight gaps around windows and doors, use a low-expansion polyurethane spray foam instead of stuffing scrap fiberglass into the crack."
+    },
+    "iconBgClass": "bg-orange-500"
+  },
+  {
+    "id": "vapour_air_barriers",
+    "category": "Building Envelope",
+    "title": "Vapour & Air Barriers",
+    "subTitle": "6-Mil Poly, House Wrap & Acoustic Sealant",
+    "image": "blueprint_barriers",
+    "jobsiteProcess": "The building envelope requires two distinct protective layers: an exterior air barrier and an interior vapour barrier. The exterior air barrier (like Tyvek) stops wind and bulk water but is highly permeable, allowing trapped moisture vapour to escape outward. Conversely, the interior vapour barrier (6-mil polyethylene) is completely impermeable. It must be installed on the warm-in-winter side of the insulation to prevent warm, humid indoor air from diffusing into the cold wall cavity and condensing on the back of the sheathing. Every overlapping seam of the 6-mil poly, as well as all perimeters and electrical box penetrations, must be bedded in a continuous bead of non-hardening acoustic sealant.",
+    "codeRequirements": [
+      "NBC 9.25.3.1: Air barrier systems shall be installed to provide a continuous barrier to air leakage throughout the building envelope.",
+      "NBC 9.25.4.1: Vapour barriers shall be installed to protect the assembly from condensation.",
+      "NBC 9.25.4.3: Vapour barriers must be installed sufficiently close to the warm side (warm-in-winter side) of the insulated assembly to prevent condensation."
+    ],
+    "journeymanProTip": "Never create a \"double vapour barrier\" sandwich! If you trap a wood framed wall between two impermeable layers (like 6-mil poly on the inside and foil-faced rigid foam tightly sealed on the outside without a drying path), any moisture that gets in can never dry out. The wall will rot from the inside. Always ensure the envelope has a direction to breathe and dry.",
+    "modalData": {
+      "title": "Vapour & Air Barriers",
+      "iconName": "Wind",
+      "iconColor": "text-sky-500",
+      "definition": "Access detailed NBC reference guides for 6-mil poly, house wrap, and acoustic sealant.",
+      "exampleCase": "Reference NBC 9.25.3.1 for continuous air barriers and NBC 9.25.4.3 for vapour barriers on the warm side of insulation.",
+      "proTip": "Never create a \"double vapour barrier\" sandwich! If you trap a wood framed wall between two impermeable layers (like 6-mil poly on the inside and foil-faced rigid foam tightly sealed on the outside without a drying path), any moisture that gets in can never dry out. The wall will rot from the inside. Always ensure the envelope has a direction to breathe and dry."
+    },
+    "iconBgClass": "bg-orange-500"
+  },
+  {
+    "id": "fire_separations",
+    "category": "Safety & Envelope",
+    "title": "Fire Separations",
+    "subTitle": "FRR, Concealed Spaces & Draft Stops",
+    "image": "blueprint_fire",
+    "jobsiteProcess": "A fire separation acts as a physical barrier to delay the spread of fire and smoke between suites or hazards. This requires specific assemblies, typically utilizing 5/8\" Type X drywall (which contains glass fibers to hold the core together under extreme heat) and tightly fitted fire-blocking. All penetrations (plumbing, wires, ducts) running through a fire separation must be sealed with an approved intumescent fire caulking that expands when heated.",
+    "codeRequirements": [
+      "NBC 9.10.9.14: Fire separations between dwelling units (like a secondary suite) shall have a fire-resistance rating (FRR) of not less than 45 minutes to 1 hour depending on the assembly.",
+      "NBC 9.10.16.1: Fire blocks are required in concealed spaces (like bulkheads, drop ceilings, and coved walls) to prevent flames from traveling undetected through framing cavities."
+    ],
+    "journeymanProTip": "Know the difference between a Fire Separation and a Firewall! A Fire Separation is just an assembly that delays fire (like a drywall party wall). A true Firewall is structurally independent\u2014meaning if the building on one side burns down and collapses, the firewall remains standing to protect the adjacent building.",
+    "tags": [
+      "SAFETY & ENVELOPE",
+      "NBC PART 9"
+    ],
+    "modalData": {
+      "title": "Fire Separations",
+      "iconName": "Flame",
+      "iconColor": "text-orange-500",
+      "definition": "Access detailed NBC reference guides for FRR, concealed spaces & draft stops.",
+      "exampleCase": "Reference NBC 9.10.9.14 for fire separations between dwelling units.",
+      "proTip": "Know the difference between a Fire Separation and a Firewall! A Fire Separation is just an assembly that delays fire (like a drywall party wall). A true Firewall is structurally independent\u2014meaning if the building on one side burns down and collapses, the firewall remains standing to protect the adjacent building."
+    },
+    "iconBgClass": "bg-purple-500"
+  },
+  {
+    "id": "interior_finishes",
+    "category": "Interior Finishes",
+    "title": "Drywall & Millwork",
+    "subTitle": "Gypsum, Doors, Trim & Cabinetry",
+    "image": "blueprint_interior",
+    "jobsiteProcess": "Interior finishing requires tight tolerances. Drywall (gypsum board) must be fastened with specifically sized screws to avoid popping. When hanging doors, the jamb must be installed perfectly plumb, level, and square within the rough opening using wood shims. Always place solid shims directly behind the hinge locations to prevent the heavy door slab from sagging over time. Interior trim and baseboards cover these gaps and expansion joints.",
+    "codeRequirements": [
+      "NBC 9.29.5: Gypsum board applied to ceilings must be fastened at maximum 300mm (12\") intervals. Wall application allows up to 400mm (16\") intervals if supports are 16\" O.C.",
+      "NBC 9.6.1: Doors and glass installations in hazardous locations (like shower enclosures, stairs, or large glass sidelights) must utilize safety glass (tempered or laminated)."
+    ],
+    "journeymanProTip": "Cope your inside corners! Houses move, settle, and shrink. If you simply miter (45-degree cut) your inside baseboard corners, that joint will eventually pull apart and look terrible. By cutting a coped joint, one piece of trim slides over the profile of the other, allowing the corner to absorb movement without ever showing a gap.",
+    "tags": [
+      "INTERIOR FINISHES",
+      "NBC PART 9"
+    ],
+    "modalData": {
+      "title": "Drywall & Millwork",
+      "iconName": "Paintbrush",
+      "iconColor": "text-purple-500",
+      "definition": "Access detailed NBC reference guides for gypsum, doors, trim & cabinetry.",
+      "exampleCase": "Reference NBC 9.29.5 for gypsum board fastening intervals.",
+      "proTip": "Cope your inside corners! Houses move, settle, and shrink. If you simply miter (45-degree cut) your inside baseboard corners, that joint will eventually pull apart and look terrible. By cutting a coped joint, one piece of trim slides over the profile of the other, allowing the corner to absorb movement without ever showing a gap."
+    },
+    "iconBgClass": "bg-purple-500"
+  },
+  {
+    "id": "commercial_doors",
+    "category": "Interior Finishes",
+    "title": "Commercial Doors & Hardware",
+    "subTitle": "STEEL FRAMES, PANIC BARS & CLOSERS",
+    "iconBgClass": "bg-purple-500",
+    "image": "blueprint_doors",
+    "jobsiteProcess": "Commercial door installation is highly specialized. Steel door frames (pressed steel frames) are often installed before the drywall and are tied directly into the steel studs, sometimes filled with grout for security and fire resistance. The hardware includes panic bars (which must release the latch when pushed, with no turning required) and heavy-duty pneumatic closers that must be perfectly templated and adjusted for proper sweep and latch speeds.",
+    "codeRequirements": [
+      "NBC 3.4.6.16: Doors serving an occupant load of more than 100 persons must be equipped with panic hardware that unlatches under a force of not more than 90 N (20 lbs).",
+      "NBC 3.1.8.11: Fire doors must be self-closing and positive-latching. They can never be held open by wood wedges or mechanical stops."
+    ],
+    "journeymanProTip": "When adjusting a commercial door closer, remember it has multiple valves! The 'Sweep' valve controls the main closing speed, but the 'Latch' valve controls the final 10 degrees. You want the door to swing smoothly to close, but you need enough force on the latch speed to overcome the air pressure in the room and actually click the strike plate shut.",
+    "tags": [
+      "INTERIOR FINISHES",
+      "FIRE CODE"
+    ],
+    "modalData": {
+      "title": "Commercial Doors & Hardware",
+      "iconName": "Construction",
+      "iconColor": "text-purple-500",
+      "definition": "Access detailed NBC reference guides for steel frames, panic bars & closers.",
+      "exampleCase": "Reference NBC 3.4.6.16 requiring panic hardware for doors serving occupant loads > 100.",
+      "proTip": "When adjusting a commercial door closer, remember it has multiple valves! The 'Sweep' valve controls the main closing speed, but the 'Latch' valve controls the final 10 degrees. You want the door to swing smoothly to close, but you need enough force on the latch speed to overcome the air pressure in the room and actually click the strike plate shut."
+    }
+  },
+  {
+    "id": "casework_millwork",
+    "category": "Interior Finishes",
+    "title": "Cabinets & Casework",
+    "subTitle": "INSTALLATION, SHIMS & SCRIBING",
+    "iconBgClass": "bg-purple-500",
+    "image": "blueprint_casework",
+    "jobsiteProcess": "Finish carpentry requires compensating for framing that is never perfectly straight. Before drywall goes up, solid wood blocking should be installed at the exact cabinet fastening heights. When installing casework, you must find the highest spot on the floor and level all base cabinets to that point using shims. End panels (stiles) must often be scribed\u2014tracing the exact contour of an uneven wall onto the wood and cutting it so the cabinet sits perfectly flush against the drywall with no gaps.",
+    "codeRequirements": [
+      "Design Standards: Standard residential base cabinets are 34.5\" tall without a countertop (yielding a 36\" finished height) and 24\" deep. Upper cabinets are typically installed 18\" above the finished countertop.",
+      "Safety Standards: Upper cabinets must be securely fastened to structural framing members (studs or blocking), not just anchored into the drywall."
+    ],
+    "journeymanProTip": "Always install the upper cabinets first! Trying to lift and hold heavy upper cabinets in place by leaning over newly installed, expensive base cabinets is a recipe for back pain and damaged woodwork. Set your ledger board on the wall, hang the uppers, and then slide the base cabinets underneath.",
+    "tags": [
+      "INTERIOR FINISHES",
+      "AWMAC STANDARDS"
+    ],
+    "modalData": {
+      "title": "Cabinets & Casework",
+      "iconName": "Construction",
+      "iconColor": "text-purple-500",
+      "definition": "Access detailed NBC reference guides for installation, shims & scribing.",
+      "exampleCase": "Reference Safety Standards for anchoring upper cabinets to structural framing.",
+      "proTip": "Always install the upper cabinets first! Trying to lift and hold heavy upper cabinets in place by leaning over newly installed, expensive base cabinets is a recipe for back pain and damaged woodwork. Set your ledger board on the wall, hang the uppers, and then slide the base cabinets underneath."
+    }
+  },
+  {
+    "id": "suspended_ceilings",
+    "category": "Interior Finishes",
+    "title": "Suspended Ceilings",
+    "subTitle": "T-BAR, MAIN TEES & SEISMIC BRACING",
+    "iconBgClass": "bg-purple-500",
+    "image": "blueprint_ceiling",
+    "jobsiteProcess": "Suspended acoustic ceilings (T-bar) hide heavy commercial mechanical systems while providing easy maintenance access. The grid is established by shooting a laser level around the room and installing the wall molding. Main tees are suspended directly from the upper deck using 12-gauge hanger wires spaced exactly 4 feet apart. Cross tees are then snapped into the main tees to create the 2x2 or 2x4 grid grid.",
+    "codeRequirements": [
+      "Installation Standards: Hanger wires must be perfectly plumb. If a wire is out of plumb by more than 1 in 6, it requires additional splay bracing to prevent the grid from shifting sideways.",
+      "Seismic Codes: In earthquake zones, suspended ceilings require rigorous seismic upgrades, including heavy-duty grid systems, compression struts to prevent upward bouncing, and slack wires attached directly to the lighting fixtures."
+    ],
+    "journeymanProTip": "Always balance your border cuts! Never start your grid with a full tile on one wall, leaving a tiny 2-inch sliver of a tile on the opposite wall. Measure the total room width, divide by the tile size, and center the layout so the cut tiles on both opposing borders are exactly the same size. It takes 10 minutes of math but saves the entire look of the room.",
+    "tags": [
+      "INTERIOR FINISHES",
+      "COMMERCIAL"
+    ],
+    "modalData": {
+      "title": "Suspended Ceilings",
+      "iconName": "Construction",
+      "iconColor": "text-purple-500",
+      "definition": "Access detailed NBC reference guides for T-bar, main tees & seismic bracing.",
+      "exampleCase": "Reference Seismic Codes for suspended ceiling requirements in earthquake zones.",
+      "proTip": "Always balance your border cuts! Never start your grid with a full tile on one wall, leaving a tiny 2-inch sliver of a tile on the opposite wall. Measure the total room width, divide by the tile size, and center the layout so the cut tiles on both opposing borders are exactly the same size. It takes 10 minutes of math but saves the entire look of the room."
+    }
+  },
+  {
+    "id": "decks",
+    "category": "Exterior Structures",
+    "title": "Decks & Deck Railings",
+    "subTitle": "Ledgers, Posts, Guards & Cantilevers",
+    "image": "blueprint_decks",
+    "jobsiteProcess": "Excavate footings below the local frost line (typically 1.2m / 4 ft) and pour concrete piers with embedded heavy-duty post saddles. Strip the house siding to expose the rim joist and install the ledger board using staggered lag screws or through-bolts, heavily sealing the connection with galvanized or PVC Z-flashing to prevent water ingress into the house envelope. Install built-up beams on the post saddles and hang the joists using approved galvanized structural joist hangers. Apply butyl joist tape over the tops of all joists before laying decking to prevent rot. For guards, block and through-bolt the 4x4 posts inside the rim joist framing\u2014do not surface-mount or notch the posts. Finally, assemble the railings ensuring they meet horizontal load requirements and strict spindle spacing.",
+    "codeRequirements": [
+      "NBC 9.23.6.1 (Ledgers): Ledger boards must not be fastened over siding or masonry veneer. They must be directly attached to the house's structural floor framing using lag screws or through-bolts. Nails are strictly forbidden for ledger attachment.",
+      "NBC 9.8.8.3 (Guard Heights): Guards must be a minimum of 900mm (3 ft) (36 in) high for decks serving a single dwelling unit where the walking surface is less than 1800mm (6 ft) above grade. If the deck is more than 1800mm above grade, the guard must be at least 1070mm (42 in) high.",
+      "NBC 9.8.8.5 (Climbability): For decks higher than 600mm (24 in) above grade, guards must be designed so that no horizontal member or attachment between 140mm (5.5 in) and 900mm (3 ft) facilitates climbing.",
+      "NBC 9.8.8.6 (Openings): Openings in guards must be small enough to prevent the passage of a spherical object with a diameter of 100mm (4 in).",
+      "NBC 9.23.9.9 (Cantilevers): Exterior balcony and deck joist cantilevers generally should not exceed 400mm (16 in) for standard 2x8 SPF framing without specific engineering approval."
+    ],
+    "journeymanProTip": [
+      "EXAM TRAP: Never notch a 4x4 guardrail post to make it fit around the rim joist! Notching a 4x4 down to 2 inches creates a massive weak point exactly where the leverage force is highest. Keep the post full-size, drop it completely inside the framing, and use heavy structural tension ties bolted directly to the adjacent deck joists.",
+      "EXAM TRAP: Ledger boards must NEVER be attached with nails, and they must NEVER be fastened over top of existing siding or masonry veneer. They must be directly lagged or bolted to the house's structural rim joist.",
+      "Always apply butyl joist tape to the top of your deck joists before installing the decking. The top edge of a joist is where water sits and rot begins. This one step can add decades to the life of a treated wood deck."
+    ],
+    "modalData": {
+      "title": "Decks & Deck Railings",
+      "iconName": "Fence",
+      "iconColor": "text-amber-700",
+      "definition": "Access detailed NBC reference guides for ledgers, posts, guards, and cantilevers. Includes jobsite processes like excavating footings below the local frost line (typically 1.2m / 4 ft), stripping siding to install ledger boards with Z-flashing, and blocking 4x4 posts completely inside the rim joist framing.",
+      "exampleCase": "Reference NBC 9.23.6.1 to confirm ledger boards must be directly attached to the structural floor framing using lag screws or through-bolts (nails are strictly forbidden). Check NBC 9.8.8.3 for guard heights: a minimum of 900mm (36 in / 3 ft) for decks less than 1800mm (6 ft) above grade, and at least 1070mm (42 in) for decks higher than 1800mm.",
+      "proTip": "Always apply butyl joist tape to the top of your deck joists before installing decking to prevent rot. EXAM TRAPS: Never notch a 4x4 guardrail post to fit around a rim joist\u2014drop it completely inside the framing full-size and through-bolt it. Additionally, ledger boards must NEVER be fastened over top of existing siding or masonry veneer."
+    },
+    "iconBgClass": "bg-slate-500"
+  },
+  {
+    "id": "docks_boathouses",
+    "category": "Exterior & Framing",
+    "title": "Docks & Boathouses",
+    "subTitle": "Cribs, Piles, Floating & Marine Rails",
+    "image": "blueprint_docks_boathouses",
+    "jobsiteProcess": "FOR CRIB DOCKS: Construct interlocking timber cribs (typically 6x6 or 8x8 treated timbers) using heavy galvanized structural lags or spikes. Scribe the bottom timbers to match the lakebed profile, or build the cribs on the winter ice directly over the drop zone. Sink the cribs using clean, washed fieldstone (never dirt or shale) and frame the superstructure on top.\n\nFOR FLOATING DOCKS: Frame the deck structure using heavy galvanized inside/outside corner hardware. Attach encapsulated foam floats (never raw bead-board) to the underside. Moor the dock using heavy chain and concrete anchors crossed in an 'X' pattern.\n\nFOR BOATHOUSES: Drive steel pipe piles to refusal (bedrock) or build on rock-filled cribs. Frame the boathouse superstructure to standard NBC specs, ensuring heavy shear-wall bracing to resist high wind loads coming off the open water.",
+    "codeRequirements": [
+      "Environmental Permits (MNRF/DFO): In-water work is strictly regulated. In Canada, approvals from provincial ministries (e.g., MNRF) and Fisheries and Oceans Canada (DFO) are often mandatory before placing any fill, rock, or cribs on a lakebed.",
+      "Material Specifications: Wood submerged or in direct contact with fresh water must be pressure-treated for aquatic environments (e.g., ACQ-treated). Creosote or raw EPS foam (which degrades and harms wildlife) is widely prohibited.",
+      "NBC 9.4.4.1 (Foundation Anchorage): Boathouse superstructures must be securely anchored to their cribs or piles to resist severe wind uplift and lateral wave/ice forces.",
+      "Ice Jacking Prevention: Pile foundations in freezing climates must be driven below the frost line in the lakebed or pinned directly to bedrock. Piles should be smooth (steel or PVC-sleeved) to prevent ice from gripping and lifting the structure during spring thaw."
+    ],
+    "journeymanProTip": "Ice is your biggest enemy on a waterfront build! 'Ice-jacking' happens when the lake freezes around your dock posts, the water level rises, and the ice rips the posts straight out of the lakebed. Use smooth steel pipe for posts, or angle the front face of your timber cribs so the expanding ice rides *up* the side of the crib instead of crushing or lifting it. Also, ALWAYS use hot-dipped galvanized or stainless steel hardware\u2014standard zinc screws will rust out in a single season near the water.",
+    "modalData": {
+      "title": "Docks & Boathouses",
+      "iconName": "Anchor",
+      "iconColor": "text-teal-500",
+      "definition": "Access detailed reference guides for cribs, piles, floating docks, and marine rails. Includes jobsite processes like constructing interlocking timber cribs (6x6 or 8x8) sunk with clean washed fieldstone, framing floating docks with encapsulated foam (never raw bead-board), and driving steel pipe piles to bedrock for boathouses.",
+      "exampleCase": "Environmental permits are mandatory: In-water work is strictly regulated in Canada, requiring approvals from provincial ministries (e.g., MNRF) and Fisheries and Oceans Canada (DFO) before placing fill or cribs. Additionally, pile foundations in freezing climates must be driven below the frost line in the lakebed or pinned directly to bedrock.",
+      "proTip": "Ice is your biggest enemy on a waterfront build! To prevent 'ice-jacking' (where rising ice rips posts out of the lakebed), use smooth steel pipe for posts, or angle the front face of timber cribs so expanding ice rides *up* instead of lifting it. EXAM TRAPS: ALWAYS use hot-dipped galvanized or stainless steel hardware\u2014standard zinc screws will rust out in a single season. Also, boathouse superstructures require heavy shear-wall bracing to resist high wind loads coming off open water."
+    },
+    "iconBgClass": "bg-slate-500"
+  },
+  {
+    "id": "structural_renovations",
+    "category": "Superstructure",
+    "title": "Structural Renovations",
+    "subTitle": "Shoring, LVLs & Load-Bearing Removals",
+    "image": "blueprint_renovations",
+    "jobsiteProcess": "Before removing any suspected load-bearing wall, trace the load path from the roof down to the foundation. Construct temporary shoring walls (using 2x4s or 2x6s) on BOTH sides of the wall being removed, directly transferring the ceiling/roof load down to a solid bearing point below. Carefully demolish the existing wall framing. Construct the new structural beam (often built-up LVLs or a flitch plate beam) according strictly to the engineer's span chart. Jack the beam tightly into place to prevent future ceiling sag. Install the required solid wood or steel jack studs (trimmers) down to the bottom plate, ensuring the point load transfers directly to a foundation footing or steel telepost in the basement.",
+    "codeRequirements": [
+      "NBC 9.23.4.2 (Spans): Replacing a load-bearing wall with a flush or drop beam requires sizing the beam based on strict span tables or an engineer's stamp. Built-up wood beams must have joints staggered by at least one stud spacing.",
+      "NBC 9.23.9.8 (Point Loads): The massive weight concentrated at the ends of a structural beam (point loads) must be transferred directly down to a concrete footing or pier. You cannot land a point load directly on a hollow floor joist cavity.",
+      "NBC 9.23.10.6 (Jack Studs): Beams must be supported by a minimum number of jack studs based on the span and supported load. An 8-foot opening may only require one jack stud per side, while a 15-foot opening might require three or four.",
+      "Safety (Shoring): Temporary shoring must remain in place and under tension until the new structural beam is fully installed, fastened, and the jack studs are locked in."
+    ],
+    "journeymanProTip": "When installing a flush LVL beam into an existing ceiling to open up a room, don't just cut the joists and slap them into hangers. Crown the new LVL, jack it up about 1/8 to 1/4 inch HIGHER than level, and then nail off your joist hangers. When you remove the temporary shoring walls, the beam will naturally settle and deflect slightly under the weight of the house. Pre-cambering it guarantees your ceiling stays perfectly flat instead of sagging!",
+    "modalData": {
+      "title": "Structural Renovations",
+      "iconName": "Wrench",
+      "iconColor": "text-indigo-600",
+      "definition": "Access detailed NBC reference guides for shoring, LVLs, and load-bearing removals. Includes jobsite processes like tracing the load path from roof to foundation, constructing temporary shoring walls (2x4s or 2x6s) on BOTH sides of the wall being removed, and jacking the new structural beam tightly into place. Also covers transferring point loads directly to a foundation footing or steel telepost using solid wood or steel jack studs.",
+      "exampleCase": "Reference NBC 9.23.4.2 requiring replacement beams to be sized based on strict span tables or an engineer's stamp, with built-up wood beam joints staggered by at least one stud spacing. NBC 9.23.9.8 requires massive point loads at beam ends to transfer directly to concrete (e.g., a 15-foot opening might require three or four jack studs). For Safety, temporary shoring must remain under tension until the new beam and jack studs are fully locked in.",
+      "proTip": "When installing a flush LVL beam into an existing ceiling to open up a room, don't just cut the joists and slap them into hangers. Crown the new LVL, jack it up about 1/8 to 1/4 inch HIGHER than level, and then nail off your joist hangers. When you remove the temporary shoring walls, the beam will naturally settle and deflect slightly under the weight of the house. Pre-cambering it guarantees your ceiling stays perfectly flat instead of sagging!"
+    },
+    "iconBgClass": "bg-slate-500"
+  }
+]

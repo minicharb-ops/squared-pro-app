@@ -1,0 +1,25 @@
+{
+  "W-1": {
+    "Type": "CASEMENT",
+    "Frame": "VINYL (WHITE)",
+    "Glass": "LOW-E2 DUAL PANE",
+    "Nominal Size": "36\" x 48\"",
+    "Rough Opening": "36 1/2\" x 48 1/2\"",
+    "Lintel/Header": "3-2x10 SPF No. 2"
+  },
+  "W-2": {
+    "Type": "HORIZONTAL SLIDER",
+    "Frame": "VINYL (WHITE)",
+    "Glass": "LOW-E DUAL PANE",
+    "Nominal Size": "48\" x 36\"",
+    "Rough Opening": "48 1/2\" x 36 1/2\"",
+    "Lintel/Header": "2-2x10 SPF No. 2"
+  },
+  "D-1": {
+    "Type": "EXTERIOR ENTRY",
+    "Frame": "METAL CLAD WOOD",
+    "Size": "36\" x 80\"",
+    "R.O.": "38 1/2\" x 82 1/2\"",
+    "Lintel": "4-2x10 SPF No. 1"
+  }
+}

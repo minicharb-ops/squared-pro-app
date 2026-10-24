@@ -1,0 +1,438 @@
+[
+  {
+    "term": "Bridging",
+    "definition": "Short pieces of lumber or metal installed diagonally or horizontally between floor joists to distribute loads, prevent twisting, and stiffen the floor system."
+  },
+  {
+    "term": "Chamfer",
+    "definition": "A beveled or angled edge connecting two adjacent surfaces, often used to prevent edge damage on concrete forms or finished timber."
+  },
+  {
+    "term": "Cripple Stud",
+    "definition": "A shortened framing member used above or below an opening, such as a window or door, to transfer loads to the sill or header."
+  },
+  {
+    "term": "Fascia",
+    "definition": "The horizontal board attached to the plumb-cut ends of rafters or trusses, often serving as the mounting point for eavestroughs (gutters)."
+  },
+  {
+    "term": "Kerf",
+    "definition": "The width of the channel or groove cut made by a saw blade. Calculating kerf is critical for precision finish carpentry."
+  },
+  {
+    "term": "Newel Post",
+    "definition": "The principal vertical supporting post at the top, bottom, or landing of a staircase that anchors the handrail and balustrade."
+  },
+  {
+    "term": "O.C. (On Center)",
+    "definition": "The standard measurement of spacing for framing members (studs, joists, rafters), measured from the exact center of one member to the center of the next."
+  },
+  {
+    "term": "Plumb",
+    "definition": "Perfectly vertical. A line or surface that is exactly perpendicular to a level, horizontal plane."
+  },
+  {
+    "term": "Riser",
+    "definition": "The vertical board or face forming the back of a step in a flight of stairs. NBC limits maximum riser height for safety."
+  },
+  {
+    "term": "Soffit",
+    "definition": "The exposed undersurface of any exterior overhead component of a building, most commonly the underside of a roof overhang or eaves."
+  },
+  {
+    "term": "Strongback",
+    "definition": "A stiffening framing member attached perpendicular to the top of ceiling joists to maintain spacing and distribute structural loads."
+  },
+  {
+    "term": "Stringer",
+    "definition": "The inclined structural framing member that supports the treads and risers of a staircase."
+  },
+  {
+    "term": "Tread",
+    "definition": "The horizontal stepping surface of a stair. NBC regulates the minimum run of a tread to ensure safe foot placement."
+  },
+  {
+    "term": "Vapour Barrier",
+    "definition": "A material, typically polyethylene sheeting, installed on the warm side of an exterior wall to retard the movement of moisture vapor into the building envelope."
+  },
+  {
+    "term": "Wane",
+    "definition": "A lumber grading defect characterized by the presence of bark or the absence of wood on the edge or corner of a piece of lumber."
+  },
+  {
+    "term": "Batter Boards",
+    "definition": "Temporary horizontal boards nailed to posts placed outside excavation lines, used to anchor and retain structural layout string lines."
+  },
+  {
+    "term": "Birdsmouth",
+    "definition": "A specialized notch cut into the bottom edge of a common rafter so it sits flat and secure on the wall double top plate."
+  },
+  {
+    "term": "Board Foot",
+    "definition": "A unit of lumber volume measurement equivalent to a board that is 1 inch thick, 12 inches wide, and 12 inches long (144 cubic inches)."
+  },
+  {
+    "term": "Coping",
+    "definition": "A joinery technique where the end profile of one molding is shaped using a coping saw to fit exactly over the face of an intersecting molding."
+  },
+  {
+    "term": "Deflection",
+    "definition": "The amount of vertical sag or displacement a horizontal structural member (joist, beam, rafter) experiences under design live or dead loads."
+  },
+  {
+    "term": "Heel Cut",
+    "definition": "The vertical plumb cut at the bottom end of a common rafter that determines rafter run, tail length, and fascia alignment."
+  },
+  {
+    "term": "ICF (Insulated Concrete Forms)",
+    "definition": "A system of interlocking modular expanded polystyrene blocks that are dry-stacked, reinforced with steel rebar, and filled with poured concrete."
+  },
+  {
+    "term": "King Stud",
+    "definition": "A full-length vertical framing wall stud nailed flush alongside a jack (trimmer) stud to stiffen window/door openings and carry headers."
+  },
+  {
+    "term": "LVL (Laminated Veneer Lumber)",
+    "definition": "An engineered composite wood product manufactured by adhesive-bonding thin veneers under heat, creating high-strength structural headers."
+  },
+  {
+    "term": "Level",
+    "definition": "Perfectly horizontal. A line, surface, or structural member that is completely parallel to the horizon."
+  },
+  {
+    "term": "Mudsill",
+    "definition": "The lowest horizontal lumber framing plate anchored directly to a concrete foundation wall with anchor bolts, serving as a deck platform base."
+  },
+  {
+    "term": "Plumb Cut",
+    "definition": "Any vertical cut made on a framing member (such as a rafter ridge or stair stringer head) when the member is in its final upright state."
+  },
+  {
+    "term": "Scaffolding",
+    "definition": "A temporary elevated metal or wood structural platform used to support tradespeople, tools, and materials during elevated work."
+  },
+  {
+    "term": "Shoring",
+    "definition": "Temporary structural supports (such as heavy timbers, columns, or hydraulic jacks) erected to support dead loads during wall demolition."
+  },
+  {
+    "term": "Slump Test",
+    "definition": "A standardized field test performed on freshly mixed wet concrete to measure workability, structural consistency, and water-to-cement ratio."
+  },
+  {
+    "term": "Underpinning",
+    "definition": "An engineering process of reinforcing, deepening, or extending the depth of an existing foundation to increase load capacity or basement depth."
+  },
+  {
+    "term": "Valley Rafter",
+    "definition": "The diagonal structural rafter forming the internal intersection where two descending roof slopes meet, carrying jack rafters."
+  },
+  {
+    "term": "WHMIS",
+    "definition": "The Workplace Hazardous Materials Information System; Canada's national standard for classifying, labeling, and SDS safety management."
+  },
+  {
+    "term": "Active State",
+    "definition": "The live mechanical or electronic state of dynamic site tools, calculators, or safety triggers undergoing real-time user operation."
+  },
+  {
+    "term": "Equilibrium Moisture Content (EMC)",
+    "definition": "The moisture content at which wood neither gains nor loses moisture from the surrounding air, determined by the relative humidity and temperature of the environment."
+  },
+  {
+    "term": "Hygroscopic",
+    "definition": "The physical property of wood that causes it to readily absorb or release moisture from the atmosphere in response to changes in relative humidity and temperature."
+  },
+  {
+    "term": "Honeycombing",
+    "definition": "An internal seasoning defect characterized by cellular separation and checking in the interior of the timber, typically caused by rapid kiln drying while the exterior remains intact."
+  },
+  {
+    "term": "Shake",
+    "definition": "A structural separation of wood fibers along the grain, usually occurring between or across the annual growth rings, often caused by wind stress on the living tree or during felling."
+  },
+  {
+    "term": "Check",
+    "definition": "A shallow, lengthwise separation of wood fibers across the annual growth rings, typically occurring on the exterior surface of lumber as it seasons and dries unevenly."
+  },
+  {
+    "term": "Bow",
+    "definition": "A warping defect characterized by a flat-wise curvature along the length of a board, where the face curves like a bow while the edges remain straight."
+  },
+  {
+    "term": "Crook",
+    "definition": "A warping defect characterized by a lengthwise curvature along the narrow edge of a board, causing the edge to curve while the faces remain flat."
+  },
+  {
+    "term": "Cup",
+    "definition": "A warping defect characterized by a crosswise curvature across the face of a board, causing the edges to be higher or lower than the center."
+  },
+  {
+    "term": "Twist",
+    "definition": "A severe warping defect where the four corners of a board no longer lie on the same flat plane, causing a spiral or corkscrew distortion along its length."
+  },
+  {
+    "term": "Fungi Decay Threshold",
+    "definition": "The critical moisture level (typically 20% to 30% moisture content) below which wood-destroying fungi cannot grow or survive, protecting wood from rot."
+  },
+  {
+    "term": "S-DRY",
+    "definition": "A grade stamp designation indicating the lumber was surfaced (planed) when its moisture content was at or below 19% (Surfaced Dry), minimizing subsequent in-service shrinkage."
+  },
+  {
+    "term": "S-GRN",
+    "definition": "A grade stamp designation indicating the lumber was surfaced (planed) while in a green state with a moisture content exceeding 19% (Surfaced Green), meaning it will shrink as it dries in service."
+  },
+  {
+    "term": "KD-19",
+    "definition": "A lumber grade stamp indicating the wood was Kiln Dried to a maximum moisture content of 19% under controlled conditions to eradicate pests and stabilize dimensions."
+  },
+  {
+    "term": "Heat Treated (HT)",
+    "definition": "A mandatory international stamp indicating the wood's core was heated to at least 56°C for 30 minutes to kill pests and pathogens, required for export lumber."
+  },
+  {
+    "term": "Fiber Saturation Point (FSP)",
+    "definition": "The theoretical moisture content (typically around 30% in softwoods) where all free water is gone from cell cavities but cell walls remain fully saturated with bound water, representing the threshold where wood begins to shrink or swell."
+  },
+  {
+    "term": "Hurricane Ties",
+    "definition": "Metal connector brackets engineered to resist severe wind uplift and lateral forces by tying rafters or floor trusses directly to the wall top plates."
+  },
+  {
+    "term": "Hold-downs",
+    "definition": "Heavy-duty structural steel brackets bolted to wood shear wall studs and anchored directly to the concrete foundation to resist overturning and uplift forces."
+  },
+  {
+    "term": "Wedge Anchors",
+    "definition": "Mechanical expansion fasteners designed to anchor structural wood or steel members to solid concrete by expanding a ring collar against the drilled hole walls as torque is applied."
+  },
+  {
+    "term": "Epoxy Doweling",
+    "definition": "The structural anchoring method of bonding steel reinforcing rebar or threaded rods into pre-drilled concrete boreholes using a two-part high-strength structural epoxy adhesive."
+  },
+  {
+    "term": "Carriage Bolt",
+    "definition": "A heavy structural bolt featuring a smooth, rounded dome head and a square shoulder underneath that bites into wood to prevent spinning when the nut is torqued."
+  },
+  {
+    "term": "Lag Screw",
+    "definition": "A heavy-duty wood fastener with a hexagonal head and coarse gimlet point threads, designed to be driven into pre-drilled pilot holes using a wrench or impact socket."
+  },
+  {
+    "term": "PL Premium",
+    "definition": "A high-performance, polyurethane-based construction adhesive offering three times the strength of traditional adhesives, providing excellent water resistance and structural bonding."
+  },
+  {
+    "term": "Acoustic Sealant",
+    "definition": "A synthetic rubberized sealant formulated to remain permanently flexible and non-skinning, used to seal joints and air paths in wall assemblies to prevent sound transmission."
+  },
+  {
+    "term": "Expansion Joint",
+    "definition": "A deliberate structural gap built between adjacent building sections to allow safe movement from thermal expansion, concrete shrinkage, or seismic activity without damaging materials."
+  },
+  {
+    "term": "Backer Rod",
+    "definition": "A flexible, compressible closed-cell foam rope inserted into expansion joints to control sealant depth, establish an hourglass profile, and prevent destructive three-sided adhesion."
+  },
+  {
+    "term": "T-Nut",
+    "definition": "A internally threaded steel sleeve with a flat pronged flange on one end, pressed into a pre-drilled hole in wood to provide a flush, high-strength metal thread."
+  },
+  {
+    "term": "Hanger Bolt",
+    "definition": "A headless fastener threaded with a coarse wood screw thread on one half and a fine machine thread on the other, used to attach steel hardware to wooden members."
+  },
+  {
+    "term": "Sleeve Anchor",
+    "definition": "An expansion fastener containing a threaded bolt surrounded by a metal sleeve that expands along its entire length when tightened, ideal for concrete, brick, or block masonry."
+  },
+  {
+    "term": "Threaded Rod",
+    "definition": "A continuous steel bar threaded from end to end, used in heavy timber construction for structural tension ties, hanging suspended HVAC/electrical systems, or deep foundation anchoring."
+  },
+  {
+    "term": "Split Ring Connector",
+    "definition": "A steel ring with a split split-ring design dapped into pre-grooved mating timber faces, designed to distribute high shear forces across a wide wood area to prevent localized split failure."
+  },
+  {
+    "term": "Builder's Level",
+    "definition": "An optical leveling instrument consisting of a high-power telescope mounted with a spirit level, used by carpenters to establish level lines, sight elevations, and measure grade differences across a site."
+  },
+  {
+    "term": "Transit",
+    "definition": "An optical survey instrument capable of measuring both horizontal and vertical angles, used for setting out building footprints, establishing vertical plumb lines on tall structures, and calculating slopes."
+  },
+  {
+    "term": "Powder-actuated Tool",
+    "definition": "A specialized fastening gun that uses a controlled gunpowder cartridge expansion to fire hardened steel drive pins or threaded studs directly into solid concrete or structural steel."
+  },
+  {
+    "term": "Biscuit Joiner",
+    "definition": "A specialized power tool used to cut crescent-shaped slots in mating wood edges, allowing compressed beechwood splines (biscuits) to be glued in place to align and reinforce butt joints."
+  },
+  {
+    "term": "Story Pole",
+    "definition": "A layout rod or wood strip marked with precise, full-scale vertical dimensions of a building, used as a master reference to ensure consistent heights for stairs, siding courses, framing plates, and window rough openings."
+  },
+  {
+    "term": "Plumb Bob",
+    "definition": "A heavy, pointed metal weight suspended from a line, utilizing gravity to establish an absolutely vertical reference line (plumb line) over long vertical distances."
+  },
+  {
+    "term": "Taper Jig",
+    "definition": "A guide device used on a table saw to safely cut straight, angled tapers along the edge of a wood workpiece by holding the piece at a precise angle relative to the rip fence."
+  },
+  {
+    "term": "Featherboard",
+    "definition": "A safety device featuring flexible wood or plastic fingers, clamped to a table saw or router table to hold a workpiece securely against the fence and table while preventing dangerous kickback."
+  },
+  {
+    "term": "Router Collet",
+    "definition": "A split metal sleeve that tightens down onto a router bit's cylindrical shank using a threaded nut, securing the bit firmly within the motor spindle."
+  },
+  {
+    "term": "Kerf",
+    "definition": "The width of the cut made by a saw blade as it passes through a piece of wood, determined by the thickness of the blade's body and the set of its teeth."
+  },
+  {
+    "term": "Riving Knife",
+    "definition": "A metal safety plate positioned directly behind a table saw blade that rises and falls with the blade, designed to prevent the cut kerf of wood from pinching the blade and causing kickback."
+  },
+  {
+    "term": "Dial Indicator",
+    "definition": "A high-precision measurement gauge with a dial face or digital readout, used to measure microscopic dimensional variances, run-out on saw spindles, or exact blade alignment."
+  },
+  {
+    "term": "Mortising Machine",
+    "definition": "A specialized workshop machine that cuts square holes or mortises in wood by combining a hollow square chisel with a spinning drill bit running inside it."
+  },
+  {
+    "term": "Drawknife",
+    "definition": "A traditional, two-handed woodworking hand tool with a long bevel-edged blade, used to quickly shave off wood, debark logs, or rough-shape timber by pulling it toward the operator."
+  },
+  {
+    "term": "Dovetail Jig",
+    "definition": "A mechanical template guide used with a router to cut perfectly matching male pins and female tails for strong, interlocking dovetail joints."
+  },
+  {
+    "term": "Elevation",
+    "definition": "A two-dimensional, scaled drawing showing the flat exterior or interior vertical faces of a building, illustrating materials, heights, door/window placements, and architectural treatments."
+  },
+  {
+    "term": "Section View",
+    "definition": "A cross-sectional drawing showing a vertical slice through a building or structural component, revealing internal construction details, structural layering, and vertical spacing."
+  },
+  {
+    "term": "Detail View",
+    "definition": "A high-magnification, large-scale drawing focusing on a specific assembly, joint, or intersection, illustrating precise dimensions, fasteners, and overlapping material assemblies."
+  },
+  {
+    "term": "Plot Plan",
+    "definition": "A scaled site drawing showing the exact footprint of a proposed building relative to property lines, setback requirements, utility easements, and topographical features."
+  },
+  {
+    "term": "Benchmark",
+    "definition": "A permanent, established reference point of known elevation on a jobsite from which all other vertical measurements, grading heights, and structural levels are determined."
+  },
+  {
+    "term": "Title Block",
+    "definition": "A standardized panel on a blueprint sheet containing critical metadata, including project name, sheet title, sheet number, revision history, scale, and professional engineering stamps."
+  },
+  {
+    "term": "Object Line",
+    "definition": "A heavy, solid line on a blueprint used to represent the visible, solid outlines and edges of an object, building element, or structural member."
+  },
+  {
+    "term": "Hidden Line",
+    "definition": "A medium-weight dashed line consisting of short dashes, used on drawings to represent edges, surfaces, or structural members that are concealed behind other materials in that view."
+  },
+  {
+    "term": "Hatching",
+    "definition": "A pattern of repeating lines or symbols used to fill an area on a drawing, indicating specific materials (such as concrete, wood grain, or brick) or representing cut surfaces in section views."
+  },
+  {
+    "term": "Reflected Ceiling Plan (RCP)",
+    "definition": "A technical drawing showing a plan view of the ceiling as if looking down at a mirror on the floor, used to coordinate light fixtures, HVAC diffusers, bulkheads, and ceiling finishes."
+  },
+  {
+    "term": "Callout",
+    "definition": "A symbol or brief textual label linked to an index code, directing the reader to a corresponding detail view, section view, or specification on another sheet."
+  },
+  {
+    "term": "Specification (Specs)",
+    "definition": "A comprehensive written document detailing the quality standards, execution procedures, material classes, and performance criteria for a construction project, overriding drawing notes in legal conflicts."
+  },
+  {
+    "term": "Dimension Line",
+    "definition": "A thin, continuous line terminated by arrows, slashes, or dots, showing the precise span of a measured space with numerical values written parallel to or centered on it."
+  },
+  {
+    "term": "Leader Line",
+    "definition": "A thin, inclined line with an arrow or dot pointing to a specific drawing element, used to link a note, dimension, or callout code to that exact feature."
+  },
+  {
+    "term": "Cutting-Plane Line",
+    "definition": "A heavy line with arrows at each end indicating the direction of view, used on plans or elevations to show the exact location and path of a vertical cross-section."
+  },
+  {
+    "term": "Slump Test",
+    "definition": "A standard on-site test measuring the consistency, workability, and fluid flow of a fresh batch of concrete by measuring how much a molded cone of concrete slumps or deforms after the metal cone mold is lifted."
+  },
+  {
+    "term": "Hydration",
+    "definition": "The exothermic chemical reaction that occurs when Portland cement is mixed with water, forming strong chemical bonds that bind aggregate particles together as the concrete cures and hardens over time."
+  },
+  {
+    "term": "Bleed Water",
+    "definition": "The excess mixing water that rises to the surface of freshly placed concrete as the heavier solid aggregate particles settle downward under the force of gravity."
+  },
+  {
+    "term": "Bull Float",
+    "definition": "A wide, flat tool with a long handle, used immediately after screeding to smooth the concrete surface, embed coarse aggregate, and bring paste to the surface for finishing."
+  },
+  {
+    "term": "Screed",
+    "definition": "A straight-edged board or tool (either manual or motorized) moved across newly poured concrete to strike off excess material and bring the surface to the correct grade."
+  },
+  {
+    "term": "Spalling",
+    "definition": "The chipping, flaking, or breaking away of a concrete surface, typically caused by freeze-thaw cycles, subgrade settlement, or corrosion of embedded reinforcing steel."
+  },
+  {
+    "term": "Honeycombing",
+    "definition": "A structural defect in concrete characterized by rough, voids-filled pockets where mortar paste failed to fully surround and fill the spaces between coarse aggregates, often caused by inadequate vibration."
+  },
+  {
+    "term": "Air-Entrained Concrete",
+    "definition": "Concrete that contains microscopic air bubbles intentionally introduced via an admixture, which provides expansion chambers for freezing water to prevent freeze-thaw cracking."
+  },
+  {
+    "term": "Retarder",
+    "definition": "A chemical admixture added to concrete to slow down the hydration process, extending setting times to allow more time for placement, consolidation, and finishing in hot weather."
+  },
+  {
+    "term": "Accelerator",
+    "definition": "A chemical admixture (such as calcium chloride) added to concrete to speed up the hydration process, accelerating setting times and early strength development, particularly in cold weather."
+  },
+  {
+    "term": "Plasticizer",
+    "definition": "Also known as a superplasticizer, a high-range water-reducing admixture that dramatically increases the workability and slump of concrete without adding excess water, maintaining high compressive strength."
+  },
+  {
+    "term": "Waler",
+    "definition": "A horizontal timber or steel beam clamped to the outer face of concrete wall forms to align the forms, distribute concrete pressure, and support vertical studs."
+  },
+  {
+    "term": "Strongback",
+    "definition": "A vertical framing member or brace clamped perpendicular to horizontal walers to provide lateral stiffness, prevent bowing, and maintain straight vertical alignment in concrete wall forms."
+  },
+  {
+    "term": "Chamfer Strip",
+    "definition": "A triangular piece of wood or plastic inserted into the interior corners of concrete forms to create a neat, beveled edge on the finished concrete, preventing sharp corners from chipping."
+  },
+  {
+    "term": "Form Tie",
+    "definition": "A steel rod or wire assembly passing through concrete forms to secure opposite wall forms against the outward hydrostatic pressure of wet concrete, left embedded in the concrete after forms are stripped."
+  }
+]

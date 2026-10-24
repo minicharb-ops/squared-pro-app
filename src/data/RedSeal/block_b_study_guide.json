@@ -1,0 +1,401 @@
+{
+  "block": "Block B",
+  "title": "Planning and Layout",
+  "examWeight": "Critically important phase representing approximately 10-15% of the Red Seal exam",
+  "nbcPart9References": [
+    {
+      "section": "NBC 9.12 / OBC Part 9",
+      "title": "Excavation and Footing Depths (Frost Protection)",
+      "rules": [
+        "Under NBC 9.12.2.2, all structural footings must sit below the local frost penetration depth. While southern regions might require 1.2 m (4 feet) of cover, Northern Ontario under the Ontario Building Code (OBC) or Northern climates can require up to 1.8 m to 2.4 m of cover. Vancouver requires only 450 mm.",
+        "Footings must rest on undisturbed soil, rock, or engineered fill. NBC Table 9.15.3.4 links footing width directly to soil bearing capacity: standard clay/silt (75 kPa (~1.6 ksf)) requires double the footing width of coarse sand/gravel (150 kPa).",
+        "Excavations must extend at least 600 mm (2 feet) beyond the footing face to allow for formwork setup, stripping, dampproofing application, and wept drainage system installation.",
+        "OHS Trenching: any excavation deeper than 1.2 m (4 feet) requires shoring, trench boxes, or sloping back to a safe 1:1 ratio (45-degree angle) for loose or cohesive soils."
+      ]
+    },
+    {
+      "section": "Survey Math & Levels",
+      "title": "Differential Leveling & Elevation Conversions",
+      "rules": [
+        "Height of Instrument (HI) is established as: Benchmark (BM) Elevation + Backsight (BS) reading. HI = BM + BS.",
+        "Elevation of any foresight (FS) target point is computed as: Height of Instrument (HI) - Foresight (FS). Elevation = HI - FS.",
+        "Check equation for leveling runs: the sum of backsight readings minus the sum of foresight readings must equal the change in elevation between the starting and ending benchmarks: Sum(BS) - Sum(FS) = Final Elev - Start Elev.",
+        "Laser/Builder's Level Tolerances: For residential/commercial layouts, automatic optical levels must be accurate within ±1.5 mm per 30 meters to prevent alignment drift."
+      ]
+    },
+    {
+      "section": "Site Geometry & Diagonals",
+      "title": "Batter Boards, 3-4-5 Method & Squaring",
+      "rules": [
+        "Batter boards must be positioned at least 1.2 to 1.8 meters (4 to 6 feet) back from the excavation corners to avoid damage and soil slumping during heavy digging operations.",
+        "Perpendicularity (90-degree corners) must be checked using the 3-4-5 rule or its multiples (6-8-10, 9-12-15) based on the Pythagorean theorem: a² + b² = c².",
+        "Squareness verification: for rectangular layouts, diagonal corner-to-corner measurements must be equal: Diagonal = Sqrt(Length² + Width²).",
+        "Plumb projection: string line intersections on batter boards must be projected down to ground level using a high-precision plumb bob or optical transit."
+      ]
+    },
+    {
+      "section": "NBC 9.15 / OBC Part 9",
+      "title": "Concrete Foundation & Wall Tolerances",
+      "rules": [
+        "Concrete foundation wall thickness must meet NBC 9.15.4.2 based on lateral soil pressure and wall height: typically 150 mm for unreinforced walls up to 2.5 m high with short backfill heights.",
+        "Sill plate anchoring: NBC 9.23.6 requires anchor bolts of at least 12.7 mm (1/2\") diameter spaced not more than 2.4 meters (8 feet) apart, with at least two bolts per sill plate segment, embedded at least 100 mm into the concrete.",
+        "Maximum deviation for foundation wall plumbness is 6 mm over any 3-meter vertical run.",
+        "Maximum horizontal alignment deviation for foundation walls is 12 mm over the entire length of the building."
+      ]
+    },
+    {
+      "section": "Site Lines & Easements",
+      "title": "Property Boundaries & Layout Offsets",
+      "rules": [
+        "Property setback requirements are governed by municipal bylaws but must be verified against official land surveyor iron pins (monuments).",
+        "Utility easements and right-of-ways must be visually and legally identified before any excavation begins.",
+        "Erosion control fences must be erected at the downslope perimeter of the disturbed area prior to removing topsoil.",
+        "Topsoil stripping must be done carefully to salvage the organic layer for future landscaping, stockpiled away from active construction lanes."
+      ]
+    }
+  ],
+  "comprehensiveNotes": {
+    "surveyingAndLevels": {
+      "title": "Surveying Techniques & Elevation Math",
+      "details": "Setting up a builder's level or digital transit requires leveling the base plate bubble in all directions. Differential leveling is the standard method for establishing grades. A backsight (BS) is taken on a known benchmark (BM) to establish the Height of Instrument (HI = BM + BS). All subsequent readings on unknown points are foresights (FS), and their elevations are computed as Elevation = HI - FS. If the rod reading decreases, the grade is rising; if it increases, the grade is falling. For long-distance surveys, turning points (TP) are used to carry the benchmark line safely."
+    },
+    "siteLayoutAndBoards": {
+      "title": "Batter Boards & Corner Squaring",
+      "details": "Batter boards consist of horizontal ledger boards nailed to sturdy vertical stakes, placed outside the footprint of the excavation. Strings are stretched over saw kerfs in the boards to represent the exact outside faces of the foundation walls. Plumb bobs are suspended from the string intersections to project corners onto the ground. Corner perpendicularity is established using the 3-4-5 rule (or a diagonal measurement check of the entire footprint). If the diagonals are identical, the layout is perfectly square. Batter boards must be rigid and clear of excavation paths (ideally 1.5 m back)."
+    },
+    "nbcVsObcFrost": {
+      "title": "NBC vs. OBC Regional Foundation Rules",
+      "details": "Frost heave can cause catastrophic structural cracks. The National Building Code (NBC Section 9.12) mandates that foundations rest below the local frost penetration line. In Canada, this varies dramatically by region. While Vancouver might require only 450 mm of depth, Northern Ontario (under the Ontario Building Code - OBC) or parts of Alberta require up to 1.8 to 2.4 meters of cover. Soil bearing capacity must also be verified: coarse sand has a typical bearing value of 75 kPa (~1.6 ksf), while compact till or rock can exceed 150 to 500 kPa, altering the required footing width under NBC Table 9.15.3.4."
+    },
+    "excavationDrainage": {
+      "title": "Excavation, Shoring & Drainage Protection",
+      "details": "Under OHS guidelines, any excavation deeper than 1.2 meters (4 feet) requires shoring, trench boxes, or a safe sloped bank (usually 1:1 or 45 degrees for standard soils) to prevent trench collapse. Clearances of 600 mm (2 feet) must be maintained at the footing face for formwork and drain installation. Under NBC 9.14, a foundation drainage system (drain tile or weeping tile) with a minimum 100 mm (4 inch) diameter must be placed at the footing base, covered with clean gravel or crushed stone (minimum 150 mm cover) to prevent silt clog."
+    },
+    "buildingLinesSetbacks": {
+      "title": "Property Constraints & Site Benchmarks",
+      "details": "Building layout must strictly comply with local zoning setback bylaws (front, rear, and side yards). The starting point of all measurements must be an official land surveyor's monument or iron pin. The carpenter establishes a semi-permanent on-site benchmark (e.g., a marked notch on a tree trunk or a concrete curb) which is assigned an arbitrary elevation (often 100.00 meters) to simplify mathematical elevation checks. All building elements, from the footing bottom to the subfloor deck, are referenced to this master benchmark."
+    }
+  },
+  "questions": [
+    {
+      "id": 301,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "A carpenter is performing differential leveling to establish the elevation of a foundation footing. The starting temporary benchmark (TBM) has an elevation of 100.000 meters. The backsight (BS) rod reading on the TBM is 1.450 m. If the foresight (FS) rod reading on top of the poured concrete footing is 2.120 m, what is the calculated elevation of the footing?",
+      "options": [
+        "101.450 meters",
+        "99.330 meters",
+        "100.670 meters",
+        "98.550 meters"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "To solve this, first compute the Height of Instrument (HI):\nHI = TBM + BS = 100.000 m + 1.450 m = 101.450 m.\nNow, subtract the Foresight (FS) to find the elevation of the footing:\nFooting Elevation = HI - FS = 101.450 m - 2.120 m = 99.330 meters.",
+      "codeReference": "Surveying Math / Differential Leveling Standards"
+    },
+    {
+      "id": 302,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "A carpenter is checking the squareness of a rectangular building layout that measures exactly 9.00 meters wide by 12.00 meters long. Under typical Red Seal standards, what must the corner-to-corner diagonal measurements be to guarantee a perfectly square right-angled footprint?",
+      "options": [
+        "14.25 meters",
+        "15.00 meters",
+        "16.50 meters",
+        "18.00 meters"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Using the Pythagorean theorem (a² + b² = c²):\nDiagonal = Sqrt(Width² + Length²) = Sqrt(9.00² + 12.00²) = Sqrt(81 + 144) = Sqrt(225) = 15.00 meters. If both diagonals are exactly 15.00 m, the layout is square.",
+      "codeReference": "Pythagorean Theorem Layout Standards"
+    },
+    {
+      "id": 303,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "A timber foundation layout measures 10.00 meters wide by 24.00 meters long. To verify that the foundation walls are perfectly square before setting sill plates, what is the exact required diagonal distance?",
+      "options": [
+        "25.00 meters",
+        "26.00 meters",
+        "28.32 meters",
+        "30.00 meters"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Apply the Pythagorean theorem to check squareness:\nDiagonal = Sqrt(10.00² + 24.00²) = Sqrt(100 + 576) = Sqrt(676) = 26.00 meters.",
+      "codeReference": "Layout Geometry (a² + b² = c²)"
+    },
+    {
+      "id": 304,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "A sub-grade sewer drainage line must run a horizontal distance of 18.00 meters. If local plumbing codes and architectural layouts specify a continuous downward slope of exactly 2.0%, what is the total vertical drop required between the starting and ending points of this pipe run?",
+      "options": [
+        "180 mm",
+        "360 mm",
+        "540 mm",
+        "720 mm"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Vertical drop = Horizontal distance * Slope percentage\nVertical drop = 18.00 m * 0.02 = 0.360 meters.\nConverting to millimeters: 0.360 m * 1000 = 360 mm.",
+      "codeReference": "NBC 9.14 Drainage and Site Slope Grades"
+    },
+    {
+      "id": 305,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "A building's master benchmark (BM) is at elevation 102.500 m. The plans require the basement excavation floor to be at elevation 99.800 m. An automatic level is set up and a backsight (BS) reading of 1.250 m is taken on the benchmark. What foresight (FS) rod reading should the rodman look for to indicate the subgrade excavation is at the correct depth?",
+      "options": [
+        "1.450 meters",
+        "2.700 meters",
+        "3.950 meters",
+        "3.550 meters"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "1. Compute the Height of Instrument (HI):\nHI = BM Elevation + Backsight = 102.500 m + 1.250 m = 103.750 m.\n2. Compute the target Foresight (FS) for the excavation depth:\nTarget FS = HI - Target Elevation = 103.750 m - 99.800 m = 3.950 meters.",
+      "codeReference": "Excavation Grading and Leveling Math"
+    },
+    {
+      "id": 306,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "A carpenter is planning a residential footing layout in Barrie, Ontario, under the Ontario Building Code (OBC). What is the minimum depth of undisturbed soil cover required over the footing to protect against frost heave?",
+      "options": [
+        "600 mm",
+        "900 mm",
+        "1200 mm",
+        "1800 mm"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Under the Ontario Building Code (OBC SB-1) and general South-Central Ontario guidelines, the minimum depth of frost cover for foundations is 1.2 meters (1200 mm / 4 feet). In northern Ontario regions, this increases to 1.8 m or more, whereas British Columbia Vancouver zones require only 450 mm.",
+      "codeReference": "OBC Division B Part 9.12 / NBC 9.12"
+    },
+    {
+      "id": 307,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "An excavation is planned for concrete foundation footings, digging down to a vertical depth of 1.8 meters in standard sandy clay soil. According to provincial Occupational Health and Safety (OHS) regulations, what wall treatment is mandatory before workers can enter the excavation?",
+      "options": [
+        "No treatment is needed for depths under 2.4 m.",
+        "The walls must be sloped back to a maximum angle of 45 degrees (1:1 ratio) from the bottom of the trench, or a certified trench shoring box must be used.",
+        "A safety fence must be placed 3.0 m away from the excavation face.",
+        "A 100 mm bed of crushed stone is sufficient to stabilize the trench walls."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Provincial OHS guidelines specify that any trench or excavation deeper than 1.2 meters (4 feet) that workers must enter must be either shored with engineered systems, protected by a trench box, or sloped back to a safe angle (typically 45° or a 1:1 ratio for standard Type 3 soils) starting from the bottom of the excavation.",
+      "codeReference": "OHS Regulations / Excavation and Trenching Codes"
+    },
+    {
+      "id": 308,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "A carpenter is setting up batter boards for a foundation wall layout that is 8.00 meters long. To apply the 3-4-5 squaring method using the maximum possible integer scale on this wall segment, which set of measurements should be marked?",
+      "options": [
+        "3.00 m, 4.00 m, 5.00 m",
+        "6.00 m, 8.00 m, 10.00 m",
+        "9.00 m, 12.00 m, 15.00 m",
+        "12.00 m, 16.00 m, 20.00 m"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "To achieve maximum accuracy on an 8.00 m wall layout, use the largest possible integer multiple of the 3-4-5 triangle that fits. Multiplying by 2 yields 6-8-10. This uses the entire 8.00 m wall length as the 'b' side (8.00 m), a perpendicular 6.00 m distance as the 'a' side, and a 10.00 m diagonal check as the 'c' hypotenuse.",
+      "codeReference": "Precision Framing Layout / 3-4-5 Scaling"
+    },
+    {
+      "id": 309,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "A carpenter performs a Two-Peg Test to check a builder's level calibration. Two pegs (A and B) are spaced 30 meters apart. With the instrument set up exactly midway, the rod reading on A is 1.450 m, and on B is 1.420 m. The instrument is then moved near peg A. The new reading on A is 1.550 m, and on B is 1.512 m. What is the collimation error, and does it meet standard trade tolerances?",
+      "options": [
+        "0 mm error; the instrument is perfectly calibrated.",
+        "8 mm error; it exceeds the standard layout tolerance of ±1.5 mm over 30 m.",
+        "2 mm error; it is within acceptable site layout tolerance.",
+        "38 mm error; the instrument is completely broken."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "1. True difference in elevation: Peg A reading - Peg B reading = 1.450 m - 1.420 m = 0.030 m (Peg B is 30 mm higher than Peg A).\n2. Second setup: Reading on Peg A is 1.550 m. Since Peg B is truly 30 mm higher, the target reading on B should be 1.550 - 0.030 = 1.520 m.\n3. The actual reading on Peg B is 1.512 m.\n4. Collimation Error = 1.520 m - 1.512 m = 0.008 m = 8 mm. This exceeds the standard tolerance of ±1.5 mm, so the instrument must be calibrated.",
+      "codeReference": "Survey Instrument Calibration Standards"
+    },
+    {
+      "id": 310,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "Why must batter boards be placed at a distance of 1.2 to 1.8 meters (4 to 6 feet) away from the actual corner stakes of the building excavation?",
+      "options": [
+        "To allow space for building inspector vehicles.",
+        "To prevent them from collapsing or being disturbed by heavy machinery during excavation.",
+        "To allow structural string lines to stretch and gain maximum tension.",
+        "To comply with high-voltage utility clearance codes."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Batter boards must be positioned outside the excavation zone (typically 1.2 m to 1.8 m back) to prevent them from falling in as the banks are dug, and to ensure they aren't hit by excavators or skid steers. This preserves the building layout lines during the entire excavation and footing pour phase.",
+      "codeReference": "Excavation Operations / Setup Layout"
+    },
+    {
+      "id": 311,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "On a new residential site, a carpenter establishes a temporary benchmark (TBM) on a solid concrete utility pad, assigning it an arbitrary datum elevation of 100.000 m. If the architectural drawings specify that the finished main floor plywood subfloor must sit at elevation 100.800 m, how high must the subfloor sit relative to the TBM?",
+      "options": [
+        "80 mm",
+        "800 mm",
+        "1800 mm",
+        "8000 mm"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Height difference = Subfloor Elevation - TBM Elevation = 100.800 m - 100.000 m = 0.800 meters.\nConverting to millimeters: 0.800 m * 1000 = 800 mm.",
+      "codeReference": "Site Plan Elevation Interpretations"
+    },
+    {
+      "id": 312,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "A rectangular foundation layout is 7.50 meters wide by 10.000 meters long. When checking the diagonals, the carpenter measures 12.350 meters on one diagonal and 12.650 meters on the other. What shape is this layout, and how should it be corrected?",
+      "options": [
+        "The layout is a perfect square; continue with forming.",
+        "The layout is a trapezoid; adjust the short wall length by 300 mm.",
+        "The layout is a parallelogram; adjust the corner string lines until both diagonals measure exactly 12.500 meters.",
+        "The layout is skewed; add steel diagonal bracing straps."
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "1. Find the target diagonal length: Sqrt(7.50² + 10.00²) = Sqrt(56.25 + 100.00) = Sqrt(156.25) = 12.500 meters.\n2. Since the measured diagonals are 12.350 m and 12.650 m (unequal), the footprint is a parallelogram. The carpenter must shift the wall lines to adjust the skew until both diagonals measure exactly 12.500 m.",
+      "codeReference": "Perpendicularity Checks / Foundation Layout"
+    },
+    {
+      "id": 313,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "When locating building setback lines on a new residential lot, which marker is considered the legally binding starting point for all boundary measurements?",
+      "options": [
+        "The temporary wooden stakes placed by the excavation contractor.",
+        "The physical asphalt street edge or concrete curb line.",
+        "An official land surveyor's iron pin or brass monument.",
+        "The existing wood fence erected by the neighboring property owner."
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Only an official land surveyor's iron pin (property monument) found at the lot corners is legally binding. Neighboring fences, curbs, or contractor stakes can be inaccurate or shifted, and using them can lead to costly setback violations or property encroachments.",
+      "codeReference": "Cadastral Survey Act / Property Layout Boundary Laws"
+    },
+    {
+      "id": 314,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "Under NBC Table 9.15.3.4, if a two-storey wood-frame dwelling is being built on soft clay soil with a low bearing capacity of 75 kPa (~1.6 ksf), what structural adjustment must be made to the concrete footing compared to building on compact sand (150 kPa)?",
+      "options": [
+        "No change; footings are standardized for all residential buildings.",
+        "The footing width must be increased (widened) to distribute building loads over a larger footprint.",
+        "The footing thickness must be reduced to decrease building dead weight.",
+        "Steel reinforcement must be omitted to prevent concrete shear cracking."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Concrete footings distribute the structural weight of the building safely onto the soil. If soil bearing capacity is halved (from 150 kPa to 75 kPa (~1.6 ksf)), the concrete footing width must be increased (typically doubled) as specified in NBC Table 9.15.3.4 to prevent excessive or uneven settling.",
+      "codeReference": "NBC Table 9.15.3.4 / Footing Widths"
+    },
+    {
+      "id": 315,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "To prevent surface run-off water from pool-seeping against concrete foundation walls, NBC 9.10 and 9.14 require the finished grading around the perimeter of the building to slope downward. What is the minimum slope and distance required?",
+      "options": [
+        "A 50 mm drop over 3.0 meters.",
+        "A 150 mm (6 inches) drop over the first 1.8 meters (6 feet) from the foundation.",
+        "A 300 mm drop over 1.0 meter.",
+        "No surface grading slope is required if a perimeter weeping tile drainage system is in place."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "NBC 9.10.2.1 requires the finished grading to slope downward away from the foundation at least 150 mm (approx 6 inches) over the first 1.8 meters (approx 6 feet) of horizontal distance to direct rainwater and roof runoff safely away from basement walls.",
+      "codeReference": "NBC 9.10.2.1 / Perimeter Surface Drainage"
+    },
+    {
+      "id": 316,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "Under NBC 9.14.3, what is the minimum required diameter of a perimeter drainage pipe (weeping tile) installed around a concrete foundation footing, and where must the top of this pipe be positioned?",
+      "options": [
+        "75 mm diameter, positioned 100 mm above the footing top.",
+        "100 mm (4 inches) diameter, positioned so its top is below the top of the concrete footing.",
+        "150 mm diameter, positioned level with the top of the foundation wall.",
+        "50 mm diameter, wrapped in plastic and placed beside the basement slab."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Under NBC 9.14.3.3, foundation drainage pipe (weeping tile) must have a minimum diameter of 100 mm (4 inches). The drain tile must be placed on solid ground or gravel at the base of the footing, positioned so that its top surface sits below the top of the footing (or bottom of the basement slab) to drain sub-slab water effectively.",
+      "codeReference": "NBC 9.14.3.3 / Drainage Pipe Placement"
+    },
+    {
+      "id": 317,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "A structural blueprint shows a heavy-duty timber column designated at the grid intersection 'C-4'. If Grid C runs North-South and Grid 4 runs East-West, what does this designation represent?",
+      "options": [
+        "The northwest corner of the concrete pier footing.",
+        "The top elevation of the steel adjustable post plate.",
+        "The exact center point of the vertical column location.",
+        "The outer boundary setback line for the foundation wall."
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Structural grid lines are drafting conventions. Lettered grids typically denote one axis (e.g., North-South) and numbered grids denote the perpendicular axis (e.g., East-West). The intersection point of these two lines (C-4) represents the exact center point for the column or post.",
+      "codeReference": "Blueprint Standards (CSA B78.2)"
+    },
+    {
+      "id": 318,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "A layout carpenter is using a mechanical transit-theodolite to establish a 90-degree corner for a commercial framing partition. If the horizontal circle is set to 0° 00' 00\" on the baseline target, what must the horizontal circle read when aligned on the perpendicular layout target?",
+      "options": [
+        "45° 00' 00\"",
+        "90° 00' 00\"",
+        "180° 00' 00\"",
+        "360° 00' 00\""
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A right angle is exactly 90 degrees. Setting the baseline reference on the transit's horizontal circle to 0° 00' 00\" means the carpenter must rotate the telescope until the horizontal dial reads exactly 90° 00' 00\" to mark the perpendicular wall line.",
+      "codeReference": "Transit Angle Layout Procedures"
+    },
+    {
+      "id": 319,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "A foundation excavation requires removing compact clay soil. The solid soil volume in the ground is calculated to be 40.00 cubic meters. If the clay has a soil bulking factor (swell) of 20% once excavated, what volume of loose soil must be transported off-site?",
+      "options": [
+        "32.00 cubic meters",
+        "40.00 cubic meters",
+        "48.00 cubic meters",
+        "60.00 cubic meters"
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Soil swells (bulks) when excavated because air voids are introduced.\nLoose Excavated Volume = Solid In-Place Volume * (1 + Swell Factor)\nLoose Volume = 40.00 m³ * 1.20 = 48.00 cubic meters.",
+      "codeReference": "Excavation Volumetrics and Soil Swell"
+    },
+    {
+      "id": 320,
+      "block": "Block B",
+      "blockTitle": "Planning and Layout",
+      "difficulty": "Advanced",
+      "question": "Under NBC 9.15.5.3, before backfilling a newly poured unreinforced concrete foundation wall, what structural condition must be satisfied to prevent lateral soil pressure from collapsing the wall?",
+      "options": [
+        "No bracing is needed if the backfill material is pure sand.",
+        "The wall must be backfilled within 24 hours of pouring to allow damp curing.",
+        "The concrete must have cured to standard design strength, and the subfloor joists and subfloor sheathing must be fully installed and secured to act as a lateral brace at the top of the wall.",
+        "The exterior face of the foundation must be coated with tar paint only."
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Under NBC 9.15.5.3, foundation walls are designed to resist lateral soil pressure. An unreinforced foundation wall will pivot inward or buckle if backfilled before it has lateral support. The concrete must have cured (usually 7 days or more) and the main floor framing (joists, rim board, and plywood sheathing) must be fully nailed in place to act as a horizontal diaphragm bracing the top of the wall.",
+      "codeReference": "NBC 9.15.5.3 / Support of Foundation Wall"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@custom-variant dark (&:is(.dark, .dark *));
 
 @theme {
   --color-accent: var(--accent-color);
@@ -39,13 +40,21 @@ input[type=number] {
   -moz-appearance: textfield; 
 }
 
-/* Base Theme Transitions */
+/* Base Theme Transitions & Selection Controls */
 body { 
   background: #000; 
   color: #fff; 
   transition: background 0.3s, color 0.3s; 
+  user-select: none;
+  -webkit-user-select: none;
 }
+
+input, textarea, select {
+  user-select: text;
+  -webkit-user-select: text;
+}
+
 body.light-mode { 
   background: #fff; 
   color: #000; 
-}
+}:root { --theme-color: var(--color-accent); }

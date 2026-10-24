@@ -1,0 +1,387 @@
+{
+  "block": "Block G",
+  "title": "Renovations",
+  "examWeight": "Represents approximately 10-15% of the Red Seal exam, focusing on load-bearing wall identification, structural alterations, shoring, hazardous materials, and foundation/roof tie-ins",
+  "nbcPart9References": [
+    {
+      "section": "NBC 9.23.9.4",
+      "title": "Support of Concentrated Loads & Solid Blocking",
+      "rules": [
+        "Floor joists must be designed to support concentrated loads from partitions, heavy fixtures, or structural posts. Solid blocking or double joists must be installed directly under these point loads to transfer the weight down to the foundation without causing joist deflection or structural failure.",
+        "Where non-loadbearing partitions run parallel to floor joists, they must be supported by blocking spaced not more than 1.2 m apart, or by a double joist underneath.",
+        "Under loadbearing partitions running parallel to joists, a double joist or structural beam must be placed directly beneath the partition to ensure load continuous path."
+      ]
+    },
+    {
+      "section": "NBC 9.23.5.1",
+      "title": "Drilling & Notching of Wood Framing Members",
+      "rules": [
+        "Holes drilled in joists must not be larger than 1/4 the joist depth and must be located at least 50 mm (2 inches) from the top or bottom edges of the joist to maintain structural integrity.",
+        "Notches in the top or bottom of joists must not exceed 1/6 the joist depth and must not be located in the middle 1/3 of the joist span, where bending stresses are highest.",
+        "Saddles or hangers are required when joists are notched at their support points past 1/3 depth, or else structural failure of the ledger or framing is likely."
+      ]
+    },
+    {
+      "section": "NBC 9.10.16",
+      "title": "Fire Stopping in Wall & Floor Spaces",
+      "rules": [
+        "In balloon-framed walls or during renovations where hollow wall or ceiling spaces are opened, fire stopping must be provided to restrict the passage of smoke, gases, and flame.",
+        "Fire stops are required at all floor and ceiling levels, at horizontal intervals not exceeding 20 m in wall spaces, and between wall spaces and ceiling/attic spaces.",
+        "Acceptable materials for fire stopping include 38 mm (2 inches nominal) dimensional lumber, 12.7 mm gypsum board, or tightly packed mineral wool (NBC 9.10.16.3)."
+      ]
+    },
+    {
+      "section": "NBC 9.15.3 / 9.4.4",
+      "title": "Foundation Tie-ins & Underpinning",
+      "rules": [
+        "Existing foundations must not be undermined or structurally compromised. When lowering basement floors, underpinning must be done in sequential short bays (typically 1 m or 3 feet maximum width) to maintain soil stability.",
+        "Tying new foundations to existing concrete requires drilling and chemical-epoxy embedding of steel dowels (rebar) to prevent differential settling and cold-joint separation.",
+        "Any excavation below the level of an adjacent existing footing requires a structural engineering assessment if the excavation slope exceeds 45 degrees (1:1 ratio) from the bottom edge of the existing footing."
+      ]
+    }
+  ],
+  "comprehensiveNotes": {
+    "loadBearing": {
+      "title": "Load-Bearing Wall Identification & Structural Load Paths",
+      "details": "Identifying load-bearing walls is the most critical first step in structural renovations. A wall is load-bearing if: (1) Floor joists or ceiling rafters overlap or butt together on top of the wall's double plate. (2) It runs perpendicular to the joists above. (3) There is a wall, beam, or post directly below it in the basement or crawlspace carrying that same load down to the footings. (4) It is an exterior wall. Non-loadbearing walls (partitions) generally run parallel to joists, do not support roof or floor spans, and typically have single top plates or single studs at intersections. However, any partition supporting an engineered floor truss mid-span must be evaluated by a structural engineer, as trusses can have complex internal webs that redirect structural forces."
+    },
+    "shoring": {
+      "title": "Temporary Shoring, Bracing & Needle Beam Techniques",
+      "details": "Before any load-bearing element is removed, temporary shoring must be installed to support the dead and live loads. Shoring walls consist of a continuous bottom sill plate, vertical studs spaced 300 mm to 400 mm o.c. (typically matching or double the spacing of the wall studs being removed), and a double top plate. On wood frame floors, a sill plate must be placed directly over the joists below, with solid blocking installed in the joist cavities directly underneath to prevent the shoring wall from crushing or deflecting the subfloor. Adjustable steel screw jacks (Lally columns) can be used, but must be pinned at the top and bottom and set on solid timber grillage to distribute loads over concrete slabs. For exterior wall alterations, needle beams (heavy timbers or steel beams running perpendicular through a hole cut in the wall) supported by vertical shores on each side of the wall are used to carry the upper floor and roof loads while the foundation or lower wall is replaced."
+    },
+    "demolition": {
+      "title": "Structural Demolition Procedures & Sequencing",
+      "details": "Demolition must proceed in a reverse-construction sequence. (1) Isolate all utilities (M/E/P) in the demolition zone—electrical circuits must be locked out/tagged out, water lines drained and capped, and HVAC registers sealed. (2) Verify the shoring is tight, plum, and load-tested. (3) Remove interior finishes (drywall, plaster) carefully to expose the bare framing, checking for hidden point loads or services. (4) Remove non-structural elements first, followed by structural studs. (5) Install the new permanent beam/header (LVL, PSL, or Steel) on temporary supports. (6) Build the permanent support posts (point load columns) with jack/trimmer studs and secure them to double-trimmer framing or direct foundation posts. (7) Slowly lower the temporary shoring to transfer the load onto the new beam and check for settlement or deflection."
+    },
+    "hazards": {
+      "title": "Hazardous Material Awareness: Asbestos, Lead & Mould",
+      "details": "Renovating older buildings built before 1990 poses significant health risks from hazardous materials. Asbestos-Containing Materials (ACMs) are commonly found in vermiculite insulation, 9x9 inch floor tiles, textured 'popcorn' plaster ceilings, pipe wraps, and drywall joint compound. Distrubing asbestos releases microscopic fibers that cause asbestosis and mesothelioma. Lead is prevalent in paints applied before 1978 and on plumbing joints. Mould flourishes in concealed wall cavities with slow moisture leaks. Carpenters must stop work if a suspect substance is uncovered and perform testing. If positive, containment zones with negative air pressure (HEPA filtration), wet-scraping techniques, and personal protective equipment (Type 3 respirators, Tyvek suits) must be used in compliance with provincial occupational health and safety (OHS) regulations."
+    },
+    "tyingIn": {
+      "title": "Tying Into Existing Foundations & Complex Rooflines",
+      "details": "When extending a building, the new structure must tie into the existing frame without creating water entry points or structural cracks. (1) Foundation tie-ins require drilling holes 150 mm deep into the existing concrete, inserting steel reinforcing dowels (usually 15M (#5) rebar), and securing them with epoxy grout. A flexible moisture-proof membrane (waterstop) must bridge the cold joint. (2) Roof tie-ins ('California-fill' or valley set) involve framing a new valley board directly over the existing roof sheathing and existing rafters. This distributes the new roof load over the existing rafters rather than cutting them. Proper ice-and-water shield must be layered over the valley junction, extending 900 mm up each side of the valley, prior to installing shingles, to prevent ice damming leaks."
+    }
+  },
+  "questions": [
+    {
+      "id": 701,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "A carpenter is identifying whether an interior wall in a 1970s residential house is load-bearing. Which of the following conditions is the most reliable indicator that the wall is load-bearing?",
+      "options": [
+        "The wall runs parallel to the floor joists below it.",
+        "The ceiling joists from opposite sides overlap and are spliced directly on top of the wall's double top plate.",
+        "The wall is finished with 15.9 mm (5/8 inch) Type X drywall instead of standard 12.7 mm drywall.",
+        "The wall contains electrical conduit and plumbing vent stacks passing vertically through the plates."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Ceiling or floor joists that overlap or splice on top of an interior wall's top plate indicate that the wall is acting as a structural intermediate support, carrying those spans. If the wall is removed without a structural beam replacement, the joists will sag or fail. Running parallel to joists generally indicates a non-loadbearing partition, and drywall type or utilities are not structural indicators.",
+      "codeReference": "Load Path Identification Standards"
+    },
+    {
+      "id": 702,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "When building a temporary shoring wall to remove a load-bearing partition on a wood-framed floor, what is the correct practice to prevent the shoring wall studs from crushing or punching through the subfloor?",
+      "options": [
+        "Set the vertical shoring studs directly on the subfloor with no top or bottom plates.",
+        "Install a continuous lumber sill plate on the subfloor across the joists, and ensure solid blocking is installed in the joist cavities directly below the sill plate to transfer the load.",
+        "Glue the shoring wall studs directly to the drywall face using high-strength construction adhesive.",
+        "Place adjustable steel screw jacks directly on the finished hardwood floorboards with no grillage."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "To prevent structural crushing, a continuous sill plate must distribute the shoring wall's weight over multiple floor joists. Solid blocking must be installed inside the floor joist cavities directly beneath this sill plate to prevent the subfloor from deflecting and to ensure the load is transferred down to the lower framing or foundation.",
+      "codeReference": "Temporary Shoring Structural Load Paths"
+    },
+    {
+      "id": 703,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "Under NBC 9.23.5.1, what is the maximum diameter of a hole that can be safely drilled in a 38 mm x 235 mm (2x10 nominal) floor joist during a plumbing renovation?",
+      "options": [
+        "38 mm (1-1/2 inches)",
+        "58 mm (2-1/4 inches)",
+        "78 mm (3 inches)",
+        "118 mm (4-5/8 inches)"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Under NBC 9.23.5.1, holes drilled in joists must not be larger than 1/4 of the actual joist depth. A 2x10 joist has an actual depth of 235 mm. 1/4 of 235 mm is 58.75 mm. Therefore, the maximum allowable hole diameter is 58 mm (2-1/4 inches). The hole must also be located at least 50 mm away from the top and bottom edges.",
+      "codeReference": "NBC 9.23.5.1 / Drilling and Notching Limits"
+    },
+    {
+      "id": 704,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "A carpenter is preparing to cut through an old drywall joint on a renovation project in a home built in 1982. Why is it critical to test the joint compound for asbestos prior to starting work?",
+      "options": [
+        "Asbestos in joint compound causes the paper backing of drywall to rot when wet.",
+        "Drywall joint compounds manufactured prior to 1990 commonly contained chrysotile asbestos, which when cut releases toxic, microscopic airborne fibers.",
+        "Asbestos joint compound is highly acidic and will corrode standard steel drywall screws.",
+        "Asbestos compounds prevent new latex primer paint from adhering properly."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Chrysotile asbestos was widely added to drywall mud/joint compound, textured plaster, and stucco prior to 1990 to add tensile strength and fire resistance. Sanding, scraping, or cutting these joints releases microscopic asbestos fibers into the air, which can be inhaled and lead to fatal lung diseases like asbestosis and mesothelioma.",
+      "codeReference": "Hazardous Material / Asbestos Awareness"
+    },
+    {
+      "id": 705,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "When lowering a basement slab to increase headroom on a renovation, what is the standard safe excavation procedure near the existing foundation footings to prevent settling?",
+      "options": [
+        "Excavate the entire basement floor continuously below the level of the existing footings and pour a new slab immediately.",
+        "Perform underpinning in sequential, short sections (bays) no wider than 1 meter (3 feet) at a time, allowing the concrete in each bay to cure before excavating adjacent bays.",
+        "Drive vertical steel rebar into the basement dirt and pour concrete over the footings without excavating.",
+        "Excavate a continuous trench directly under the existing footings and fill it with gravel to act as a drainage bed."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Lowering a basement slab below the footing line undermines the soil supporting the foundation. Underpinning must be done in a sequential 'skip-bay' pattern (bays typically 1 meter wide). Only a fraction of the footing is undermined at one time, and concrete is poured and cured to form a new lower footing before adjacent bays are touched, preserving structural stability.",
+      "codeReference": "Slab Lowering & Underpinning Procedures"
+    },
+    {
+      "id": 706,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "When tying a new concrete foundation wall for an addition into an existing concrete foundation, what is the correct structural method to prevent differential movement at the cold joint?",
+      "options": [
+        "Apply a thick bead of polyurethane construction adhesive on the face of the old foundation before pouring the new wall.",
+        "Drill holes into the existing foundation wall, insert steel reinforcing dowels (rebar) with epoxy grout, and tie them to the new wall's reinforcing steel before pouring.",
+        "Simply butt the new foundation concrete directly against the old wall without mechanical ties to allow for thermal expansion.",
+        "Stack concrete masonry blocks loosely at the joint and seal them with expansion foam."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Drilling and epoxing steel rebar dowels into the existing concrete mechanically binds the old and new foundations together. This transfers shear loads across the joint and prevents differential settlement (one foundation sinking relative to the other), which would otherwise crack the walls, floors, and roof above.",
+      "codeReference": "NBC 9.15.3 / Concrete Wall Connections"
+    },
+    {
+      "id": 707,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "A new addition's roofline must intersect a 4/12 slope existing main roof. What is the preferred method for framing this roof tie-in without compromising the existing structural rafters?",
+      "options": [
+        "Cut out the existing rafters in the intersection zone and run the new rafters directly to the main ridge board.",
+        "Frame a 'California-fill' (valley set) by installing a valley board directly over the existing roof sheathing, aligned with the existing rafters, and framing the new rafters to rest on this valley board.",
+        "Nail the new rafters directly through the old asphalt shingles without installing a valley board or removing shingles.",
+        "Support the new roof entirely on cantilevered interior drywall partitions."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "A 'California-fill' or valley set frames the new roof on top of the existing roof deck. Valley boards are fastened directly over the existing sheathing, transferring and distributing the loads across the existing structural rafters below without cutting or weakening them. Shingles must be removed down to the bare sheathing and proper valley flashing installed first.",
+      "codeReference": "Roof Alteration & Intersecting Framing"
+    },
+    {
+      "id": 708,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "When disturbing lead-based paint on an older building trim, what precaution is required to comply with safe occupational work practices?",
+      "options": [
+        "Use a high-speed dry belt sander to quickly remove the paint down to bare wood.",
+        "Use wet-scraping or HEPA-filter vacuum-attached sanders, and establish plastic sheeting containment with negative air pressure to trap toxic dust.",
+        "Heat the paint with an open-flame propane torch until it bubbles and burns off.",
+        "Spray the paint with chlorine bleach to neutralize the lead molecules before scraping."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Lead dust is highly toxic. High-speed dry sanding or open-flame burning vaporizes or pulverizes lead paint, releasing inhalable dust and toxic fumes. Safe practices include wet scraping (which prevents dust from becoming airborne), containment sheeting, HEPA vacuum sanders, and wearing appropriate P100/HEPA respirators.",
+      "codeReference": "Lead Paint Hazard Abatement Guidelines"
+    },
+    {
+      "id": 709,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "During a renovation, a balloon-framed wall is opened. Under NBC 9.10.16.2, why is it mandatory to install horizontal fire blocking at each floor level in these wall cavities?",
+      "options": [
+        "To increase the shear resistance of the exterior wall assembly during wind storms.",
+        "To provide a solid nailing surface for attaching interior wood paneling trim.",
+        "To eliminate continuous vertical voids that act like chimneys, feeding oxygen and rapidly spreading fire from the basement to the attic.",
+        "To prevent fiberglass batts from slipping down the cavity over time."
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "Balloon framing has continuous wall cavities running from the foundation to the roof without horizontal floor plates. In a fire, these cavities act as chimneys, drawing flames, hot gases, and smoke upward at extreme speeds. Fire blocking (such as 38 mm wood blocking or gypsum board) seals these voids at floor levels, containing the fire and giving occupants vital evacuation time.",
+      "codeReference": "NBC 9.10.16.2 / Fire Block Location"
+    },
+    {
+      "id": 710,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "A load-bearing post carrying a roof load is positioned directly over a wood floor system. Under NBC 9.23.9.4, what structural reinforcement is required within the floor system directly below the post?",
+      "options": [
+        "Install continuous solid blocking between the joists, or double the floor joists directly under the post, extending down to a bearing wall, beam, or footing.",
+        "Add a single layer of 12.7 mm subfloor underlayment across the entire room.",
+        "Nail a metal strap tie directly to the top plate of the wall below.",
+        "No reinforcement is required if the post sits within 600 mm of a joist hanger."
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Concentrated loads (point loads) must have a continuous load path to the foundation. Under NBC 9.23.9.4, placing a post over a floor joist system without solid blocking or doubled framing would crush the subfloor and cause joist failure due to extreme local bending stresses. Solid blocking must be tightly fitted inside the joist bays directly under the post.",
+      "codeReference": "NBC 9.23.9.4 / Concentrated Load Support"
+    },
+    {
+      "id": 711,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "When excavating next to an existing foundation wall for a new basement addition, what is the critical slope angle relative to the bottom of the existing footing past which structural shoring or engineering is required?",
+      "options": [
+        "A slope of 1 vertical to 1 horizontal (45 degrees) extending downward from the outer bottom corner of the existing footing.",
+        "A slope of 1 vertical to 2 horizontal (26.5 degrees) extending downward from the basement floor level.",
+        "A slope of 2 vertical to 1 horizontal (63 degrees) extending from the foundation wall face.",
+        "Any excavation within 3 meters (10 feet) of the existing footing requires full structural shoring."
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The soil directly beneath a footing distributes the vertical load outward at a 45-degree angle (the load-bearing prism). Excavating soil within this 45-degree prism (1:1 ratio) downward from the bottom outer corner of the existing footing undermines the bearing capacity of the soil, risking immediate wall failure and cave-in. Excavations inside this zone require professional engineering and structural shoring.",
+      "codeReference": "NBC 9.15.3 / Slope of Excavation"
+    },
+    {
+      "id": 712,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "When renovating a historical solid masonry brick building, why is it critical to avoid installing a modern, non-permeable interior vapor barrier over the historical brick walls?",
+      "options": [
+        "A non-permeable barrier causes the plaster on the interior partition walls to crack.",
+        "It traps winter moisture inside the brick, causing freeze-thaw cycles that spall and destroy the brick face and degrade the mortar joints.",
+        "Vapor barriers are incompatible with historical lead paint coatings.",
+        "It increases the risk of radon gas infiltration through the chimney flue."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Solid historic masonry (multi-wythe brick) walls absorb outdoor moisture and rely on indoor heat and natural airflow to dry out. Installing a non-permeable interior vapor barrier traps moisture inside the brick assembly. During cold Canadian winters, this trapped moisture freezes, expands, and causes the exterior brick face to spall (flake and break off) and turns the mortar back to sand, structurally ruining the masonry.",
+      "codeReference": "Historic Masonry Retrofitting Standards"
+    },
+    {
+      "id": 713,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "What is the primary structural function of a collar tie when retrofitting rafters on an attic conversion project?",
+      "options": [
+        "To prevent the roof rafters from sagging in the middle of their spans.",
+        "To tie opposing rafters together near the ridge to resist wind uplift forces and prevent the rafters from separating from the ridge board.",
+        "To support the finished attic ceiling drywall horizontally.",
+        "To act as a thermal break for high-density spray foam insulation."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Collar ties are horizontal members connecting opposing rafters in the upper third of the attic space. Their main purpose is to resist wind forces that try to pull the roof apart at the ridge. They do not prevent rafter spread at the plate lines (which is the job of lower rafter ties/ceiling joists) or rafter sag (which is the job of purlins).",
+      "codeReference": "Rafter Collar Tie Structural Mechanics"
+    },
+    {
+      "id": 714,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "A carpenter is replacing an existing 900 mm wide window with a new 2400 mm wide sliding door in an exterior load-bearing wall. What framing modification is required under NBC 9.23.12?",
+      "options": [
+        "Simply remove the old studs and nail the door frame directly to the remaining drywall.",
+        "Size and install a new structural lintel (header) calculated for a 2400 mm span, and support it with the correct number of jack (trimmer) studs and king studs to transfer the loads to the foundation.",
+        "Screw multiple layers of plywood together over the opening with no wood header.",
+        "Install a solid concrete lintel beam above the wood frame door."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Increasing the opening width from 900 mm to 2400 mm increases the gravity loads concentrated on the sides of the opening. A new, larger structural header (lintel) must be sized (typically using double or triple LVL or dimensional lumber) to bridge the 2400 mm span, and it must be supported by jack studs and king studs to carry these heavy roof/floor loads safely down to the plates below.",
+      "codeReference": "NBC 9.23.12 / Lintel Spans and Framing"
+    },
+    {
+      "id": 715,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "When framing an opening through an existing floor system for a new staircase, what are the fastening and framing rules under NBC 9.23.9.13 for headers and trimmers?",
+      "options": [
+        "Nail all single joists together using 50 mm common brads, with no hangers required.",
+        "Double the trimmer joists and header joists if the header span exceeds 1200 mm (4 feet), and support the tail joists with approved joist hangers or framing connectors.",
+        "Glue all joints with construction adhesive and omit metal connectors entirely to prevent floor squeaks.",
+        "Support the cut joists with temporary metal jacks left permanently in the drywall partitions."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Under NBC 9.23.9.13, when framing openings in a floor, trimmer joists and headers must be doubled when the header span exceeds 1200 mm. Cut floor joists (tail joists) framing into the header must be supported by joist hangers or framing anchors to ensure structural load transfer, preventing floor sagging and eventual collapse.",
+      "codeReference": "NBC 9.23.9.13 / Floor Openings"
+    },
+    {
+      "id": 716,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "When cutting structural engineered wood joists (I-joists) during a renovation to install a new HVAC duct, which of the following actions is strictly PROHIBITED?",
+      "options": [
+        "Drilling small round holes through the center of the OSB web in accordance with the manufacturer's drilling chart.",
+        "Cutting or notching any part of the top or bottom solid wood/LVL flanges of the I-joist.",
+        "Installing web stiffeners directly under a concentrated load point.",
+        "Fastening joist hangers to the side of the joist web using web fillers."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The top and bottom flanges of an engineered wood I-joist carry all the bending (tension and compression) forces. Cutting, notching, or drilling into these flanges immediately destroys the joist's load-carrying capacity, resulting in sudden structural failure. Web holes are permitted but must follow strict size and location guidelines.",
+      "codeReference": "Engineered Wood I-Joist Modifications"
+    },
+    {
+      "id": 717,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "A home renovation requires removing a central brick chimney stack. What is the correct sequence of removal to ensure safety?",
+      "options": [
+        "Demolish the brickwork starting from the basement, letting the upper brick fall down through the ceiling holes.",
+        "Demolish the chimney from the top down, section by section, ensuring the roof and floor framing are structurally supported and sealed at each penetration level before removing lower brickwork.",
+        "Pull the chimney down in one piece using heavy tow straps attached to a utility truck.",
+        "Fill the chimney with concrete grout to solidify it, and leave it in place without framing modifications."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Masonry chimneys are extremely heavy and self-supporting. If demolition starts at the bottom, the upper chimney will collapse, causing catastrophic structural damage, injury, or death. Demolition must proceed from the top down, section by section. At each floor and roof line, framing must be evaluated, supported, and eventually patched to seal the penetrations.",
+      "codeReference": "Safe Masonry Demolition Sequencing"
+    },
+    {
+      "id": 718,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "What is the primary mechanical reason for installing a self-adhering waterproofing membrane (such as ice and water shield) over the valley joint of a new roof tie-in before installing shingles?",
+      "options": [
+        "To prevent attic heat from escaping through the roof deck.",
+        "To protect the valley from water penetration caused by ice damming and backing-up water in the roof intersection, where water flow is highly concentrated.",
+        "To glue the shingles down permanently so they cannot blow off in high winds.",
+        "To eliminate the need for metal valley flashing."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Roof valleys are high-volume water channels. When a new roof ties into an old one, the valley is highly vulnerable to leaks from rain-wash and ice damming (melted snow freezing at the cold eave and backing water up the valley). Self-adhering membranes seal around fasteners and provide a continuous waterproof barrier directly on the sheathing under shingles.",
+      "codeReference": "NBC 9.26.5 / Valley Protection"
+    },
+    {
+      "id": 719,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "When connecting a new wood wall plate to an existing concrete basement floor slab, what is the required practice to prevent wood decay over time?",
+      "options": [
+        "Paint the wood plate with standard interior latex primer before fastening.",
+        "Use pressure-treated sill plates, or install a continuous moisture-barrier gasket (sill gasket) between the untreated wood plate and the concrete floor to prevent capillary moisture draw.",
+        "Soak the wood plate in water for 24 hours to match the moisture level of the concrete floor.",
+        "Fasten the plate loosely with wires to allow airflow under the plate."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Concrete is porous and draws moisture from the ground via capillary action (wicking). If untreated, dry wood is placed directly against raw concrete, it absorbs this moisture, creating perfect conditions for fungal decay and wood rot. Using pressure-treated lumber or a physical barrier like a foam sill gasket blocks this moisture path.",
+      "codeReference": "NBC 9.23.1.1 / Sill Plate Moisture Protection"
+    },
+    {
+      "id": 720,
+      "block": "Block G",
+      "blockTitle": "Renovations",
+      "difficulty": "Advanced",
+      "question": "When adding an addition, why must the new roof's insulation and ventilation system be completely isolated or carefully continuous with the existing house attic?",
+      "options": [
+        "To prevent electrical circuits from shorting out across the roof junction.",
+        "To ensure continuous air barrier integrity and balanced attic ventilation, preventing localized warm spots that cause severe ice damming and condensation on the underside of the sheathing.",
+        "To allow the old house attic to heat the new addition.",
+        "To prevent sound transmission between rooms."
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Attic ventilation requires balanced intake (soffits) and exhaust (ridge/roof vents) to keep the attic temperature close to the outdoor temperature. If the ventilation path at a roof tie-in is blocked or imbalanced, warm moist air will accumulate. This causes attic condensation (mould, rot) and heats the roof deck from below, melting snow which refreezes at the eaves, causing highly destructive ice damming.",
+      "codeReference": "NBC 9.19.1 / Attic Ventilation Continuity"
+    }
+  ]
+}

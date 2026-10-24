@@ -23,7 +23,7 @@ export default defineConfig(({ mode }) => {
     build: {
       // Raises the warning threshold from 500kb to 1000kb (1MB) 
       // to silence the chunk size warning for your single-file app structure
-      chunkSizeWarningLimit: 1000,
+      chunkSizeWarningLimit: 5000,
     },
   };
 });

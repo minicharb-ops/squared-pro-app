@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "topic": "Joist Cantilevers",
+    "field": "Eye-balling a 24-inch (600mm (24 in)) cantilever on 2x10 joists because 'we always do it'.",
+    "code": "NBC Rule 9.23.9.9 limits dimensional joist cantilevers supporting exterior walls to a maximum of 400mm (16 in) unless engineered.",
+    "tip": "Always answer the Red Seal based on strict NBC minimums, never site shortcuts!"
+  },
+  {
+    "id": 2,
+    "topic": "Stair Riser Height Variance",
+    "field": "Letting risers vary by up to 1/2 inch (12mm) across a flight and making it up at the bottom step.",
+    "code": "NBC Section 9.8.4 limits the maximum tolerance variance between any adjacent risers to 6mm (1/4 in) and 1/4 inch across the entire flight.",
+    "tip": "Consistency is critical for safety; the Red Seal exam tests strict uniform limits."
+  },
+  {
+    "id": 3,
+    "topic": "Nailing/Fastener Schedule",
+    "field": "Driving 3 nails into a studs-to-plates connection at random angles.",
+    "code": "NBC Table 9.23.3.4 explicitly requires 4 toe-nails (82mm / 3-1/4\") or 2 end-nails (82mm / 3-1/4\") for joists/studs to plates.",
+    "tip": "Red Seal examinations test strict fastener schedules from Table 9.23.3.4."
+  },
+  {
+    "id": 4,
+    "topic": "Roof Ventilation Area",
+    "field": "Assuming a couple of gable vents are more than enough for a large attic space.",
+    "code": "NBC Section 9.19.1.2 requires the free ventilation area to be at least 1/300 of the insulated ceiling area (or 1/150 for flat roofs/low slopes).",
+    "tip": "Attic ventilation ratios are a classic exam math question. Remember the 1/300 ratio rule."
+  },
+  {
+    "id": 5,
+    "topic": "Maximum Stud Notching",
+    "field": "Hacking out 50% of a load-bearing exterior wall stud to run 2\" plumbing pipes.",
+    "code": "NBC Rule 9.23.5.1 states that load-bearing studs cannot be notched or drilled more than 25% of their depth (or 33% for non-bearing studs) unless reinforced.",
+    "tip": "Exceeding notch thresholds weakens structure. The 25% limit for bearing studs is highly tested."
+  },
+  {
+    "id": 6,
+    "topic": "Foundation Anchor Bolt Spacing",
+    "field": "Placing anchor bolts only at the corners of sill plates and every 8-10 feet.",
+    "code": "NBC Rule 9.20.17 requires foundation anchor bolts (minimum 12.7mm diameter) to be spaced no more than 2.4 meters (8 feet) apart.",
+    "tip": "Always remember the 2.4m (8 ft) max spacing and placement within 300mm of plate ends."
+  },
+  {
+    "id": 7,
+    "topic": "Egress Window Opening Size",
+    "field": "Installing a window in a basement bedroom that 'looks big enough' for a person to slide through.",
+    "code": "NBC Rule 9.9.10.1 requires bedroom egress windows to provide an unobstructed opening of not less than 0.35 m² (3.8 sq ft) with no dimension less than 380mm (15 in).",
+    "tip": "A bedroom window must serve as an emergency exit. Memorize 0.35 m² and 380mm dimensions."
+  }
+]

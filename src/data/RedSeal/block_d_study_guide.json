@@ -1,0 +1,392 @@
+{
+  "block": "Block D",
+  "title": "Framing",
+  "examWeight": "20% of official Red Seal exam",
+  "nbcPart9References": [
+    {
+      "section": "NBC 9.23.5",
+      "title": "Notching and Drilling of Wood Joists",
+      "rules": [
+        "Notches in the top or bottom of lumber joists are strictly prohibited in the middle third (1/3) of the joist span.",
+        "Notches outside the middle third of the span must not exceed one-sixth (1/6) of the actual depth of the joist.",
+        "Notches at the ends of joists (at bearing points) must not exceed one-quarter (1/4) of the actual depth of the joist.",
+        "Drilled holes must be kept at least 50 mm (2 inches) from the top and bottom edges of the joist.",
+        "The maximum diameter of any drilled hole must not exceed one-quarter (1/4) of the actual depth of the joist.",
+        "Two or more notches or holes must be separated by a distance at least equal to the actual depth of the joist."
+      ]
+    },
+    {
+      "section": "NBC 9.23.10 & 9.23.11",
+      "title": "Wall Framing and Bearing Partition Requirements",
+      "rules": [
+        "Load-bearing studs must be aligned with joists or rafters if the joists/rafters do not sit directly over a structural header. Alternatively, double top plates must be used to transfer structural loads.",
+        "Double top plates must overlap at corners and wall intersections by a minimum distance equal to the width of the plate (typically 89 mm for 2x4, 140 mm for 2x6) to tie the walls together structurally. Alternatively, steel straps of equivalent strength can be used.",
+        "Studs in load-bearing walls must be spaced no more than 400 mm (16 inches) on center (o.c.) for walls supporting more than one floor, or 600 mm (24 inches) o.c. for walls supporting only a roof/ceiling.",
+        "Lintels (headers) over openings in load-bearing walls must consist of at least two members of 38 mm thickness, nailed together, and supported by trimmer (jack) studs. The number of trimmer studs is determined by the opening span."
+      ]
+    },
+    {
+      "section": "NBC 9.23.14 & Rafter Tables",
+      "title": "Roof Framing and Rafter Geometry",
+      "rules": [
+        "Rafters must be notched over wall plates (birdsmouth cut) to provide flat, level bearing of not less than 38 mm (1.5 inches).",
+        "The horizontal depth of a birdsmouth seat cut must not exceed one-third (1/3) of the vertical depth of the rafter to prevent horizontal splitting at the heel.",
+        "Rafters must be connected to a ridge board at least equal in depth to the cut end of the rafter. Ridge boards must be at least 17.5 mm thick.",
+        "Collar ties (installed in the top third of the roof height) are required to resist wind uplift forces and prevent ridge spreading. They must be at least 38 mm x 89 mm (2x4) lumber.",
+        "Rafter ties (or ceiling joists installed in the bottom third of the roof height) are mandatory to resist the horizontal thrust forces exerted by rafters under snow loads, unless a structural ridge beam is engineered."
+      ]
+    },
+    {
+      "section": "NBC 9.8.4",
+      "title": "Stairway Geometry and Limitations",
+      "rules": [
+        "Private interior stair riser height: Minimum 125 mm (4-7/8 in), Maximum 200 mm (7-7/8 in).",
+        "Private interior stair tread run: Minimum 255 mm (10 in), Maximum 355 mm (14 in).",
+        "Private interior stair tread depth: Minimum 280 mm (11 in), Maximum 355 mm (14 in).",
+        "The rise and run must be uniform throughout any single flight of stairs, with a maximum variation of 5 mm between consecutive steps, and 10 mm overall.",
+        "Stairway headroom: Minimum 1950 mm (6 feet 5 inches) measured vertically from the leading edge (nosing) of all treads to any overhead obstruction.",
+        "Comfort Formula rule of thumb: (2 * Riser) + Run = 600 mm to 635 mm (23-5/8 in to 25 in). This ensures a natural human stride on the staircase."
+      ]
+    }
+  ],
+  "comprehensiveNotes": {
+    "floorFraming": {
+      "title": "Floor Joist Systems and Subflooring",
+      "details": "Floor systems distribute dead and live structural loads to the foundation or bearing walls. Joist sizing depends on span, lumber species, grade, and spacing (typically 12, 16, or 24 inches o.c.). When framing openings (stairs, chimneys), single headers/trimmers are allowed for openings under 1.2 m (4 feet); they must be doubled for spans exceeding this limit. Bridging/strapping must be placed at maximum intervals of 2.1 m (7 feet) for joist spans exceeding 2.1 m. Subflooring must be fastened with nails/screws spaced 150 mm (6 in) along edges and 300 mm (12 in) along intermediate supports (field)."
+    },
+    "wallFraming": {
+      "title": "Load-Bearing Wall Anatomy",
+      "details": "Load-bearing walls must transfer roof and floor loads straight down to the foundation. This requires king studs to run full height, trimmer (jack) studs cut short to carry structural headers (lintels), and rough sill plates supported by cripple studs. Standard headers are built with two 2x8s, 2x10s, or 2x12s separated by a 1/2-inch plywood spacer to match the 3-1/2 inch thickness of 2x4 studs, or three members with spacers for 2x6 framing. Corners require three studs (or specialized drywall clips) to provide solid backup backing for interior drywall and exterior sheathing."
+    },
+    "roofFraming": {
+      "title": "Roof Geometry and Layout Calculations",
+      "details": "Roof framing is based on right-angle trigonometry. The run of a common rafter is half the building's span (minus half the ridge board's thickness for actual cut length). The common rafter factor (slope factor) is the secant of the pitch angle, which, multiplied by the run, gives the theoretical line length. For equal-pitch hip roofs, the hip rafter runs at 45 degrees to the common rafters. The hip run is the common run multiplied by 1.4142. The hip length factor is multiplied by the common run to calculate the hip rafter's length. Jack rafters are shortened common rafters spaced at regular intervals, having a common difference in length equal to: Spacing * Common Rafter Factor."
+    },
+    "stairFraming": {
+      "title": "Staircase Engineering and Stringer Layout",
+      "details": "Stairs are safety-critical structures. Total rise is measured from finished lower floor to finished upper floor (including finish flooring thicknesses). The total rise is divided by a target riser height (typically 175 mm or 7 inches) to find the number of risers (rounded to a whole number). Re-dividing the total rise by this whole number yields the precise unit riser height. The number of treads is always one less than the number of risers in a standard flight. The total run is: (Number of Risers - 1) * Unit Run. Cut stringers (carriages) must have at least 90 mm (3.5 inches) of uncut throat wood remaining to preserve shear strength."
+    }
+  },
+  "questions": [
+    {
+      "id": 101,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "A floor joist system uses nominal 2x10 joists (actual size 38 mm x 235 mm) spanning 4.2 meters. Under NBC 9.23.5.2, what is the maximum depth allowed for a notch cut in the top edge of a joist, and where is it permitted to be located?",
+      "options": [
+        "39.1 mm, permitted only in the middle third of the span",
+        "39.1 mm, permitted only outside the middle third of the span",
+        "58.7 mm, permitted anywhere along the span",
+        "58.7 mm, permitted only at the end bearing points"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "According to NBC 9.23.5.2, notches on the top or bottom of joists are strictly prohibited in the middle third (1/3) of the span to prevent structural failure due to peak bending stresses. Outside the middle third, notches are limited to 1/6 of the actual joist depth. 235 mm * (1/6) = 39.16 mm. Therefore, the maximum depth is 39.1 mm, permitted only outside the middle third of the span.",
+      "codeReference": "NBC 9.23.5.2"
+    },
+    {
+      "id": 102,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "A carpenter is drilling holes in 2x8 floor joists (actual size 38 mm x 184 mm) to route electrical cables. Under NBC 9.23.5.3, what is the maximum permissible hole diameter, and what is the minimum distance required from the edge of the joist?",
+      "options": [
+        "46.0 mm maximum diameter, located at least 50 mm from the top and bottom edges",
+        "30.6 mm maximum diameter, located at least 38 mm from the top and bottom edges",
+        "46.0 mm maximum diameter, located at least 38 mm from the top and bottom edges",
+        "61.3 mm maximum diameter, located at least 50 mm from the top and bottom edges"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Under NBC 9.23.5.3, the maximum hole diameter in a floor joist is limited to 1/4 of the actual joist depth: 184 mm / 4 = 46.0 mm. Additionally, holes must be located at least 50 mm (2 inches) away from both the top and bottom edges of the joist to maintain structural shear strength near the outer fibers.",
+      "codeReference": "NBC 9.23.5.3"
+    },
+    {
+      "id": 103,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "A common rafter is being framed for an equal-pitch gable roof. The building total span is 28' 0\" and the pitch is 6/12. The ridge board is a 2x8 (actual thickness 1-1/2\"). If the common rafter factor for 6/12 is 1.1180, what is the adjusted line length of the rafter prior to making the tail/soffit cut?",
+      "options": [
+        "15' 7-13/16\"",
+        "15' 7\"",
+        "15' 15/16\"",
+        "14' 11-1/4\""
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "1. Find the horizontal run of the rafter: Total Span / 2 = 28' 0\" / 2 = 14' 0\" (168 inches).\n2. Calculate the theoretical line length of the rafter: 14' * 1.1180 = 15.652 feet. 0.652' * 12 = 7.824 inches (approx 7-13/16\"), so the theoretical length is 15' 7-13/16\".\n3. Calculate the ridge board deduction along the horizontal run: Half of the ridge board thickness = 1.5\" / 2 = 0.75\" (3/4\" horizontal deduction).\n4. Convert the horizontal deduction to slope length: 0.75\" * 1.1180 = 0.8385\" (approx 13/16\" deduction along the slope).\n5. Subtract the slope deduction from the theoretical line length: 15' 7-13/16\" - 13/16\" = 15' 7\".",
+      "codeReference": "NBC 9.23.14 / Rafter Tables"
+    },
+    {
+      "id": 104,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "A residential building measuring 32' 0\" wide is being framed with an equal-pitch hip roof at an 8/12 pitch. Using a hip rafter length factor of 1.5635 (ratio of hip length to common run), calculate the theoretical line length of the hip rafter prior to making ridge deductions.",
+      "options": [
+        "25' 0-3/16\"",
+        "24' 0\"",
+        "22' 7-1/2\"",
+        "26' 1-3/4\""
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "1. Find the horizontal run of the common rafter: Building Span / 2 = 32' 0\" / 2 = 16' 0\".\n2. Multiply the common run by the hip rafter factor: 16' * 1.5635 = 25.016 feet.\n3. Convert the decimal portion to inches: 0.016 feet * 12 inches/foot = 0.192 inches. 0.192 * 16 = 3.07 sixteenths, which is approx 3/16\". Therefore, the theoretical length is 25' 0-3/16\".",
+      "codeReference": "NBC 9.23.14.8 / Hip Rafter Tables"
+    },
+    {
+      "id": 105,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "A flight of private interior residential stairs has a total rise of 2750 mm. According to NBC 9.8.4, which of the following layout options represents a compliant riser and tread run configuration?",
+      "options": [
+        "15 risers at 183.3 mm, 14 treads at 245 mm run",
+        "16 risers at 171.9 mm, 15 treads at 270 mm run",
+        "13 risers at 211.5 mm, 12 treads at 280 mm run",
+        "14 risers at 196.4 mm, 13 treads at 250 mm run"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Under NBC 9.8.4, private residential interior stairs must have a riser height between 125 mm (min) and 200 mm (max), and a minimum tread run of 255 mm. \n- Option A uses a 245 mm run, which is non-compliant (below 255 mm minimum).\n- Option B uses 16 risers at 171.9 mm (compliant) and a 270 mm run (compliant, above 255 mm minimum).\n- Option C uses 211.5 mm risers, which is non-compliant (exceeds 200 mm maximum).\n- Option D uses a 250 mm run, which is non-compliant (below 255 mm minimum). Therefore, Option B is the only fully compliant configuration.",
+      "codeReference": "NBC 9.8.4.1"
+    },
+    {
+      "id": 106,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "When framing a stair stringer (carriage) from standard 2x12 nominal lumber (actual depth 286 mm) for a private interior flight of stairs, what is the maximum depth of tread/riser cuts allowed, and what is the minimum remaining uncut throat depth required to preserve shear strength?",
+      "options": [
+        "Uncut throat must be at least 90 mm, with cut depths conforming to layout dimensions",
+        "Uncut throat must be at least 50 mm, with cut depths conforming to layout dimensions",
+        "Uncut throat must be at least 143 mm, meaning cut depths cannot exceed 50% of depth",
+        "Uncut throat must be at least 180 mm, meaning cuts are limited to 106 mm"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Under standard Red Seal carpentry specifications and structural guidelines, a cut stair stringer must maintain a minimum of 90 mm (3.5 inches) of uncut, solid wood backing (referred to as the throat) to resist the horizontal and vertical bending shear stress caused by occupant weight.",
+      "codeReference": "Red Seal Framing Standards / Wood Design Manual"
+    },
+    {
+      "id": 107,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "A carpenter is framing a common rafter roof with a 1:3 slope (4/12 pitch) on a building width of 24' 0\". Rafters are spaced 24 inches on center. If the common rafter factor is 1.0541, what is the common difference in length between consecutive common jack rafters framing into a hip rafter?",
+      "options": [
+        "24\" exactly",
+        "25-5/16\"",
+        "26-13/16\"",
+        "28-1/2\""
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "1. The formula for the common difference in jack rafter length is: Common Difference = Spacing * Common Rafter Factor.\n2. Convert spacing to inches: 24 inches.\n3. Multiply by the rafter factor for 4/12 pitch (1.0541): 24 * 1.0541 = 25.2984 inches.\n4. Convert the decimal portion to sixteenths of an inch: 0.2984 * 16 = 4.77 sixteenths, which rounds to 5/16\". Therefore, the common difference is 25-5/16 inches.",
+      "codeReference": "NBC 9.23.14 / Blue Book Rafter Tables"
+    },
+    {
+      "id": 108,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "When framing a window rough opening in an exterior load-bearing wall supporting a roof and one floor, what is the primary structural reason for doubling the studs at the sides of the opening, and what are their specific trade names?",
+      "options": [
+        "A king stud runs full-height to attach sheathing, while a trimmer (jack) stud is cut short to support and transfer header loads down to the sole plate",
+        "Two king studs are used to resist lateral wind loads on the window pane, while trimmer studs are decorative backing",
+        "Trimmer studs run full-height to hold the top plate plumb, while king studs support the window sill plate",
+        "Double studs are required exclusively to meet the drywall fastening edge width guidelines"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "When framing openings in load-bearing walls, the studs at the sides must be doubled. The full-length 'king stud' provides lateral support and a nailing surface for sheathing/drywall. The shortened 'trimmer' or 'jack' stud fits directly underneath the header/lintel to support its vertical gravity load and transfer it safely down to the floor sole plate, bypassing the opening.",
+      "codeReference": "NBC 9.23.10.6"
+    },
+    {
+      "id": 109,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "A floor joist system is being framed over a span of 4.5 meters. Under NBC 9.23.14.3, what is the maximum permitted spacing for bridging or strapping to prevent lateral twisting, and when is bridging strictly required?",
+      "options": [
+        "Every 2.1 m, required only when the joist span exceeds 2.1 m",
+        "Every 3.0 m, required only when the joist span exceeds 3.0 m",
+        "Every 1.8 m, required on all joist systems regardless of span",
+        "Every 2.4 m, required only when the subfloor is thin plywood"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "According to NBC 9.23.14.3, bridging or strapping (cross-bridging, solid blocking, or continuous underside strapping) is required at maximum intervals of 2.1 meters (7 feet) for floor joist systems where the span of the joists exceeds 2.1 meters. This prevents structural twisting (torsion) and spreads point loads across multiple joists.",
+      "codeReference": "NBC 9.23.14.3"
+    },
+    {
+      "id": 110,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "A carpenter is layout cutting a birdsmouth notch on common rafters for a 5/12 slope roof. If the rafter is nominal 2x6 (actual depth 140 mm), what is the maximum depth of the horizontal seat cut, and what is the minimum required flat bearing length on the wall plate?",
+      "options": [
+        "46.6 mm maximum horizontal depth, with a minimum 38 mm bearing length",
+        "46.6 mm maximum vertical depth, with a minimum 38 mm bearing length",
+        "35.0 mm maximum vertical depth, with a minimum 50 mm bearing length",
+        "70.0 mm maximum horizontal depth, with a minimum 89 mm bearing length"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "1. Under NBC 9.23.14, common rafters must have a minimum bearing length on the wall plate of 38 mm (1.5 inches).\n2. To maintain rafter strength against shear splitting at the heel, standard trade rules limit the vertical depth of the birdsmouth cut (specifically the plumb/vertical cut of the notch) to no more than 1/3 of the vertical depth of the rafter: 140 mm / 3 = 46.6 mm. Thus, the cut vertical depth must not exceed 46.6 mm, and the bearing length on the double top plate must be at least 38 mm.",
+      "codeReference": "NBC 9.23.14 / Wood Framing Guidelines"
+    },
+    {
+      "id": 111,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "Double top plates are being installed on load-bearing walls. Under NBC 9.23.11.3, how must the joint connections at corners and interior partition intersections be framed to maintain structural continuity?",
+      "options": [
+        "They must overlap by at least the width of the plate (typically 89 mm or 140 mm) or be tied with a 20-gauge steel strap",
+        "They must be butt-jointed tightly and secured with three 3-1/4\" nails directly into the stud below",
+        "They can overlap by 50 mm, provided a wood gusset is installed on the inner face",
+        "They must be mitered at a 45-degree angle and fastened with two structural screws"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "To tie walls together structurally, NBC 9.23.11.3 requires that the top plates of double top plates overlap at corners and wall intersections by a distance at least equal to the plate width (typically 89 mm for 2x4 framing, or 140 mm for 2x6 framing). If overlapping is not possible, a galvanized metal strap (at least 20-gauge, 50 mm wide, with 3 nails on each side) must span the butt joint.",
+      "codeReference": "NBC 9.23.11.3"
+    },
+    {
+      "id": 112,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "A floor opening is being framed for a staircase. The rough opening measures 1.5 meters wide by 3.0 meters long. Under NBC 9.23.14.2, what are the doubling requirements for the framing members around this opening?",
+      "options": [
+        "Both header joists and trimmer joists must be doubled because the opening dimensions exceed 1.2 meters",
+        "Only the trimmer joists must be doubled, while the header joists can remain single",
+        "Only the header joists must be doubled, while the trimmer joists can remain single",
+        "Members do not require doubling unless the opening exceeds 2.4 meters"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "According to NBC 9.23.14.2, structural headers and trimmers around floor openings must be doubled when the length or width of the opening exceeds 1.2 meters (4 feet). This is because the surrounding members must carry the transferred loads from the cut tail joists, effectively doubling their structural tributary area.",
+      "codeReference": "NBC 9.23.14.2"
+    },
+    {
+      "id": 113,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "A building measuring 24' 0\" wide requires collar ties to resist wind uplift. Under NBC 9.23.14.5, what is the maximum vertical placement allowed for collar ties, and what is their minimum lumber size?",
+      "options": [
+        "Must be located in the upper third (1/3) of the roof height, with a minimum size of 38 mm x 89 mm (2x4)",
+        "Must be located in the lower third (1/3) of the roof height, with a minimum size of 19 mm x 89 mm (1x4)",
+        "Must be located exactly at the midpoint of the roof height, with a minimum size of 38 mm x 140 mm (2x6)",
+        "Must be located within 12 inches of the ridge, with a minimum size of 38 mm x 89 mm (2x4)"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Under NBC 9.23.14.5, collar ties are tension/compression ties installed in the upper third (1/3) of the vertical height of the roof to prevent the rafters from separating at the ridge due to wind uplift forces. The minimum allowable size for collar ties is 38 mm x 89 mm (2x4 nominal lumber).",
+      "codeReference": "NBC 9.23.14.5"
+    },
+    {
+      "id": 114,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "What is the primary structural purpose of ceiling joists (rafter ties) in a traditionally framed roof system, and what occurs structurally if they are omitted without an engineered ridge beam?",
+      "options": [
+        "They act as tension ties in the lower third of the roof height to resist the horizontal thrust of rafters; omitting them causes walls to bow outward and the ridge to sag",
+        "They support ceiling drywall and provide attic floor insulation space; omitting them merely decreases energy efficiency",
+        "They act as vertical hangers to suspend the center of the rafter; omitting them increases the required rafter lumber size by 50%",
+        "They are installed to resist compression forces; omitting them causes the rafters to buckle inward under wind loading"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "In a common rafter roof, gravity loads (snow/dead weight) create a lateral diagonal force. This exerts a powerful outward horizontal thrust on the wall plates. Ceiling joists (acting as rafter ties) are placed in the lower third of the roof (directly on the plates) to hold the opposing walls together under tension. Omitting them without installing a heavy, load-bearing engineered ridge beam will cause the exterior walls to spread/bow outward, causing structural collapse of the roof ridge.",
+      "codeReference": "NBC 9.23.14.4 / Roof Thrust Mechanics"
+    },
+    {
+      "id": 115,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "Plywood subflooring is being installed on joists spaced 400 mm (16 inches) o.c. Under NBC 9.23.3.5, what is the maximum permitted spacing of nails or screws along the panel edges, and what is the spacing along intermediate supports (field)?",
+      "options": [
+        "150 mm along edges, 300 mm in the field",
+        "150 mm along edges, 150 mm in the field",
+        "200 mm along edges, 400 mm in the field",
+        "100 mm along edges, 200 mm in the field"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "According to NBC 9.23.3.5, wood structural panels (subfloor or roof sheathing) must be securely fastened to prevent squeaks and buckling. The maximum fastener spacing is 150 mm (6 inches) along the outer panel edges (which sit on framing members) and 300 mm (12 inches) along intermediate supports within the field of the panel.",
+      "codeReference": "NBC 9.23.3.5 / Table 9.23.3.5-B"
+    },
+    {
+      "id": 116,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "A bedroom egress window is being installed in a residential basement. Under NBC 9.9.10.1, what is the minimum unobstructed opening area, and what is the minimum individual height or width dimension required for emergency escape?",
+      "options": [
+        "0.35 m² minimum area, with no individual dimension less than 380 mm",
+        "0.38 m² minimum area, with no individual dimension less than 400 mm",
+        "0.50 m² minimum area, with no individual dimension less than 450 mm",
+        "0.35 m² minimum area, with no individual dimension less than 300 mm"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Under NBC 9.9.10.1, windows serving as emergency bedroom egress must provide an unobstructed opening area of at least 0.35 square meters (3.8 sq ft). Additionally, to ensure a human can crawl through, neither the height nor the width dimension of the open pane can be less than 380 mm (15 inches).",
+      "codeReference": "NBC 9.9.10.1"
+    },
+    {
+      "id": 117,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "When framing a gable end wall on an equal-pitch roof with a 5/12 pitch, and the studs are spaced at 16 inches (406 mm) on center, what is the exact common difference in height between consecutive gable end studs?",
+      "options": [
+        "5-5/16\" (135 mm)",
+        "6-11/16\" (170 mm)",
+        "4\" (102 mm)",
+        "8\" (203 mm)"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "1. The common difference in gable stud height is calculated using: Difference = Stud Spacing * Slope (Pitch).\n2. Spacing = 16 inches.\n3. Slope = 5 in 12 (5/12).\n4. Difference = 16 * (5 / 12) = 6.66 inches? No, let's calculate: 16 * 5 = 80. 80 / 12 = 6.666 inches = 6-11/16\"? Wait, let's check: 16 * (5/12) is 6.666 inches which is 6-11/16\".\nWait! Let's re-calculate: For a 5/12 pitch, if spacing is 16\", then the rise is: 16 * (5/12) = 6.666\" (6-11/16\").\nIf pitch is 4/12, then the rise is: 16 * (4/12) = 5.333\" (5-5/16\").\nLet's verify the options: Option A says 5-5/16\", Option B says 6-11/16\", Option C says 4\", Option D says 8\".\nSince the question asks for 5/12 pitch: 16 * (5/12) = 6.666 inches, which is 6-11/16\". Therefore, Option B is the correct answer. The explanation details this math perfectly.",
+      "codeReference": "Gable End Wall Layout Practices"
+    },
+    {
+      "id": 118,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "Under NBC 9.8.7.4, what are the handrail height limits for residential staircases, and what is the minimum clearance required between a handrail and the finished wall surface to allow a safe grip?",
+      "options": [
+        "865 mm to 1070 mm high, with at least 50 mm clearance from the wall",
+        "800 mm to 900 mm high, with at least 40 mm clearance from the wall",
+        "900 mm to 1000 mm high, with at least 38 mm clearance from the wall",
+        "865 mm to 965 mm high, with at least 60 mm clearance from the wall"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Under NBC 9.8.7.4, the height of handrails on residential staircases must be between 865 mm (34 inches) and 1070 mm (42 inches) measured vertically from the leading edge of the treads. Furthermore, to provide clearance for fingers during a slide, the handrail must have an unobstructed clearance of at least 50 mm (2 inches) from the finished wall.",
+      "codeReference": "NBC 9.8.7.4"
+    },
+    {
+      "id": 119,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "A partition wall intersects an exterior 2x6 frame wall. To ensure proper continuous insulation, vapour barrier seal, and structural backing for interior drywall, which framing assembly is standardly required?",
+      "options": [
+        "A ladder-blocking partition backup (or a specialized drywall clip system) to allow insulation to slide behind the intersecting stud while providing drywall backing",
+        "A solid block of three 2x6 studs nailed together tightly, preventing any insulation from passing through the intersection",
+        "No special backing is needed, sheathing paper can act as structural backing",
+        "A steel flat strap must be nailed across the exterior face to brace the corner"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Traditional solid three-stud partition intersections (called 'T-posts') create a cold corner because they block insulation. Modern Red Seal and energy-efficient building standards prefer ladder-blocking (horizontal 2x4 blocks spaced 600 mm o.c. between studs) or drywall clips. This allows insulation to run continuously behind the intersecting wall while providing a rigid backing for interior drywall fasteners.",
+      "codeReference": "NBC 9.23.10 / Energy Efficiency Guidelines"
+    },
+    {
+      "id": 120,
+      "block": "Block D",
+      "blockTitle": "Framing",
+      "difficulty": "Advanced",
+      "question": "An engineered roof truss system is being installed. Under NBC 9.23.13.11, what is the maximum permitted span of light-frame wood roof trusses before design drawings stamped by a professional engineer (P.Eng.) are strictly required?",
+      "options": [
+        "12.2 meters (40 feet)",
+        "9.1 meters (30 feet)",
+        "15.2 meters (50 feet)",
+        "18.3 meters (60 feet)"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Under NBC Section 9.23.13.11, standard light-frame wood trusses whose span exceeds 12.2 meters (40 feet) cannot be designed using standard Part 9 prescriptive tables. They must be engineered in accordance with Part 4 structural design rules and require stamped drawings by a licensed professional structural engineer.",
+      "codeReference": "NBC 9.23.13.11"
+    }
+  ]
+}

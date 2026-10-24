@@ -1,6 +1,6 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
-const config: CapacitorConfig = {
+const config: any = {
   appId: "com.imbrokeapps.squaredpro",
   appName: "Squared Pro",
   webDir: "dist",

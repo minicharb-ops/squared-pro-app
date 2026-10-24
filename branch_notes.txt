@@ -1,0 +1,153 @@
+  3060	              </div>
+  3061	            </div>
+  3062	          ) : (
+  3063	            <div className="flex flex-col gap-6 h-auto min-h-min p-4">
+  3064	              {currentPageNotes.length === 0 ? (
+  3065	                <div className="h-40 flex flex-col items-center justify-center text-center p-4 border border-dashed border-slate-200 dark:border-slate-800 rounded-xl">
+  3066	                  <span className="text-lg">📝</span>
+  3067	                  <span className="text-[10px] font-bold text-slate-400 mt-2 block">No annotations for this sheet yet.</span>
+  3068	                  <span className="text-[9px] text-slate-400 mt-1 block">Write custom study highlights below to prepare.</span>
+  3069	                </div>
+  3070	              ) : (
+  3071	                currentPageNotes.map((note) => (
+  3072	                  <div 
+  3073	                    key={note.id} 
+  3074	                    className="bg-white dark:bg-slate-800 p-3 rounded-xl border border-slate-200 dark:border-slate-700 shadow-sm relative group space-y-2"
+  3075	                  >
+  3076	                    <div className="flex justify-between items-center">
+  3077	                      <span className={`text-[8px] font-black uppercase px-1.5 py-0.5 rounded tracking-wide ${
+  3078	                        note.category === 'exam' ? 'bg-rose-500/10 text-rose-500' :
+  3079	                        note.category === 'math' ? 'bg-amber-500/10 text-amber-500' :
+  3080	                        note.category === 'code' ? 'bg-emerald-500/10 text-emerald-500' :
+  3081	                        'bg-indigo-500/10 text-indigo-500'
+  3082	                      }`}>
+  3083	                        {note.category}
+  3084	                      </span>
+  3085	                      
+  3086	                      <span className="text-[8px] font-bold text-slate-400">{note.date}</span>
+  3087	                    </div>
+  3088	
+  3089	                    {editingNoteId === note.id ? (
+  3090	                      <div className="space-y-2">
+  3091	                        <textarea
+  3092	                          value={editingNoteText}
+  3093	                          onChange={(e) => setEditingNoteText(e.target.value)}
+  3094	                          className="w-full p-2 text-xs font-semibold bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg focus:outline-none focus:ring-1 focus:ring-brand-500"
+  3095	                          rows={3}
+  3096	                        />
+  3097	                        <div className="flex justify-end gap-1.5">
+  3098	                          <button
+  3099	                            onClick={() => setEditingNoteId(null)}
+  3100	                            className="px-2 py-1 text-[9px] font-extrabold uppercase text-slate-400"
+  3101	                          >
+  3102	                            Cancel
+  3103	                          </button>
+  3104	                          <button
+  3105	                            onClick={() => handleSaveEdit(note.id)}
+  3106	                            className="px-2 py-1 bg-brand-500 text-white text-[9px] font-black uppercase rounded shadow-sm"
+  3107	                          >
+  3108	                            Save
+  3109	                          </button>
+  3110	                        </div>
+  3111	                      </div>
+  3112	                    ) : (
+  3113	                      <>
+  3114	                        <p className="text-[10px] text-slate-600 dark:text-slate-300 leading-normal whitespace-pre-wrap">
+  3115	                          {note.text}
+  3116	                        </p>
+  3117	                        
+  3118	                        <div className="flex justify-end items-center opacity-0 group-hover:opacity-100 transition-opacity gap-2 border-t border-dashed border-slate-100 dark:border-slate-800/50 pt-2">
+  3119	                          <button 
+  3120	                            onClick={() => handleStartEdit(note)}
+  3121	                            className="p-1 text-slate-400 hover:text-brand-500 rounded transition-colors"
+  3122	                            title="Edit Annotation"
+  3123	                          >
+  3124	                            <Edit2 size={11} />
+  3125	                          </button>
+  3126	                          <button 
+  3127	                            onClick={() => handleDeleteNote(note.id)}
+  3128	                            className="p-1 text-slate-400 hover:text-rose-500 rounded transition-colors"
+  3129	                            title="Delete Annotation"
+  3130	                          >
+  3131	                            <Trash2 size={11} />
+  3132	                          </button>
+  3133	                        </div>
+  3134	                      </>
+  3135	                    )}
+  3136	                  </div>
+  3137	                ))
+  3138	              )}
+  3139	            </div>
+  3140	          )}
+  3141	
+  3142	          {/* Quick study helpers */}
+  3143	          <div className="relative p-3 border-t border-slate-200 dark:border-slate-800 bg-slate-100/40 dark:bg-slate-900/40 space-y-1.5">
+  3144	            <span className="text-[8px] font-black text-slate-400 uppercase tracking-widest block">Quick Exam Templates</span>
+  3145	            <div className="flex flex-wrap gap-1">
+  3146	              <button 
+  3147	                onClick={() => insertQuickTemplate("Verify CSA standard and lumber grades prior to takeoff.")}
+  3148	                className="text-[8px] font-bold bg-white dark:bg-slate-800 hover:bg-brand-500/10 hover:text-brand-500 border border-slate-200 dark:border-slate-700 px-2 py-1 rounded text-slate-600 dark:text-slate-400 transition-all"
+  3149	              >
+  3150	                + CSA lumber specs
+  3151	              </button>
+  3152	              <button 
+  3153	                onClick={() => insertQuickTemplate("Required fasteners: 3-1/4\" common nails spaced @ 12\" o.c.")}
+  3154	                className="text-[8px] font-bold bg-white dark:bg-slate-800 hover:bg-brand-500/10 hover:text-brand-500 border border-slate-200 dark:border-slate-700 px-2 py-1 rounded text-slate-600 dark:text-slate-400 transition-all"
+  3155	              >
+  3156	                + Fastener specs
+  3157	              </button>
+  3158	              <button 
+  3159	                onClick={() => insertQuickTemplate("Always double check bearing points with structural engineer.")}
+  3160	                className="text-[8px] font-bold bg-white dark:bg-slate-800 hover:bg-brand-500/10 hover:text-brand-500 border border-slate-200 dark:border-slate-700 px-2 py-1 rounded text-slate-600 dark:text-slate-400 transition-all"
+  3161	              >
+  3162	                + Bearing check
+  3163	              </button>
+  3164	            </div>
+  3165	          </div>
+  3166	
+  3167	          {/* Add annotation form */}
+  3168	          <div className="relative p-4 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900">
+  3169	            <form onSubmit={handleAddNote} className="space-y-3">
+  3170	              <div className="flex justify-between items-center">
+  3171	                <label htmlFor="note-input" className="text-[9px] font-black text-slate-400 uppercase tracking-wider">New Note</label>
+  3172	                <div className="flex items-center space-x-1.5">
+  3173	                  <select 
+  3174	                    value={newNoteCategory}
+  3175	                    onChange={(e) => setNewNoteCategory(e.target.value)}
+  3176	                    className="text-[9px] font-black bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-350 px-2 py-1 border-none rounded-md focus:ring-1 focus:ring-brand-500"
+  3177	                    aria-label="Note category classification tag"
+  3178	                  >
+  3179	                    <option value="exam">Exam Tag</option>
+  3180	                    <option value="math">Math Tip</option>
+  3181	                    <option value="code">NBC Code</option>
+  3182	                    <option value="framing">Framing</option>
+  3183	                  </select>
+  3184	                </div>
+  3185	              </div>
+  3186	
+  3187	              <div className="relative">
+  3188	                <textarea
+  3189	                  id="note-input"
+  3190	                  placeholder="Enter details, reference codes or formulas..."
+  3191	                  value={newNoteText}
+  3192	                  onChange={(e) => setNewNoteText(e.target.value)}
+  3193	                  rows={2}
+  3194	                  className="w-full p-2.5 text-xs font-semibold bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-800 rounded-xl focus:outline-none focus:ring-2 focus:ring-brand-500 placeholder-slate-400 text-slate-900 dark:text-white"
+  3195	                />
+  3196	              </div>
+  3197	
+  3198	              <button
+  3199	                type="submit"
+  3200	                disabled={!newNoteText.trim()}
+  3201	                className="w-full bg-brand-500 hover:bg-brand-600 disabled:opacity-50 text-white text-xs font-black uppercase tracking-wider py-2 rounded-xl transition-all flex items-center justify-center gap-1 min-h-[38px] shadow"
+  3202	              >
+  3203	                <Plus size={14} />
+  3204	                <span>Save Note to Page {currentPage}</span>
+  3205	              </button>
+  3206	            </form>
+  3207	      </div>
+  3208	
+  3209	            </div>
+  3210	          )}
+  3211	      </div>
+  3212	

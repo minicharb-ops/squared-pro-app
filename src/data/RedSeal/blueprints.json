@@ -1,0 +1,270 @@
+[
+  {
+    "id": "bp-01",
+    "title": "The Title Block & Revisions",
+    "imageUrl": "/assets/blueprints/title-block.jpg",
+    "imagePlaceholder": "SVG_PLACEHOLDER_TITLE_BLOCK",
+    "description": "The Title Block is the most critical part of any blueprint. It tells you exactly what you are building, who drew it, and most importantly, when it was last changed.",
+    "scale": "Scale: 1/4\" = 1'-0\"",
+    "keyTakeaways": [
+      {
+        "element": "Issued For Construction",
+        "explanation": "Always search for the stamp or label 'ISSUED FOR CONSTRUCTION' or 'IFC'. Never frame off of drawings labeled 'PRELIMINARY', 'ISSUED FOR TENDER', or 'FOR REVIEW'."
+      },
+      {
+        "element": "Revision Block",
+        "explanation": "Located in or near the title block. It lists a chronological table of modifications. Verify that the revision index matches the general contractor's master set."
+      },
+      {
+        "element": "Dimension Hierarchy",
+        "explanation": "A structured arrangement of parallel dimension lines. The outer string specifies overall dimensions, the middle string locates major wall jogs, and the inner string determines specific window/door rough openings (R.O.). If contradictions occur, the written outer overall string always overrules the middle string, which overrules the inner string. Never physically scale prints; use structural grid-lines to cross-verify lengths."
+      },
+      {
+        "element": "Load-Bearing Partition",
+        "explanation": "An interior wall designed to carry vertical loads from floors, roofs, or ceilings above down to the foundation or beams below. Labeled as 2x6 @ 16\" O.C. for stability and load capacity."
+      },
+      {
+        "element": "Non-Bearing Partition",
+        "explanation": "An interior wall that supports no load other than its own weight, typically framed with 2x4 studs @ 16\" o.c. Since non-bearing partitions carry no structural floor or roof loads, headers are NOT required over door openings."
+      },
+      {
+        "element": "Plumbing Chase Framing",
+        "explanation": "A thickened wall framing assembly designed to accommodate large 3\" waste/vent plumbing pipes. NBC 9.23.5.3 prohibits notching or drilling a stud past 1/3 depth, so running a 3\" pipe completely cuts a 2x4 stud. Thus, a 2x6 wall must be framed, or a dedicated plumbing chase built."
+      },
+      {
+        "element": "Window Rough Opening",
+        "explanation": "Header span limits for exterior bearing walls must comply with NBC 9.23.12. R.O. requires precision for window fitment and shimming tolerances."
+      },
+      {
+        "element": "Stair Rise & Run",
+        "explanation": "NBC 9.8.4 dictates safe stair geometries. Maximum rise is 200mm (7 7/8\") and minimum run is 210mm (8 1/4\") for private dwelling stairs."
+      }
+    ]
+  },
+  {
+    "id": "bp-02",
+    "title": "Foundation & Framing Plan",
+    "imageUrl": "/assets/blueprints/foundation.jpg",
+    "imagePlaceholder": "SVG_PLACEHOLDER_FOUNDATION",
+    "description": "Foundation plans outline concrete footings, foundation walls, supporting beams, and teleposts critical for primary structural loads.",
+    "scale": "Scale: 1/4\" = 1'-0\"",
+    "keyTakeaways": [
+      {
+        "element": "Pad Footing",
+        "explanation": "Concrete pads that transfer concentrated loads from teleposts to the soil. Critical to size correctly according to bearing capacity."
+      },
+      {
+        "element": "Foundation Walls",
+        "explanation": "Solid concrete walls designed to resist lateral soil pressure and transmit vertical loads from structural framing to the footing."
+      },
+      {
+        "element": "Rebar Spacing",
+        "explanation": "Reinforcing steel (15M) spacing must adhere to NBC minimum concrete cover and lap splice rules to ensure structural integrity against lateral soil pressure."
+      },
+      {
+        "element": "Damp-proofing",
+        "explanation": "NBC 9.13 requirements for foundation drainage and bituminous coatings applied to the exterior face of foundation walls to prevent soil moisture ingress."
+      }
+    ]
+  },
+  {
+    "id": "bp-03",
+    "title": "A/S Cross-Section Detail",
+    "imageUrl": "/assets/blueprints/elevations.jpg",
+    "imagePlaceholder": "SVG_PLACEHOLDER_SECTION",
+    "description": "Deep-dive Architectural/Structural vertical cross-section detail slicing through the building envelope, detailing insulation, framing connections, and moisture control layers.",
+    "scale": "Scale: 1/2\" = 1'-0\"",
+    "keyTakeaways": [
+      {
+        "element": "Envelope Assembly Layers",
+        "explanation": "Comprises siding, 10mm (3/8 in) strapping, sheathing membrane (Tyvek), and OSB sheathing. Overlapping Tyvek shingles moisture out, while the vertical strapping creates a rain-screen capillary break (NBC 9.27.2.4) allowing drainage of condensed vapor and bulk leakage."
+      },
+      {
+        "element": "Attic Ventilation Baffles",
+        "explanation": "Continuous insulation wind baffles maintain a clear, unobstructed airway between vented soffits and the attic. NBC 9.19.1.1 mandates a minimum 1/300 net-free ventilation area of the insulated ceiling to exhaust moisture and prevent mold or ice dams."
+      },
+      {
+        "element": "Foundation Sill Gasket",
+        "explanation": "A compressible foam strip separating wood plates from basement concrete foundation walls. Acts as a critical capillary break blocking soil dampness from wicking into structural framing, while sealing air drafts."
+      },
+      {
+        "element": "Sill Plate Anchor Bolts",
+        "explanation": "Steel anchor bolts embedded in poured concrete foundation walls. NBC 9.23.6.1 requires min 12.7mm (1/2\") bolts spaced no more than 2.4m (8 ft) (8') O.C. to resist lateral wind and seismic loads, anchoring the framing secure."
+      },
+      {
+        "element": "6-mil Poly Vapour Barrier",
+        "explanation": "NBC 9.25.4 mandates a vapour barrier on the warm-in-winter side of the building envelope to prevent moisture diffusion into the insulated cavity."
+      },
+      {
+        "element": "OSB Nailing Pattern",
+        "explanation": "Standard wall sheathing nailing: 150mm (6\") on edges, 300mm (12\") in the field to provide required shear strength (NBC 9.23.3.5)."
+      },
+      {
+        "element": "BASE FLASHING & WEEPHOLES",
+        "explanation": "Flashing must be installed at the base of the wall system to direct moisture outward. Masonry veneer requires weepholes spaced at max 800mm to allow drainage of the cavity."
+      }
+    ]
+  },
+  {
+    "id": "bp-04",
+    "title": "Electrical Plan",
+    "description": "Electrical plans detail the location of the main service panel, lighting circuits, switches, smoke detectors, and receptacles.",
+    "scale": "Scale: 1/4\" = 1'-0\"",
+    "keyTakeaways": [
+      {
+        "element": "Electrical Panel",
+        "explanation": "The main distribution source (200 Ampere standard) where power splits into individual branch load circuits safely."
+      },
+      {
+        "element": "Switch & Wiring",
+        "explanation": "A curved dashed line that illustrates switch-to-fixture mapping, e.g. 3-way switches ($3) for multi-entrance control."
+      },
+      {
+        "element": "GFCI Outlet",
+        "explanation": "Ground Fault Circuit Interrupters designed to trip instantly near water sources like sinks and bathrooms."
+      },
+      {
+        "element": "STUD DRILLING LIMITS",
+        "explanation": "When drilling through load-bearing framing members for wire or pipe runs, the hole diameter cannot exceed 1/3 the depth of the stud, and must leave at least 50mm (2\") of solid wood on the edge."
+      },
+      {
+        "element": "RECEPTACLE SPACING",
+        "explanation": "CEC dictates that duplex receptacles must be placed so that no point along the floor line of any usable wall space is more than 1.8m from an outlet (3.6m rule)."
+      },
+      {
+        "element": "240V RECEPTACLES",
+        "explanation": "Dedicated 240V, high-amperage outlets used for heavy appliances like 30A dryers and 50A stoves. These require specific gauge wire and double-pole breakers."
+      }
+    ]
+  },
+  {
+    "id": "bp-05",
+    "title": "Plumbing Plan",
+    "description": "Plumbing plans show the layout of the DWV (Drain, Waste, Vent) system, fixtures, traps, and radon sealed sump pits.",
+    "scale": "Scale: 1/4\" = 1'-0\"",
+    "keyTakeaways": [
+      {
+        "element": "Sump Pit Radon Seal",
+        "explanation": "NBC Part 9 mandates that all sump pits situated in basement floor slabs must be fitted with an air-tight, gastight, and bolted structural cover. This serves as a vital radon gas mitigation barrier, preventing hazardous radioactive soil gases from infiltrating the home's indoor air."
+      },
+      {
+        "element": "Joist Penetration",
+        "explanation": "NBC 9.23.5.1: Holes drilled in framing members cannot exceed 1/4 the depth of the member unless properly engineered."
+      }
+    ]
+  },
+  {
+    "id": "bp-06",
+    "title": "Floor Framing Plan",
+    "imageUrl": "/assets/blueprints/framing-plan.jpg",
+    "imagePlaceholder": "SVG_PLACEHOLDER_FRAMING_PLAN",
+    "description": "Floor framing plans show structural joist sizing, spacing, span direction, engineered beam locations, and metal hangers required for subfloor loading.",
+    "scale": "Scale: 1/4\" = 1'-0\"",
+    "keyTakeaways": [
+      {
+        "element": "Joist Span Arrow",
+        "explanation": "Indicates the layout direction and length of the floor joist span. Refer to span charts to determine suitable lumber species and grades (SPF No. 2 vs. MSR lumber). Per NBC 9.23.9.2, joists must lap or bear at least 150mm (6 in) over bearing points, and engineered wood I-joists are typically spaced at 12\", 16\", or 19.2\" O.C. depending on structural design loads."
+      },
+      {
+        "element": "Cross-Bridging",
+        "explanation": "Solid blocking or cross-bridging required every 2.1m (6'-10\") along the span to prevent the joists from twisting or buckling under load as required by NBC 9.23.9.4."
+      },
+      {
+        "element": "Metal Joist Hangers",
+        "explanation": "Engineered metallic brackets designed to support heavier structural joists where they frame directly into beams or flush headers instead of bearing on top of them (NBC 9.23.9.2). Uses special short thick shear nails (joist hanger nails) rather than standard framing nails."
+      },
+      {
+        "element": "FLOOR OPENINGS (TRIMMERS/HEADERS)",
+        "explanation": "Openings in floor framing exceeding 1.2m (4') in width require doubled header joists and doubled trimmer joists to properly transfer the interrupted load."
+      }
+    ]
+  },
+  {
+    "id": "bp-07",
+    "title": "Site Plan & Elevations",
+    "keyTakeaways": [
+      {
+        "element": "Batter Boards",
+        "explanation": "Batter boards are horizontal boards set back from the excavation corners. They hold string lines to mark the building's exterior perimeter. Builders use the 3-4-5 triangulation method (Pythagorean theorem) on these string lines to ensure the foundation is perfectly square before digging."
+      },
+      {
+        "element": "Building Setback",
+        "explanation": "The required minimum distance between the property line and the building footprint. Governed by municipal zoning bylaws and NBC spatial separation requirements to limit fire spread between adjacent buildings."
+      },
+      {
+        "element": "Benchmark Elevation",
+        "explanation": "A fixed reference point for vertical control. It can be a geodetic benchmark (true elevation above sea level) or an assumed benchmark (e.g., 100.00m set on a nearby manhole or fire hydrant) used to establish foundation depths and floor heights."
+      },
+      {
+        "element": "SURFACE DRAINAGE (GRADING)",
+        "explanation": "NBC requires the building site to be graded so that water drains away from the foundation. The minimum required slope is 10% for the first 2 meters (approx. 8 inches of fall over 6 feet)."
+      }
+    ]
+  },
+  {
+    "id": "bp-08",
+    "title": "Roof Framing Plan",
+    "keyTakeaways": [
+      {
+        "element": "Ridge Board",
+        "explanation": "The horizontal structural member at the peak of the roof where common rafters meet. NBC 9.23.14.8 requires the ridge board to be at least one commercial size larger than the mating rafters (e.g., 2x8 rafters require a 2x10 ridge board)."
+      },
+      {
+        "element": "Collar Ties",
+        "explanation": "Horizontal lumber members installed in the upper third of the attic space. They prevent the rafters from separating at the ridge during high wind uplift events (NBC 9.23.14.10)."
+      },
+      {
+        "element": "Birdsmouth Cut",
+        "explanation": "A structural notch cut into the bottom of a rafter to provide a flat bearing surface on the top wall plate. It consists of a vertical plumb cut and a horizontal seat cut. NBC specifies minimum bearing lengths (e.g. 38mm) without over-notching the rafter depth."
+      },
+      {
+        "element": "ATTIC VENTILATION",
+        "explanation": "Unheated attics require unobstructed ventilation (like soffit vents). The total net free venting area must be at least 1/300 of the insulated ceiling area, distributed evenly between the eaves and the ridge."
+      }
+    ]
+  },
+  {
+    "id": "bp-09",
+    "title": "Exterior Elevation",
+    "keyTakeaways": [
+      {
+        "element": "Step Flashing",
+        "explanation": "NBC 9.26.4 requires flashing where a roof intersects a wall, installed step-by-step with each shingle course to divert water away from the wall assembly."
+      },
+      {
+        "element": "Finished Grade Clearance",
+        "explanation": "NBC 9.27.2.4 mandates a minimum 200mm (8\") clearance from the bottom of untreated wood or vulnerable cladding to the finished ground level to prevent rot and termite access."
+      },
+      {
+        "element": "Window Drip Cap",
+        "explanation": "NBC 9.27.3.8 requires head flashing (drip cap) over window and door openings to shed water outwards, preventing it from pooling on the window frame and rotting the header."
+      },
+      {
+        "element": "EAVES PROTECTION",
+        "explanation": "Ice and water shield (eaves protection) must extend from the edge of the roof to a line not less than 900mm (36\") up the roof slope, to prevent water ingress from ice damming."
+      }
+    ]
+  },
+  {
+    "id": "bp-10",
+    "title": "Dedicated Stair Section",
+    "keyTakeaways": [
+      {
+        "element": "Headroom Clearance",
+        "explanation": "NBC 9.8.2 requires a minimum clear headroom of 1950mm (6'-5\") measured vertically from a line drawn through the outer edges of the nosings."
+      },
+      {
+        "element": "Stringer Attachment",
+        "explanation": "NBC 9.8.9 dictates that wooden stair stringers must be securely fastened to headers and trimmers. Minimum effective depth of a cut stringer must not be less than 90mm (3.5\")."
+      },
+      {
+        "element": "Handrail Height",
+        "explanation": "NBC 9.8.7 states handrails must be installed at a height between 865mm (34\") and 1070mm (42\") above the stair nosing."
+      },
+      {
+        "element": "GUARDS & HANDRAILS",
+        "explanation": "Interior stairs require a handrail if there are more than 2 risers. Guards must be a minimum of 900mm (36\") high, or 1070mm (42\") high if the drop exceeds 10 meters."
+      }
+    ]
+  }
+]
