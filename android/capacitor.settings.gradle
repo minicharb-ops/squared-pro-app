@@ -3,10 +3,10 @@ include ':capacitor-android'
 project(':capacitor-android').projectDir = new File('../../../../node_modules/@capacitor/android/capacitor')
 
 include ':capacitor-community-speech-recognition'
-project(':capacitor-community-speech-recognition').projectDir = new File('../node_modules/@capacitor-community/speech-recognition/android')
+project(':capacitor-community-speech-recognition').projectDir = new File('../node_modules/.pnpm/@capacitor-community+speech_80958e40a641ab57e89aafcd6c0b3542/node_modules/@capacitor-community/speech-recognition/android')
 
 include ':capawesome-capacitor-app-update'
-project(':capawesome-capacitor-app-update').projectDir = new File('../node_modules/@capawesome/capacitor-app-update/android')
+project(':capawesome-capacitor-app-update').projectDir = new File('../node_modules/.pnpm/@capawesome+capacitor-app-update@8.1.1_@capacitor+core@8.6.2/node_modules/@capawesome/capacitor-app-update/android')
 
 include ':capgo-native-purchases'
-project(':capgo-native-purchases').projectDir = new File('../node_modules/@capgo/native-purchases/android')
+project(':capgo-native-purchases').projectDir = new File('../node_modules/.pnpm/@capgo+native-purchases@8.9.14_@capacitor+core@8.6.2/node_modules/@capgo/native-purchases/android')
