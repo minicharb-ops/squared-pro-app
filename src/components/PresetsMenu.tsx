@@ -371,20 +371,20 @@ export default function PresetsMenu({ isOpen, onClose, unitMode, onInject, onSwi
   };
 
   return (
-    <div className="fixed inset-0 z-50 flex justify-end">
-      <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" onClick={onClose}></div>
-      <div className="relative w-full max-w-sm h-full bg-white dark:bg-[#121417] shadow-2xl flex flex-col overflow-hidden animate-in slide-in-from-right duration-200">
-        <div className="p-4 pb-4 px-4 border-b border-gray-200 dark:border-[#2D333D] bg-gray-50 dark:bg-[#1A1D23] flex justify-between items-center" style={{ paddingTop: 'calc(2.5rem + env(safe-area-inset-top, 0px))' }}>
-          <h2 className="text-[10px] font-bold uppercase tracking-widest text-gray-500 dark:text-gray-400 flex items-center gap-2">
-            <Calculator className="w-4 h-4" />
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+      <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={onClose}></div>
+      <div className="relative w-full max-w-md max-h-[85vh] bg-slate-950 border border-slate-800 rounded-2xl shadow-2xl flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-200">
+        <div className="shrink-0 z-10 bg-slate-950 border-b border-slate-800 px-4 py-3 flex justify-between items-center">
+          <h2 className="text-xs font-bold uppercase tracking-widest text-slate-300 flex items-center gap-2">
+            <Calculator className="w-4 h-4" style={{ color: accentColor }} />
             Formula Presets
           </h2>
-          <button onClick={onClose} className="text-gray-500 hover:text-gray-900 dark:hover:text-gray-900 dark:text-white" aria-label="Close Presets">
-            <X className="w-6 h-6" />
+          <button onClick={onClose} className="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-colors" aria-label="Close Presets">
+            <X className="w-5 h-5" />
           </button>
         </div>
         
-        <div className="flex-1 overflow-y-auto p-4 space-y-4 pb-[calc(8rem+env(safe-area-inset-bottom))]">
+        <div className="flex-1 overflow-y-auto px-4 pt-4 pb-6 space-y-3">
           {!activePreset ? (
             <div className="flex flex-col gap-3">
 

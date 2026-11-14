@@ -33,6 +33,7 @@ export function ImperialInput({ mode = 'feet-inches', value, onChange }) {
             type="number"
             min="0"
             value={inches}
+            onFocus={(e) => e.target.select()}
             onChange={(e) => updateField('inches', e.target.value)}
             className="w-full bg-slate-900 border border-slate-800 text-white font-mono text-center rounded-lg p-2 text-sm focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 focus:outline-none"
             placeholder="in"
@@ -44,6 +45,7 @@ export function ImperialInput({ mode = 'feet-inches', value, onChange }) {
             type="number"
             min="0"
             value={fractionNum}
+            onFocus={(e) => e.target.select()}
             onChange={(e) => updateField('fractionNum', e.target.value)}
             className="w-full bg-slate-900 border border-slate-800 text-white font-mono text-center rounded-lg p-2 text-sm focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 focus:outline-none"
             placeholder="num"
@@ -73,6 +75,7 @@ export function ImperialInput({ mode = 'feet-inches', value, onChange }) {
           type="number"
           min="0"
           value={feet}
+          onFocus={(e) => e.target.select()}
           onChange={(e) => updateField('feet', e.target.value)}
           className="w-full bg-slate-900 border border-slate-800 text-white font-mono text-center rounded-lg p-2 text-sm focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 focus:outline-none"
           placeholder="ft"
@@ -85,6 +88,7 @@ export function ImperialInput({ mode = 'feet-inches', value, onChange }) {
           min="0"
           max="11"
           value={inches}
+          onFocus={(e) => e.target.select()}
           onChange={(e) => updateField('inches', e.target.value)}
           className="w-full bg-slate-900 border border-slate-800 text-white font-mono text-center rounded-lg p-2 text-sm focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 focus:outline-none"
           placeholder="in"
@@ -96,6 +100,7 @@ export function ImperialInput({ mode = 'feet-inches', value, onChange }) {
           type="number"
           min="0"
           value={fractionNum}
+          onFocus={(e) => e.target.select()}
           onChange={(e) => updateField('fractionNum', e.target.value)}
           className="w-full bg-slate-900 border border-slate-800 text-white font-mono text-center rounded-lg p-2 text-sm focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 focus:outline-none"
           placeholder="num"
@@ -146,6 +151,7 @@ export function MetricInput({ value, unit = 'mm', onChange }) {
         <input
           type="number"
           value={numericValue}
+          onFocus={(e) => e.target.select()}
           onChange={handleValChange}
           className="w-full bg-slate-950 border-2 border-slate-700 text-white font-mono text-center rounded-lg p-2.5 text-lg focus:border-amber-400 focus:outline-none"
           placeholder={`e.g., 1000`}

@@ -563,7 +563,7 @@
   {
     "id": "windows_doors",
     "category": "Exterior & Framing",
-    "title": "Windows, Doors, Hatches & Skylights",
+    "title": "Windows, Doors & Skylights",
     "subTitle": "Rough Openings, Flashing & Egress",
     "image": "blueprint_windows_doors",
     "jobsiteProcess": "Frame the rough opening (RO) according to the manufacturer's specs (typically 12mm to 25mm / 1/2 in to 1 in larger than the unit). Pre-slope the rough sill using cedar shims or beveled siding, and apply a waterproof peel-and-stick sill pan flashing. Set the window or door into the opening, resting on shims at the sill to keep it level and off any standing moisture. Plumb the jambs, level the head, and check diagonal measurements for square. Fasten the unit through the exterior nailing flange or interior jambs. Apply flashing membrane in a 'shingle' fashion: sill first (already done), then jambs overlapping the sill, and finally the head flashing overlapping the jambs. Insulate the interior RO gap with low-expansion foam. For skylights, frame the roof opening, build a curb if necessary, and meticulously install step-flashing along the sides and saddle-flashing at the top.",
@@ -581,7 +581,7 @@
       "EXAM TRAP: Flashing must ALWAYS be applied in 'shingle fashion' to shed water away from the building envelope. This means Sill Pan first, then Jamb flashing (overlapping the sill), and finally Head flashing (overlapping the jambs)."
     ],
     "modalData": {
-      "title": "Windows, Doors, Hatches & Skylights",
+      "title": "Windows, Doors & Skylights",
       "iconName": "Eye",
       "iconColor": "text-sky-400",
       "definition": "Access detailed NBC reference guides for rough openings, flashing, and egress. Includes jobsite processes like framing rough openings 12mm to 25mm (1/2 in to 1 in) larger than the unit, pre-sloping the rough sill, and insulating the interior gap with low-expansion foam.",

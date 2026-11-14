@@ -54,6 +54,7 @@ export default function DimensionInput({
           <div className="relative flex-1">
             <input inputMode="decimal" type="text"
               value={feetValue}
+              onFocus={(e) => e.target.select()}
               onChange={(e) => onFeetChange?.(e.target.value)}
               placeholder="Feet"
               className={`rounded-lg p-3 w-full shadow-inner font-bold text-center focus:outline-none font-mono tracking-tight focus:border-[var(--accent-color)] focus:ring-1 focus:ring-[var(--accent-color)] transition-colors ${theme !== 'light' ? 'bg-[#0B0F13] border border-gray-800 text-white' : 'bg-slate-100 text-slate-900 border border-slate-300'}`}
@@ -66,6 +67,7 @@ export default function DimensionInput({
         <div className="relative flex-1">
           <input inputMode="decimal" type="text"
             value={inchesValue}
+            onFocus={(e) => e.target.select()}
             onChange={(e) => onInchesChange(e.target.value)}
             placeholder="Inches"
             className={`rounded-lg p-3 w-full shadow-inner font-bold text-center focus:outline-none font-mono tracking-tight focus:border-[var(--accent-color)] focus:ring-1 focus:ring-[var(--accent-color)] transition-colors ${theme !== 'light' ? 'bg-[#0B0F13] border border-gray-800 text-white' : 'bg-slate-100 text-slate-900 border border-slate-300'}`}

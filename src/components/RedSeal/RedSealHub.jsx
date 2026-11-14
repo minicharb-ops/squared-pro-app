@@ -133,7 +133,8 @@ export default function RedSealHub({ theme, initialView = 'structural', onNaviga
   const RED_SEAL_MODULE_OPTIONS = [
     { 
       id: 'structural', 
-      name: 'Structural Specifics', 
+      name: 'Structural',
+      modalTitle: 'Structural Specifics',
       icon: Wrench, 
       color: 'text-cyan-400', 
       definition: "Instructs the proper steps and sequences for each phase of a build. Features detailed instructional diagrams, NBC (National Building Code) tables, span charts, and essential code formulas from footings to framing.",
@@ -143,6 +144,7 @@ export default function RedSealHub({ theme, initialView = 'structural', onNaviga
     { 
       id: 'cram', 
       name: 'Cram Mode', 
+      modalTitle: 'Cram Mode',
       icon: Flame, 
       color: 'text-orange-500', 
       definition: "High-yield, rapid-fire facts with auto-revealed answers for last-minute memorization.",
@@ -151,8 +153,9 @@ export default function RedSealHub({ theme, initialView = 'structural', onNaviga
     },
     { 
       id: 'practice', 
-      name: 'Exam Practice', 
-      icon: Award, Calculator, 
+      name: 'Mock Exam', 
+      modalTitle: 'Exam Practice',
+      icon: Award, 
       color: 'text-emerald-400', 
       definition: "Simulated exam conditions targeting specific blocks and tasks.",
       exampleCase: "Take a 20-question quiz focused strictly on stairs and roofing.",
@@ -161,6 +164,7 @@ export default function RedSealHub({ theme, initialView = 'structural', onNaviga
     { 
       id: 'flashcards', 
       name: 'Flashcards', 
+      modalTitle: 'Flashcards',
       icon: Zap, 
       color: 'text-yellow-400', 
       definition: "Spaced-repetition memory decks for active recall of key codes and tools.",
@@ -169,7 +173,8 @@ export default function RedSealHub({ theme, initialView = 'structural', onNaviga
     },
     { 
       id: 'blueprint', 
-      name: 'Blueprint Trainer', 
+      name: 'Blueprints', 
+      modalTitle: 'Blueprint Trainer',
       icon: Compass, 
       color: 'text-fuchsia-400', 
       definition: "Practice interpreting architectural plans, symbols, and specifications.",
@@ -178,7 +183,8 @@ export default function RedSealHub({ theme, initialView = 'structural', onNaviga
     },
     { 
       id: 'math', 
-      name: 'Trade Math & Estimating', 
+      name: 'Trade Math', 
+      modalTitle: 'Trade Math & Estimating',
       icon: Calculator, 
       color: 'text-indigo-400', 
       definition: "Interactive formulas and calculators to master stair layouts, rafter lengths, concrete volume, and Board Foot Measure (BFM).",
@@ -392,25 +398,34 @@ export default function RedSealHub({ theme, initialView = 'structural', onNaviga
   ]
 
   return (
-    <div className={`w-full max-w-7xl mx-auto space-y-6 transition-colors ${themeMode === 'dark' ? 'dark text-white' : 'text-slate-900'}`}>
+    <div className={`w-full max-w-7xl mx-auto space-y-3 transition-colors ${themeMode === 'dark' ? 'dark text-white' : 'text-slate-900'}`}>
       
-      {/* Premium 3D Header */}
-      <div className="flex items-center justify-center gap-2 mb-4 w-full relative">
-        <Shield className="w-6 h-6 text-red-500 dark:text-red-400 drop-shadow-md" />
-        <h2 className="text-xl sm:text-2xl font-black uppercase tracking-widest bg-gradient-to-b from-red-400 to-red-700 dark:from-red-300 dark:to-red-600 bg-clip-text text-transparent drop-shadow-sm [text-shadow:0px_2px_3px_rgba(0,0,0,0.4),0px_4px_10px_rgba(220,38,38,0.3)]">
-          Red Seal Carpentry
-        </h2>
-        <Shield className="w-6 h-6 text-red-500 dark:text-red-400 drop-shadow-md" />
+      {/* Styled Red Seal Header Banner Card */}
+      <div className="bg-gradient-to-r from-red-950/50 via-slate-900/90 to-slate-900/90 border border-red-500/30 rounded-2xl px-3.5 py-2.5 mb-3 flex items-center justify-between shadow-lg">
+        <div className="flex items-center gap-3 min-w-0">
+          <div className="w-9 h-9 rounded-xl bg-red-500/15 border border-red-500/30 flex items-center justify-center text-red-400 shrink-0">
+            <Shield size={18} />
+          </div>
+          <div className="flex flex-col min-w-0">
+            <h2 className="text-sm sm:text-base font-extrabold tracking-wider text-white uppercase leading-tight whitespace-nowrap truncate">
+              RED SEAL CARPENTRY
+            </h2>
+            <span className="text-[10px] font-mono tracking-wide text-red-400/90 uppercase mt-0.5 whitespace-nowrap">
+              INTERPROVINCIAL • NOC 72310
+            </span>
+          </div>
+        </div>
         <button 
+          type="button"
           onClick={() => setShowRedSealIntro(true)} 
-          className="absolute right-2 sm:static sm:ml-2 text-slate-400 hover:text-red-500 dark:hover:text-red-400 transition-colors p-1.5 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 active:scale-95"
+          className="w-8 h-8 rounded-lg bg-slate-800/80 border border-slate-700/80 flex items-center justify-center text-slate-300 hover:text-white shrink-0 transition-colors active:scale-95"
           title="About Red Seal Section"
         >
-          <Info size={18} />
+          <Info size={16} />
         </button>
       </div>
       <div>
-        <div className="overflow-x-auto hide-scrollbar flex gap-3 pb-2">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
           {RED_SEAL_MODULE_OPTIONS.map(mod => {
             const isActive = activeView === mod.id;
             const IconComponent = mod.icon;
@@ -421,17 +436,17 @@ export default function RedSealHub({ theme, initialView = 'structural', onNaviga
                   setActiveView(mod.id);
                   if (onNavigate) onNavigate(mod.id);
                 }}
-                className={`flex items-center justify-between min-w-[200px] p-2.5 rounded-xl border cursor-pointer transition-all duration-150 ${
+                className={`flex items-center justify-between px-2.5 py-2 gap-2 rounded-xl border cursor-pointer overflow-hidden transition-all duration-150 ${
                   isActive 
                     ? 'bg-cyan-50 dark:bg-cyan-950/30 border-cyan-500 dark:border-cyan-500/50 shadow-md' 
                     : 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 hover:border-cyan-300 dark:hover:border-cyan-700'
                 }`}
               >
-                <div className="flex items-center gap-2">
-                  <div className={`p-1.5 rounded-lg ${isActive ? 'bg-cyan-500 text-white' : 'bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400'}`}>
-                    <IconComponent size={16} strokeWidth={2.5} className={mod.color} />
+                <div className="flex items-center gap-2 min-w-0">
+                  <div className={`p-1.5 rounded-lg shrink-0 ${isActive ? 'bg-cyan-400 text-slate-950 shadow-sm' : 'bg-slate-100 dark:bg-slate-700 text-slate-500 dark:text-slate-400'}`}>
+                    <IconComponent size={15} strokeWidth={2.5} className={isActive ? 'text-slate-950' : mod.color} />
                   </div>
-                  <span className={`text-xs font-bold uppercase tracking-wider ${isActive ? 'text-slate-900 dark:text-white' : 'text-slate-600 dark:text-slate-400'}`}>
+                  <span className={`text-[11px] sm:text-xs font-bold uppercase tracking-tight whitespace-nowrap ${isActive ? 'text-slate-900 dark:text-white' : 'text-slate-600 dark:text-slate-400'}`}>
                     {mod.name}
                   </span>
                 </div>
@@ -442,13 +457,13 @@ export default function RedSealHub({ theme, initialView = 'structural', onNaviga
                     e.stopPropagation();
                     setActiveModalInfo({
                       icon: <IconComponent size={24} strokeWidth={2} className={mod.color} />,
-                      title: mod.name,
+                      title: mod.modalTitle || mod.name,
                       definition: mod.definition,
                       exampleCase: mod.exampleCase,
                       proTip: mod.proTip
                     });
                   }}
-                  className={`p-1.5 rounded-full transition-colors ${isActive ? 'text-cyan-600 dark:text-cyan-400 hover:bg-cyan-100 dark:hover:bg-cyan-900/50' : 'text-slate-400 hover:text-cyan-500 hover:bg-slate-100 dark:hover:bg-slate-700'}`}
+                  className={`p-1 rounded-full shrink-0 transition-colors ${isActive ? 'text-cyan-600 dark:text-cyan-400 hover:bg-cyan-100 dark:hover:bg-cyan-900/50' : 'text-slate-400 hover:text-cyan-500 hover:bg-slate-100 dark:hover:bg-slate-700'}`}
                 >
                   <Info size={14} strokeWidth={2.5} />
                 </button>

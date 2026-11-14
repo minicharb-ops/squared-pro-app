@@ -1,5 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { Capacitor } from '@capacitor/core';
 import { NativePurchases } from '@capgo/native-purchases';
+import toast from 'react-hot-toast';
 
 export const LOCKED_TOOL_CODES = [
   { id: 'oc', name: 'OC Master', category: 'Framing' },
@@ -21,7 +23,12 @@ export const LOCKED_TOOL_CODES = [
 const BillingContext = createContext();
 
 export const BillingProvider = ({ children }) => {
-  const [isPro, setIsPro] = useState(false);
+  const [isPro, setIsPro] = useState(() => {
+    if (typeof window !== 'undefined' && !Capacitor.isNativePlatform()) {
+      return localStorage.getItem('squared_pro_unlocked') === 'true';
+    }
+    return false;
+  });
   const [isReady, setIsReady] = useState(false);
   const [proPrice, setProPrice] = useState('...');
   const PRODUCT_ID = 'squared_pro_unlock';
@@ -33,6 +40,12 @@ export const BillingProvider = ({ children }) => {
 
   useEffect(() => {
     const setupBilling = async () => {
+      if (!Capacitor.isNativePlatform()) {
+        setProPrice('$9.99');
+        setIsReady(true);
+        return;
+      }
+
       try {
         await NativePurchases.initialize();
         const products = await NativePurchases.getProducts({ productIdentifiers: [PRODUCT_ID] });
@@ -50,6 +63,13 @@ export const BillingProvider = ({ children }) => {
   }, []);
 
   const purchasePro = async () => {
+    if (!Capacitor.isNativePlatform()) {
+      setIsPro(true);
+      localStorage.setItem('squared_pro_unlocked', 'true');
+      toast.success('Pro Access Unlocked!');
+      return;
+    }
+
     try {
       const purchase = await NativePurchases.purchaseProduct({ productIdentifier: PRODUCT_ID });
       
@@ -78,13 +98,24 @@ export const BillingProvider = ({ children }) => {
   };
 
   const restorePurchases = async (showSuccessAlert = true) => {
+    if (!Capacitor.isNativePlatform()) {
+      const owned = localStorage.getItem('squared_pro_unlocked') === 'true';
+      if (owned) {
+        setIsPro(true);
+        if (showSuccessAlert) toast.success("Purchases restored! You have Pro access.");
+      } else {
+        if (showSuccessAlert) toast.error("No previous Pro purchase found on this account.");
+      }
+      return;
+    }
+
     try {
       const response = await NativePurchases.restorePurchases();
       if (checkIfOwned(response)) {
         setIsPro(true);
-        if (showSuccessAlert) alert("Purchases restored! You have Pro access.");
+        if (showSuccessAlert) toast.success("Purchases restored! You have Pro access.");
       } else {
-        if (showSuccessAlert) alert("No previous Pro purchase found on this account.");
+        if (showSuccessAlert) toast.error("No previous Pro purchase found on this account.");
       }
     } catch (error) {
       console.error("Restore failed:", error);

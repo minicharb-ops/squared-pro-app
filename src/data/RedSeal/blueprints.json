@@ -37,7 +37,7 @@
       },
       {
         "element": "Stair Rise & Run",
-        "explanation": "NBC 9.8.4 dictates safe stair geometries. Maximum rise is 200mm (7 7/8\") and minimum run is 210mm (8 1/4\") for private dwelling stairs."
+        "explanation": "NBC 9.8.4 dictates safe stair geometries. Maximum rise is 200mm (7 7/8\") and minimum run is 255mm (10\") for private dwelling stairs."
       }
     ]
   },
@@ -174,7 +174,7 @@
         "explanation": "Engineered metallic brackets designed to support heavier structural joists where they frame directly into beams or flush headers instead of bearing on top of them (NBC 9.23.9.2). Uses special short thick shear nails (joist hanger nails) rather than standard framing nails."
       },
       {
-        "element": "FLOOR OPENINGS (TRIMMERS/HEADERS)",
+        "element": "FLOOR OPENINGS (HEADERS)",
         "explanation": "Openings in floor framing exceeding 1.2m (4') in width require doubled header joists and doubled trimmer joists to properly transfer the interrupted load."
       }
     ]

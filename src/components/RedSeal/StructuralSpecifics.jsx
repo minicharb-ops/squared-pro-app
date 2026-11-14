@@ -23,82 +23,125 @@ import {
   Lock,
   CheckCircle, Wind, BrickWall, Mountain, Wrench, Cylinder, AlignVerticalSpaceBetween, SplitSquareVertical, Thermometer, Droplets,
   Construction,
+  Scale,
+  Crosshair,
+  Box,
+  TrendingUp,
+  ArrowDownToLine,
+  LayoutGrid,
+  Trees,
+  Columns,
+  Ruler,
+  DoorOpen,
+  Archive,
+  PanelTop,
+  Play,
+  Blocks
 } from 'lucide-react'
 import specificsData from '../../data/RedSeal/structuralSpecifics.json'
 
-// Category Icons Mapper
+// Category Icons Mapper — distinct trade icon for every topic
 const CATEGORY_ICONS = {
-  footings: Layers,
+  site_hoarding_heating: Flame,
+  access_scaffolding: Construction,
+  rigging_hoisting: Scale,
+  surveying_layout: Crosshair,
+  site_prep_retaining_walls: Mountain,
+  concrete_formwork: Box,
+  concrete_stairs: TrendingUp,
+  footings: ArrowDownToLine,
   foundations: Shield,
-  icf: Shield,
+  icf: Blocks,
+  concrete_slabs: LayoutGrid,
+  masonry_parging: BrickWall,
+  beams_columns_piers: SplitSquareVertical,
   floor_systems: Grid,
   framing: Hammer,
-  windows_doors: Eye,
-  decks: Home,
-  docks_boathouses: Anchor,
   stairs: Compass,
   roof_systems: Triangle,
-  exterior_finish: Wind,
-  masonry_parging: BrickWall,
-  site_prep_retaining_walls: Mountain,
-  structural_renovations: Wrench,
-  blueprints: BookOpen,
-  beams_columns_piers: SplitSquareVertical,
-  vapour_air_barriers: Wind,
-  thermal_insulation: Thermometer,
-  rain_screens_flashing: Droplets,
-  site_hoarding_heating: Flame,
-  concrete_formwork: Layers,
-  concrete_stairs: Layers,
-  fire_separations: Flame,
+  heavy_mass_timber: Trees,
+  light_gauge_steel: Columns,
+  engineered_wood: Ruler,
   roof_coverings: Triangle,
+  windows_doors: Eye,
+  rain_screens_flashing: Droplets,
+  exterior_finish: Wind,
+  thermal_insulation: Thermometer,
+  vapour_air_barriers: Wind,
+  fire_separations: Flame,
   interior_finishes: Paintbrush,
-  access_scaffolding: Construction
+  commercial_doors: DoorOpen,
+  casework_millwork: Archive,
+  suspended_ceilings: PanelTop,
+  decks: Home,
+  docks_boathouses: Anchor,
+  structural_renovations: Wrench,
+  blueprints: BookOpen
 }
 
-// Category Groupings Mapper for filter chips
-const GROUP_CHIPS = [
-  { label: 'All Stages', value: 'all' },
-  { label: 'Stage 1: Substructure', value: 'sub' },
-  { label: 'Stage 2: Superstructure', value: 'super' },
-  { label: 'Stage 3: Exterior & Openings', value: 'exterior' },
-  { label: 'Stage 4: Interior Finishes', value: 'finish' },
-  { label: 'Stage 5: Site Safety', value: 'safety' }
-]
+// Red Seal MWA Groupings & Exam Weights
+const MWA_META = {
+  'bg-amber-500': {
+    filterKey: 'site_rigging',
+    title: 'MWA A & B • SITE, RIGGING & LAYOUT',
+    weight: '14% Exam',
+    textClass: 'text-amber-600 dark:text-amber-400',
+    borderClass: 'border-amber-500/30',
+    bgClass: 'bg-amber-500/10 dark:bg-amber-950/40',
+    dotClass: 'bg-amber-500'
+  },
+  'bg-emerald-500': {
+    filterKey: 'concrete',
+    title: 'MWA C • CONCRETE & FOUNDATIONS',
+    weight: '19% Exam',
+    textClass: 'text-emerald-600 dark:text-emerald-400',
+    borderClass: 'border-emerald-500/30',
+    bgClass: 'bg-emerald-500/10 dark:bg-emerald-950/40',
+    dotClass: 'bg-emerald-500'
+  },
+  'bg-blue-500': {
+    filterKey: 'framing',
+    title: 'MWA D • FRAMING, STAIRS & ROOFS',
+    weight: '28% Exam',
+    textClass: 'text-blue-600 dark:text-blue-400',
+    borderClass: 'border-blue-500/30',
+    bgClass: 'bg-blue-500/10 dark:bg-blue-950/40',
+    dotClass: 'bg-blue-500'
+  },
+  'bg-orange-500': {
+    filterKey: 'envelope',
+    title: 'MWA E • EXTERIOR ENVELOPE & THERMAL',
+    weight: '17% Exam',
+    textClass: 'text-orange-600 dark:text-orange-400',
+    borderClass: 'border-orange-500/30',
+    bgClass: 'bg-orange-500/10 dark:bg-orange-950/40',
+    dotClass: 'bg-orange-500'
+  },
+  'bg-purple-500': {
+    filterKey: 'interior',
+    title: 'MWA F • INTERIOR, DOORS & MILLWORK',
+    weight: '14% Exam',
+    textClass: 'text-purple-600 dark:text-purple-400',
+    borderClass: 'border-purple-500/30',
+    bgClass: 'bg-purple-500/10 dark:bg-purple-950/40',
+    dotClass: 'bg-purple-500'
+  },
+  'bg-slate-500': {
+    filterKey: 'decks_renos',
+    title: 'MWA G • DECKS, MARINE & RENOS',
+    weight: '8% Exam',
+    textClass: 'text-slate-600 dark:text-slate-300',
+    borderClass: 'border-slate-500/30',
+    bgClass: 'bg-slate-500/10 dark:bg-slate-800/60',
+    dotClass: 'bg-slate-400'
+  }
+}
 
-const CATEGORY_GROUPS = {
-  footings: 'sub',
-  foundations: 'sub',
-  icf: 'sub',
-  floor_systems: 'super',
-  framing: 'super',
-  engineered_wood: 'super',
-  light_gauge_steel: 'super',
-  heavy_mass_timber: 'super',
-  stairs: 'super',
-  roof_systems: 'super',
-  windows_doors: 'exterior',
-  decks: 'exterior',
-  docks_boathouses: 'exterior',
-  exterior_finish: 'exterior',
-  masonry_parging: 'sub',
-  site_prep_retaining_walls: 'sub',
-  structural_renovations: 'super',
-  blueprints: 'super',
-  beams_columns_piers: 'super',
-  vapour_air_barriers: 'exterior',
-  thermal_insulation: 'exterior',
-  rain_screens_flashing: 'exterior',
-  site_hoarding_heating: 'sub',
-  concrete_formwork: 'sub',
-  concrete_stairs: 'sub',
-  fire_separations: 'envelope',
-  roof_coverings: 'envelope',
-  suspended_ceilings: 'finish',
-  casework_millwork: 'finish',
-  commercial_doors: 'finish',
-  interior_finishes: 'finish',
-  access_scaffolding: 'safety'
+const getScenarioCount = (item) => Math.max(3, (item.codeRequirements?.length || 0) % 8 + 3)
+
+const getItemMwaKey = (item) => {
+  const meta = MWA_META[item.iconBgClass]
+  return meta ? meta.filterKey : 'decks_renos'
 }
 
 export default function StructuralSpecifics() {
@@ -107,6 +150,22 @@ export default function StructuralSpecifics() {
   const [selectedCategory, setSelectedCategory] = useState(specificsData[0])
   const [detailModalOpen, setDetailModalOpen] = useState(false)
   const [activeModalInfo, setActiveModalInfo] = useState(null)
+
+  // Persistent Mastery State per Topic
+  const [masteredMap, setMasteredMap] = useState(() => {
+    try {
+      const saved = localStorage.getItem('red_seal_specifics_mastery')
+      return saved ? JSON.parse(saved) : {}
+    } catch (e) {
+      return {}
+    }
+  })
+
+  useEffect(() => {
+    try {
+      localStorage.setItem('red_seal_specifics_mastery', JSON.stringify(masteredMap))
+    } catch (e) {}
+  }, [masteredMap])
 
   // Lock background scroll when modal is open
   useEffect(() => {
@@ -120,10 +179,45 @@ export default function StructuralSpecifics() {
     }
   }, [detailModalOpen])
 
+  // Overall Mastery Summary Calculations
+  const { totalMastered, totalItems, masteryPct, firstUnmasteredTopic } = useMemo(() => {
+    let masteredSum = 0
+    let itemsSum = 0
+    let firstUnmastered = null
+
+    specificsData.forEach(item => {
+      const sCount = getScenarioCount(item)
+      const mCount = Math.min(sCount, masteredMap[item.id] || 0)
+      masteredSum += mCount
+      itemsSum += sCount
+      if (!firstUnmastered && mCount < sCount) {
+        firstUnmastered = item
+      }
+    })
+
+    const pct = itemsSum > 0 ? Math.round((masteredSum / itemsSum) * 100) : 0
+    return {
+      totalMastered: masteredSum,
+      totalItems: itemsSum,
+      masteryPct: pct,
+      firstUnmasteredTopic: firstUnmastered || specificsData[0]
+    }
+  }, [masteredMap])
+
+  const FILTER_PILLS = useMemo(() => [
+    { label: `All (${specificsData.length})`, value: 'all' },
+    { label: 'Site & Rigging', value: 'site_rigging' },
+    { label: 'Concrete', value: 'concrete' },
+    { label: 'Framing', value: 'framing' },
+    { label: 'Envelope', value: 'envelope' },
+    { label: 'Interior', value: 'interior' },
+    { label: 'Decks & Renos', value: 'decks_renos' }
+  ], [])
+
   // Filter logic
   const filteredCategories = useMemo(() => {
     return specificsData.filter(item => {
-      const groupMatch = selectedGroup === 'all' || CATEGORY_GROUPS[item.id] === selectedGroup
+      const groupMatch = selectedGroup === 'all' || getItemMwaKey(item) === selectedGroup
       const itemTitle = item.title || item.category
       const itemSub = item.subTitle || item.subCategory
       const itemProc = item.jobsiteProcess || item.generalProcess
@@ -146,6 +240,15 @@ export default function StructuralSpecifics() {
     setDetailModalOpen(true)
   }
 
+  const handleToggleTopicMastery = (item) => {
+    const sCount = getScenarioCount(item)
+    setMasteredMap(prev => {
+      const current = prev[item.id] || 0
+      const nextVal = current >= sCount ? 0 : sCount
+      return { ...prev, [item.id]: nextVal }
+    })
+  }
+
   // Highlight helper for search text
   const Highlight = ({ text, search }) => {
     if (!search || !text) return <span>{text}</span>
@@ -161,8 +264,58 @@ export default function StructuralSpecifics() {
   }
 
   return (
-    <div className="flex flex-col h-full w-full max-w-7xl mx-auto bg-white dark:bg-[#0f111a] rounded-2xl overflow-hidden shadow-xl border border-slate-200 dark:border-slate-800">
+    <div className="flex flex-col h-full w-full max-w-7xl mx-auto space-y-3">
       
+      {/* 1. OVERALL RED SEAL MASTERY PROGRESS CARD & QUICK CATEGORY FILTER BAR */}
+      <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/80 p-3.5 shadow-sm space-y-2.5">
+        <div className="flex items-center justify-between gap-3">
+          <div className="flex flex-col min-w-0">
+            <span className="text-[10px] font-bold tracking-wider text-slate-500 dark:text-slate-400 uppercase whitespace-nowrap">
+              RED SEAL MASTERY
+            </span>
+            <span className="text-xs sm:text-sm font-bold text-slate-900 dark:text-white whitespace-nowrap mt-0.5">
+              {totalMastered} / {totalItems} Mastered <span className="text-cyan-600 dark:text-cyan-400 font-mono">({masteryPct}%)</span>
+            </span>
+          </div>
+          <button
+            type="button"
+            onClick={() => firstUnmasteredTopic && handleSelectCategory(firstUnmasteredTopic)}
+            className="px-3 py-1.5 rounded-full text-[11px] font-bold bg-cyan-500/15 hover:bg-cyan-500/25 border border-cyan-500/40 text-cyan-700 dark:text-cyan-300 flex items-center gap-1.5 whitespace-nowrap shrink-0 active:scale-95 transition-all"
+          >
+            <Play size={11} className="fill-current" />
+            <span>Resume Next</span>
+          </button>
+        </div>
+
+        <div className="w-full h-2 rounded-full bg-slate-200 dark:bg-slate-800 overflow-hidden">
+          <div
+            className="h-full rounded-full bg-gradient-to-r from-cyan-400 to-emerald-400 transition-all duration-300"
+            style={{ width: `${Math.max(masteryPct, totalMastered > 0 ? 3 : 0)}%` }}
+          />
+        </div>
+
+        {/* Category Filter Pill Bar (Wrapping 2-Row Flex, No Scrollbar) */}
+        <div className="flex flex-wrap gap-1.5 pt-1">
+          {FILTER_PILLS.map(pill => {
+            const isSelected = selectedGroup === pill.value
+            return (
+              <button
+                key={pill.value}
+                type="button"
+                onClick={() => setSelectedGroup(pill.value)}
+                className={`px-2.5 py-1 rounded-full text-[11px] font-bold whitespace-nowrap shrink-0 border transition-all active:scale-95 ${
+                  isSelected
+                    ? 'bg-cyan-500 text-slate-950 border-cyan-400 shadow-sm'
+                    : 'bg-slate-100 dark:bg-slate-800/80 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:border-cyan-500/50'
+                }`}
+              >
+                {pill.label}
+              </button>
+            )
+          })}
+        </div>
+      </div>
+
       {/* Modal for Tool Info */}
       {activeModalInfo && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm" onClick={() => setActiveModalInfo(null)}>
@@ -212,11 +365,9 @@ export default function StructuralSpecifics() {
         </div>
       )}
 
-      {/* TWO-COLUMN LAYOUT (Desktop) / STACKED (Mobile) */}
-      <div className="flex flex-col md:flex-row flex-1 overflow-hidden min-h-0">
-        
-        {/* LIST / NAVIGATION SIDEBAR */}
-        <div className="w-full bg-white dark:bg-[#121520] overflow-y-auto custom-scrollbar flex flex-col min-h-[30vh] md:min-h-0">
+      {/* OUTER LIST CARD CONTAINER WITH OVERFLOW-HIDDEN */}
+      <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900/60 overflow-hidden shadow-xl">
+        <div className="w-full bg-white dark:bg-[#121520] overflow-y-auto custom-scrollbar flex flex-col">
           
           {filteredCategories.length === 0 ? (
             <div className="flex flex-col items-center justify-center p-8 text-center h-full">
@@ -234,53 +385,80 @@ export default function StructuralSpecifics() {
               {filteredCategories.map((item, index) => {
                 const Icon = CATEGORY_ICONS[item.id] || Layers;
                 const iconBgClass = item.iconBgClass || 'bg-slate-500';
+                const prevItem = index > 0 ? filteredCategories[index - 1] : null;
+                const showMwaHeader = !prevItem || prevItem.iconBgClass !== item.iconBgClass;
+                const mwaInfo = MWA_META[iconBgClass] || MWA_META['bg-slate-500'];
 
-                // Gamification data
-                const scenarioCount = Math.max(3, (item.codeRequirements?.length || 0) % 8 + 3);
-                const masteredCount = 0;
-                const progress = (masteredCount / scenarioCount) * 100;
-                const isCompleted = progress === 100;
+                const scenarioCount = getScenarioCount(item);
+                const masteredCount = Math.min(scenarioCount, masteredMap[item.id] || 0);
+                const progress = scenarioCount > 0 ? (masteredCount / scenarioCount) * 100 : 0;
+                const displayTitle = (item.title || item.category || '').replace('Windows, Doors, Hatches & Skylights', 'Windows, Doors & Skylights');
                 
                 return (
-                  <div 
-                    key={item.id}
-                    className="flex items-center justify-between p-4 bg-white dark:bg-[#1e2330] hover:bg-slate-50 dark:hover:bg-[#252b3b] border-b border-slate-200 dark:border-slate-800 cursor-pointer transition-colors" 
-                    onClick={() => handleSelectCategory(item)}
-                  >
-                    <div className="flex items-center gap-4">
-                      {/* Tool Icon */}
-                      <div className={`p-2 rounded-lg ${iconBgClass}`}>
-                        <Icon className="w-6 h-6 text-white" />
+                  <React.Fragment key={item.id}>
+                    {showMwaHeader && (
+                      <div className={`flex items-center justify-between gap-2 px-3.5 py-2 border-y ${mwaInfo.borderClass} ${mwaInfo.bgClass}`}>
+                        <div className="flex items-center gap-2 min-w-0">
+                          <span className={`w-2 h-2 rounded-full shrink-0 ${mwaInfo.dotClass}`} />
+                          <span className={`truncate text-[11px] font-extrabold tracking-wider uppercase ${mwaInfo.textClass}`}>
+                            {mwaInfo.title}
+                          </span>
+                        </div>
+                        <span className={`shrink-0 whitespace-nowrap text-[10px] font-mono font-bold px-2 py-0.5 rounded bg-black/30 ${mwaInfo.textClass}`}>
+                          {mwaInfo.weight}
+                        </span>
                       </div>
-                      {/* Text Content */}
-                      <div>
-                        <h4 className="text-slate-900 dark:text-white font-bold text-base"><Highlight text={item.title || item.category} search={searchQuery} /></h4>
-                        <p className="text-slate-500 dark:text-slate-400 text-xs">{masteredCount}/{scenarioCount} Mastered</p>
+                    )}
+                    <div 
+                      className="flex items-center justify-between p-3.5 sm:p-4 bg-white dark:bg-[#1e2330] hover:bg-slate-50 dark:hover:bg-[#252b3b] border-b border-slate-200 dark:border-slate-800 last:border-b-0 cursor-pointer transition-colors" 
+                      onClick={() => handleSelectCategory(item)}
+                    >
+                      <div className="flex items-center gap-3.5 min-w-0 flex-1 pr-2">
+                        {/* Tool Icon */}
+                        <div className={`p-2 rounded-lg shrink-0 ${iconBgClass}`}>
+                          <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+                        </div>
+                        {/* Text Content */}
+                        <div className="min-w-0 flex-1 pr-2">
+                          <h4 className="text-slate-900 dark:text-white font-bold text-sm sm:text-base truncate whitespace-nowrap">
+                            <Highlight text={displayTitle} search={searchQuery} />
+                          </h4>
+                          <div className="flex items-center gap-2.5 mt-0.5">
+                            <p className="text-slate-500 dark:text-slate-400 text-xs whitespace-nowrap">
+                              {masteredCount}/{scenarioCount} Mastered
+                            </p>
+                            {/* Inline Mini Progress Bar */}
+                            <div className="w-16 h-1.5 rounded-full bg-slate-200 dark:bg-slate-800 border border-slate-300 dark:border-slate-700/60 overflow-hidden shrink-0">
+                              <div
+                                className={`h-full rounded-full transition-all duration-300 ${iconBgClass}`}
+                                style={{ width: `${progress}%` }}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      {/* Action Icons */}
+                      <div className="flex items-center gap-2 shrink-0">
+                        {item.modalData && (
+                          <button 
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              setActiveModalInfo({
+                                ...item.modalData,
+                                title: (item.modalData.title || displayTitle).replace('Windows, Doors, Hatches & Skylights', 'Windows, Doors & Skylights'),
+                                icon: <Icon className={item.modalData.iconColor || "text-emerald-400"} />
+                              });
+                            }}
+                            className="p-1.5 rounded-full text-slate-400 hover:text-cyan-500 dark:hover:text-cyan-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all shrink-0"
+                          >
+                            <Info className="w-5 h-5"/>
+                          </button>
+                        )}
+                        <ChevronRight className="w-5 h-5 text-slate-400 dark:text-slate-500 shrink-0"/>
                       </div>
                     </div>
-                    
-                    {/* Action Icons */}
-                    <div className="flex items-center gap-3">
-                      {/* New Info Button */}
-                      {item.modalData && (
-                        <button 
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            // Inject icon component since JSON doesn't store JSX
-                            setActiveModalInfo({
-                              ...item.modalData,
-                              icon: <Icon className={item.modalData.iconColor || "text-emerald-400"} />
-                            });
-                          }}
-                          className="p-2 rounded-full text-slate-400 hover:text-cyan-500 dark:hover:text-cyan-400 hover:bg-slate-100 dark:hover:bg-slate-800 transition-all"
-                        >
-                          <Info className="w-5 h-5"/>
-                        </button>
-                      )}
-                      {/* Navigation Chevron */}
-                      <ChevronRight className="w-5 h-5 text-slate-400 dark:text-slate-500"/>
-                    </div>
-                  </div>
+                  </React.Fragment>
                 );
               })}
             </div>
@@ -317,7 +495,23 @@ export default function StructuralSpecifics() {
             </div>
 
             {/* Footer */}
-            <div className="border-t border-slate-100 dark:border-slate-800 p-4 bg-slate-50/50 dark:bg-slate-900/50 flex justify-end shrink-0">
+            <div className="border-t border-slate-100 dark:border-slate-800 p-4 bg-slate-50/50 dark:bg-slate-900/50 flex items-center justify-between gap-3 shrink-0">
+              <button
+                type="button"
+                onClick={() => handleToggleTopicMastery(selectedCategory)}
+                className={`px-4 py-2 rounded-xl text-xs font-black uppercase tracking-wider flex items-center gap-1.5 transition-all ${
+                  (masteredMap[selectedCategory.id] || 0) >= getScenarioCount(selectedCategory)
+                    ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/40'
+                    : 'bg-cyan-500 hover:bg-cyan-400 text-slate-950'
+                }`}
+              >
+                <CheckCircle size={14} />
+                <span>
+                  {(masteredMap[selectedCategory.id] || 0) >= getScenarioCount(selectedCategory)
+                    ? 'Topic Mastered ✓'
+                    : 'Mark Topic Mastered'}
+                </span>
+              </button>
               <button
                 onClick={() => setDetailModalOpen(false)}
                 className="px-5 py-2 bg-slate-900 hover:bg-slate-800 dark:bg-slate-800 dark:hover:bg-slate-750 text-white rounded-xl text-xs font-black uppercase tracking-wider transition-all"
